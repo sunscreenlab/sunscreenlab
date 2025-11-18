@@ -4,6 +4,15 @@ async function loadSunscreens() {
   return sunscreens;
 }
 
+function formatIngredientLink(ing) {
+  const urlSlug = ing
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]/g, "")
+    .replace(/\s+/g, "-");
+
+  return `<a href="https://incidecoder.com/ingredients/${urlSlug}" target="_blank">${ing}</a>`;
+}
+
 function displaySunscreens(list) {
   const container = document.getElementById("results");
   container.innerHTML = "";
@@ -11,29 +20,22 @@ function displaySunscreens(list) {
   list.forEach(item => {
     const div = document.createElement("div");
     div.className = "sunscreen-card";
+
+    const ingredientLinks = item.ingredients
+      .map(ing => formatIngredientLink(ing))
+      .join(", ");
+
     div.innerHTML = `
       <h2>${item.brand} – ${item.product}</h2>
+
       <p><strong>Type:</strong> ${item.type}</p>
-      <p><strong>Niacinamide?</strong> ${item.niacinamide ?? "Unkonwn"}</p>
-      <p>
-  ${item.ingredients
-    .map(ing => `<a href="https://incidecoder.com/ingredients/${ing
-        .toLowerCase()
-        .replace(/[^a-z0-9 ]/g, "")
-        .replace(/\s+/g, "-")
-      }" target="_blank">${ing}</a>`
-    )
-    .join(", ")
-  }
-</p>
+      <p><strong>Niacinamide?</strong> ${item.niacinamide ?? "Unknown"}</p>
+      <p><strong>Ingredients:</strong> ${ingredientLinks}</p>
 
       <p><strong>Rosacea Safety:</strong> ${item.rosacea_safety}</p>
-      <details>
-        <summary>Ingredients</summary>
-        <p>${item.ingredients.join(", ")}</p>
-      </details>
       <p><em>${item.notes}</em></p>
     `;
+
     container.appendChild(div);
   });
 }
