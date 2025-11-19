@@ -36,6 +36,12 @@ function formatIngredientLink(ing) {
 //  DISPLAY SUNSCREENS
 //
 function displaySunscreens(list) {
+    // 🔤 Sort alphabetically by Brand, then Product
+  list.sort((a, b) => {
+    const brandCompare = a.brand.localeCompare(b.brand);
+    return brandCompare !== 0 ? brandCompare : a.product.localeCompare(b.product);
+  });
+
   const container = document.getElementById("results");
   container.innerHTML = "";
 
