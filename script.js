@@ -33,14 +33,30 @@ function formatIngredientLink(ing) {
 }
 
 //
-//  DISPLAY SUNSCREENS
+//  SORTING FUNCTION
+//
+function sortByBrandProduct(list) {
+  return list.sort((a, b) => {
+    const brandA = a.brand?.toLowerCase() ?? "";
+    const brandB = b.brand?.toLowerCase() ?? "";
+    const productA = a.product?.toLowerCase() ?? "";
+    const productB = b.product?.toLowerCase() ?? "";
+
+    if (brandA < brandB) return -1;
+    if (brandA > brandB) return 1;
+    if (productA < productB) return -1;
+    if (productA > productB) return 1;
+    return 0;
+  });
+}
+
+//
+//  DISPLAY SUNSCREENS (Homepage — NO BRAND)
 //
 function displaySunscreens(list) {
-  // 🔤 Sort alphabetically by Brand, then Product
-  list.sort((a, b) => {
-    const brandCompare = a.brand.localeCompare(b.brand);
-    return brandCompare !== 0 ? brandCompare : a.product.localeCompare(b.product);
-  });
+  if (!list) return;
+
+  sortByBrandProduct(list);
 
   const container = document.getElementById("results");
   container.innerHTML = "";
@@ -49,18 +65,15 @@ function displaySunscreens(list) {
     const div = document.createElement("div");
     div.className = "sunscreen-card";
 
-    // Ingredient links
     const ingredientLinks =
       item.ingredients?.map(ing => formatIngredientLink(ing)).join(", ") ??
       "No ingredient list provided.";
 
-    // Safety score shortcuts
     const ss = item.safety_scores ?? {};
     const rosacea = ss.rosacea ?? {};
     const acne = ss.acne ?? {};
     const sensitive = ss.sensitive ?? {};
 
-    // DYNAMIC REPORT LINK
     const reportLink = `https://github.com/kristimetz/kristimetz.github.io/issues/new?template=sunscreen-issue.md&title=Issue%20with%20sunscreen%3A%20${item.id}&body=**Sunscreen%20ID%3A**%20${item.id}`;
 
     div.innerHTML = `
@@ -119,17 +132,40 @@ function displaySunscreens(list) {
 }
 
 //
-//  SEARCH FUNCTION
+//  DISPLAY SUNSCREENS WITH BRAND (All-Sunscreens Page)
+//
+function displaySunscreensWithBrand(list) {
+  if (!list) return;
+
+  sortByBrandProduct(list);
+
+  const container = document.getElementById("results");
+  container.innerHTML = "";
+
+  list.forEach(item => {
+    const brandTitle = item.brand ? `<h3>${item.brand} – ${item.product}</h3>` : `<h3>${item.product}</h3>`;
+
+    const div = document.createElement("div");
+    div.className = "sunscreen-card";
+
+    div.innerHTML = brandTitle;
+    container.appendChild(div);
+  });
+}
+
+//
+//  SEARCH FUNCTION (Homepage Only)
 //
 function setupSearch(all) {
   const search = document.getElementById("search");
+  if (!search) return;  // Not on homepage
 
   search.addEventListener("input", () => {
     const term = search.value.toLowerCase();
 
     const filtered = all.filter(item =>
-      item.brand.toLowerCase().includes(term) ||
-      item.product.toLowerCase().includes(term) ||
+      item.brand?.toLowerCase().includes(term) ||
+      item.product?.toLowerCase().includes(term) ||
       item.ingredients?.some(ing => ing.toLowerCase().includes(term))
     );
 
@@ -138,30 +174,25 @@ function setupSearch(all) {
 }
 
 //
-//  BRAND LIST (3-column clickable directory)
+//  BRAND LIST (Homepage Only)
 //
 function displayBrandList(all) {
   const brandContainer = document.getElementById("brand-list");
+  if (!brandContainer) return; // Not on homepage
 
-  // Unique brand names, sorted
   const brands = [...new Set(all.map(item => item.brand))].sort();
 
-  // Build clickable links
   brandContainer.innerHTML = brands
     .map(brand => `<a href="#" data-brand="${brand}">${brand}</a>`)
     .join("");
 
-  // Click events: filter sunscreens by brand
   brandContainer.querySelectorAll("a").forEach(link => {
     link.addEventListener("click", (e) => {
       e.preventDefault();
       const brand = e.target.dataset.brand;
-
       const filtered = all.filter(item => item.brand === brand);
 
       displaySunscreens(filtered);
-
-      // Optional: show selection in the search bar
       document.getElementById("search").value = brand;
     });
   });
@@ -173,7 +204,15 @@ function displayBrandList(all) {
 loadSunscreens().then(all => {
   console.log("Initializing page with:", all);
 
-  displayBrandList(all);   // ⭐ NEW: Build brand list
-  displaySunscreens();  // Show all sunscreens initially
-  setupSearch(all);        // Enable search
+  const onAllPage = !document.getElementById("brand-list");
+
+  if (onAllPage) {
+    // All Sunscreens page
+    displaySunscreensWithBrand(all);
+  } else {
+    // Homepage
+    displayBrandList(all);
+    displaySunscreens(all);
+    setupSearch(all);
+  }
 });
