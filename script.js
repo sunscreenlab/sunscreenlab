@@ -228,7 +228,7 @@ loadSunscreens().then(all => {
   const onAllPage = !document.getElementById("brand-list");
 
   if (onAllPage) {
-    displaySunscreensWithBrand(all);
+    displaySunscreens(all);
   } else {
     displayBrandList(all);
     displaySunscreens(all);
