@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>All Sunscreens – The Sunscreen Lab</title>
+  <link rel="icon" type="image/png" href="favicon2.png">
+
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      line-height: 1.5;
+    }
+    .site-banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="site-banner">
+    <img src="SunscreenLabBanner.jpg" alt="The Sunscreen Lab Banner">
+  </div>
+
+  <h1>All Sunscreens</h1>
+  <p>Complete list of all sunscreens in the database.</p>
+
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+
+  <script>
+    // Override homepage behavior: show full list immediately
+    loadSunscreens().then(all => {
+      displaySunscreens(all);
+    });
+  </script>
+
+</body>
+</html>
