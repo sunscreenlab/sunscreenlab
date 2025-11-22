@@ -36,7 +36,7 @@ function formatIngredientLink(ing) {
 //  DISPLAY SUNSCREENS
 //
 function displaySunscreens(list) {
-    // 🔤 Sort alphabetically by Brand, then Product
+  // 🔤 Sort alphabetically by Brand, then Product
   list.sort((a, b) => {
     const brandCompare = a.brand.localeCompare(b.brand);
     return brandCompare !== 0 ? brandCompare : a.product.localeCompare(b.product);
@@ -50,9 +50,9 @@ function displaySunscreens(list) {
     div.className = "sunscreen-card";
 
     // Ingredient links
-    const ingredientLinks = item.ingredients
-      ?.map(ing => formatIngredientLink(ing))
-      .join(", ") ?? "No ingredient list provided.";
+    const ingredientLinks =
+      item.ingredients?.map(ing => formatIngredientLink(ing)).join(", ") ??
+      "No ingredient list provided.";
 
     // Safety score shortcuts
     const ss = item.safety_scores ?? {};
@@ -138,10 +138,42 @@ function setupSearch(all) {
 }
 
 //
+//  BRAND LIST (3-column clickable directory)
+//
+function displayBrandList(all) {
+  const brandContainer = document.getElementById("brand-list");
+
+  // Unique brand names, sorted
+  const brands = [...new Set(all.map(item => item.brand))].sort();
+
+  // Build clickable links
+  brandContainer.innerHTML = brands
+    .map(brand => `<a href="#" data-brand="${brand}">${brand}</a>`)
+    .join("");
+
+  // Click events: filter sunscreens by brand
+  brandContainer.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const brand = e.target.dataset.brand;
+
+      const filtered = all.filter(item => item.brand === brand);
+
+      displaySunscreens(filtered);
+
+      // Optional: show selection in the search bar
+      document.getElementById("search").value = brand;
+    });
+  });
+}
+
+//
 //  INITIALIZE PAGE
 //
 loadSunscreens().then(all => {
   console.log("Initializing page with:", all);
-  displaySunscreens(all);
-  setupSearch(all);
+
+  displayBrandList(all);   // ⭐ NEW: Build brand list
+  displaySunscreens(all);  // Show all sunscreens initially
+  setupSearch(all);        // Enable search
 });
