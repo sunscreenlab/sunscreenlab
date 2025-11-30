@@ -1,4 +1,153 @@
-    body {
+/* ------------------------------------------
+   🌞 The Sunscreen Lab — Global Foundation
+   Hybrid Minimal + Scientific Style
+   ------------------------------------------ */
+
+/* 1. Reset / Normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Global font + color tokens */
+:root {
+  --font-main: "Inter", "Segoe UI", Arial, sans-serif;
+
+  /* Neutral scientific palette */
+  --color-bg: #ffffff;
+  --color-bg-alt: #f7f7f8;
+  --color-border: #dddddd;
+  --color-text: #222222;
+  --color-text-light: #555555;
+  --color-accent: #0a85ff;     /* A clean scientific blue */
+  --color-accent-light: #e5f3ff;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+}
+
+/* 3. Apply global background + text */
+body {
+  font-family: var(--font-main);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  padding: var(--space-5);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* 4. Section layout */
+.section {
+  padding: var(--space-6) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* 5. Headings */
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: var(--space-3);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: var(--space-4);
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: var(--space-3);
+}
+
+/* 6. Button styling */
+button {
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-accent);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #0669cc;
+}
+
+/* 7. Input fields */
+input[type="text"] {
+  padding: var(--space-3);
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+  width: 100%;
+  font-size: 1rem;
+  margin: var(--space-2) 0;
+}
+
+/* 8. Navigation bar */
+header {
+  background: var(--color-bg-alt);
+  padding: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: var(--space-5);
+}
+
+/* 9. Nav row spacing */
+.nav-row {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+/* 10. Brand pills (neutral scientific style) */
+.brand-pill {
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-bg-alt);
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.brand-pill:hover {
+  background: var(--color-accent-light);
+  border-color: var(--color-accent);
+}
+
+/* 11. Placeholder boxes */
+.placeholder-box {
+  padding: var(--space-5);
+  border: 2px dashed var(--color-border);
+  color: var(--color-text-light);
+  margin-top: var(--space-3);
+  border-radius: 8px;
+}
+
+/* 12. Cards (Top Picks) */
+.card {
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+  padding: var(--space-4);
+  border-radius: 8px;
+  width: 180px;
+  text-align: center;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+
+body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
