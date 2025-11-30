@@ -195,6 +195,12 @@ header input[type="text"] {
 
 /* HERO SECTION */
 .section-hero {
+  width: 100vw;        /* full viewport width */
+  margin-left: 50%;
+  transform: translateX(-50%); /* centers the full-width block */
+  max-width: none;      /* override body limits */
+  padding-left: var(--space-5);
+  padding-right: var(--space-5);
   padding: var(--space-6) 0;
 
   /* The banner image */
