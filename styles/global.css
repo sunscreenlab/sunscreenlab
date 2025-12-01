@@ -20,10 +20,10 @@
   --color-border: #dddddd;
   --color-text: #222222;
   --color-text-light: #555555;
-  --color-accent: #0a85ff;     /* A clean scientific blue */
+  --color-accent: #0a85ff;
   --color-accent-light: #e5f3ff;
 
-  /* Spacing scale */
+  /* spacing scale */
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
@@ -91,67 +91,10 @@ input[type="text"] {
   margin: var(--space-2) 0;
 }
 
-/* 8. Navigation bar */
-header {
-  background: var(--color-bg-alt);
-  padding: var(--space-4);
-  border-bottom: 1px solid var(--color-border);
-  margin-bottom: var(--space-5);
-}
-
-/* 9. Nav row spacing */
-.nav-row {
-  display: flex;
-  gap: var(--space-3);
-  flex-wrap: wrap;
-}
-
-/* 10. Brand pills (neutral scientific style) */
-.brand-pill {
-  padding: var(--space-2) var(--space-4);
-  border: 1px solid var(--color-border);
-  border-radius: 6px;
-  background: var(--color-bg-alt);
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: background 0.2s ease, border-color 0.2s ease;
-}
-
-.brand-pill:hover {
-  background: var(--color-accent-light);
-  border-color: var(--color-accent);
-}
-
-/* 11. Placeholder boxes */
-.placeholder-box {
-  padding: var(--space-5);
-  border: 2px dashed var(--color-border);
-  color: var(--color-text-light);
-  margin-top: var(--space-3);
-  border-radius: 8px;
-}
-
-/* 12. Cards (Top Picks) */
-.card {
-  border: 1px solid var(--color-border);
-  background: var(--color-bg-alt);
-  padding: var(--space-4);
-  border-radius: 8px;
-  width: 180px;
-  text-align: center;
-  transition: box-shadow 0.2s ease;
-}
-
-.card:hover {
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-}
-
-
 /* ------------------------------------------
-   🌞 STEP 9 — Enhanced Navigation & Hero Layout
+   🌞 Navigation Bar
    ------------------------------------------ */
 
-/* NAVIGATION BAR IMPROVEMENT */
 header {
   background: var(--color-bg);
   padding: var(--space-5) var(--space-4);
@@ -169,64 +112,47 @@ header {
   align-items: center;
 }
 
-/* NAV BUTTONS */
-header button {
-  background: var(--color-accent);
-  color: white;
-  border-radius: 6px;
-  padding: var(--space-2) var(--space-4);
-  font-size: 0.9rem;
-  border: none;
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-
 header button:hover {
   background: #0669cc;
 }
 
-/* NAV SEARCH FIELD */
-header input[type="text"] {
-  flex: 1;
-  min-width: 200px;
-  margin: 0;
-  font-size: 0.9rem;
-}
+/* ------------------------------------------
+   🌞 FIXED HERO SECTION (FULL-WIDTH BANNER)
+   ------------------------------------------ */
 
-/* HERO SECTION */
+/* FULL-WIDTH HERO EVEN WITH BODY MAX-WIDTH */
 .section-hero {
+  position: relative;
+  left: 50%;
+  right: 50%;
   width: 100vw;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  max-width: none;
+  margin-left: -50vw;
+  margin-right: -50vw;
 
-  /* Height for the image container */
-  height: 260px;            /* You can adjust this up/down */
+  height: 200px;     /* Adjust as needed */
   padding: 0;
 
-  /* Background image */
   background-image: url("../images/sunscreenlab_banner.png");
-  background-size: contain;       /* show entire image */
-  background-position: center;    /* center horizontally */
-  background-repeat: no-repeat;   /* no tiling */
+  background-size: contain;      
+  background-position: center top; 
+  background-repeat: no-repeat;
 
-  /* Create space below the image for text */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-/* Text wrapper inside hero */
+/* TEXT BLOCK INSIDE HERO */
 .section-hero-text {
   padding: var(--space-5);
   padding-bottom: var(--space-6);
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .section-hero-text h1 {
   font-size: 2rem;
-  margin-bottom: var(--space-2);
+  font-weight: 700;
 }
 
 .section-hero-text p {
@@ -235,7 +161,7 @@ header input[type="text"] {
 }
 
 /* ------------------------------------------
-   🌞 STEP 10 — Enhanced Search Section
+   🌞 Search Section
    ------------------------------------------ */
 
 .section-search {
@@ -253,41 +179,16 @@ header input[type="text"] {
 .section-search input[type="text"] {
   flex: 1;
   min-width: 240px;
-  padding: var(--space-3);
-  font-size: 1rem;
-  border: 1px solid var(--color-border);
-  border-radius: 8px;
-  background: var(--color-bg);
-}
-
-.section-search button {
-  padding: var(--space-3) var(--space-4);
-  border-radius: 8px;
-  font-size: 0.9rem;
-}
-
-.section-search button:hover {
-  background: #0669cc;
 }
 
 /* ------------------------------------------
-   🌞 STEP 11 — Enhanced Browse by Brand
+   🌞 Browse By Brand
    ------------------------------------------ */
 
 .section-brands {
   padding: var(--space-6) 0;
 }
 
-.section-brands h2 {
-  margin-bottom: var(--space-4);
-}
-
-/* Container spacing */
-.brand-section-group {
-  margin-bottom: var(--space-4);
-}
-
-/* Improved pill layout */
 .brand-grid {
   display: flex;
   flex-wrap: wrap;
@@ -301,8 +202,6 @@ header input[type="text"] {
   border-radius: 6px;
   border: 1px solid var(--color-border);
   cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.2s ease;
 }
 
 .brand-pill:hover {
@@ -310,35 +209,16 @@ header input[type="text"] {
   border-color: var(--color-accent);
 }
 
-/* Show/hide button for full brand list */
-#showAllBrandsBtn {
-  margin-top: var(--space-4);
-  font-size: 0.9rem;
-  border-radius: 6px;
-}
 /* ------------------------------------------
-   🌞 STEP 12 — Enhanced Top Recommended Cards
+   🌞 Top Picks
    ------------------------------------------ */
 
-/* Section wrapper */
-.section-top-picks {
-  padding: var(--space-6) 0;
-}
-
-/* Heading */
-.section-top-picks h2 {
-  margin-bottom: var(--space-4);
-}
-
-/* Card container */
 .card-row {
   display: flex;
   gap: var(--space-4);
   flex-wrap: wrap;
-  margin-bottom: var(--space-4);
 }
 
-/* Individual cards */
 .card {
   border: 1px solid var(--color-border);
   background: var(--color-bg-alt);
@@ -346,96 +226,36 @@ header input[type="text"] {
   border-radius: 10px;
   width: 180px;
   text-align: left;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-  cursor: pointer;
 }
 
-.card:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-  transform: translateY(-3px);
-}
-
-.card-title {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: var(--space-2);
-}
-
-.card-subtitle {
-  font-size: 0.85rem;
-  color: var(--color-text-light);
-  margin-bottom: var(--space-2);
-}
-
-.card-placeholder {
-  font-size: 0.85rem;
-  color: var(--color-text-light);
-}
 /* ------------------------------------------
-   🌞 STEP 13 — Recommender Placeholder
+   🌞 Recommender Placeholder
    ------------------------------------------ */
-
-.section-recommender {
-  padding: var(--space-6) 0;
-}
 
 .recommender-box {
   border: 1px solid var(--color-border);
   background: var(--color-bg-alt);
   padding: var(--space-5);
   border-radius: 10px;
-  color: var(--color-text-light);
-  font-size: 0.95rem;
   text-align: center;
-  line-height: 1.5;
+  color: var(--color-text-light);
 }
-/* ------------------------------------------
-   🌞 STEP 14 — About Section
-   ------------------------------------------ */
 
-.section-about {
-  padding: var(--space-6) 0;
-}
+/* ------------------------------------------
+   🌞 About Section
+   ------------------------------------------ */
 
 .about-box {
   border: 1px solid var(--color-border);
   background: var(--color-bg-alt);
   padding: var(--space-5);
   border-radius: 10px;
-  margin-top: var(--space-4);
-  line-height: 1.6;
-  color: var(--color-text-light);
-  font-size: 0.95rem;
 }
+
 /* ------------------------------------------
-   🌞 STEP 15 — Final Spacing & Typography Polish
+   🌞 Final Polish
    ------------------------------------------ */
 
-/* Improve spacing between sections */
-.section {
-  padding: var(--space-6) 0;
-}
-
-/* Improve heading spacing globally */
-h2 {
-  margin-bottom: var(--space-4);
-}
-
-/* Improve spacing under section descriptions, if any */
-.section p {
-  margin-bottom: var(--space-4);
-}
-
-/* Unify card grid alignment */
-.card-row {
-  justify-content: flex-start;
-}
-
-/* Softer hover transitions for consistency */
 button, .brand-pill, .card {
   transition: all 0.2s ease;
 }
-
-
-
-
