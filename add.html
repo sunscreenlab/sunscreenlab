@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Add a Sunscreen – The Sunscreen Lab</title>
+  <link rel="stylesheet" href="global.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      line-height: 1.5;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 20px;
+      display: block;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    button {
+      margin-top: 30px;
+      padding: 12px 20px;
+      background: #0066cc;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    button:hover {
+      background: #0052a3;
+    }
+    .site-banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="site-banner">
+    <img src="SunscreenLabBanner.jpg" alt="The Sunscreen Lab Banner">
+  </div>
+
+  <h1>Add a Sunscreen</h1>
+  <p>Submit a new sunscreen to the database. All submissions will be reviewed before being added.</p>
+
+  <form id="sunscreenForm">
+
+    <label for="brand">Brand</label>
+    <input type="text" id="brand" name="brand" placeholder="e.g., La Roche-Posay" required>
+
+    <label for="name">Product Name</label>
+    <input type="text" id="name" name="name" placeholder="e.g., Anthelios UV Correct SPF 70" required>
+
+    <label for="ingredients">Ingredients List</label>
+    <textarea id="ingredients" name="ingredients" rows="6" placeholder="Paste full INCI list here" required></textarea>
+
+    <label for="photo">Product / Ingredients Photo (optional)</label>
+    <input type="file" id="photo" name="photo" accept="image/*">
+
+    <button type="submit">Submit Sunscreen</button>
+
+  </form>
+
+  <script>
+    document.getElementById("sunscreenForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      alert("Submission feature coming soon!");
+    });
+  </script>
+
+</body>
+</html>
