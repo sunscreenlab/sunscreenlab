@@ -301,3 +301,70 @@ button, .brand-pill, .card {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* ------------------------------------------
+   LEGACY HOMEPAGE LAYOUT SUPPORT
+   (Brand grid, banner, menu links, quiz box)
+------------------------------------------- */
+
+/* Top menu container */
+#top-menu {
+  padding: 10px;
+  background: #f4f4f4;
+  display: flex;
+  gap: 10px;
+}
+
+/* "Explore Sunscreens" and "Add a Sunscreen" buttons */
+.menu-link {
+  background: #e0e0e0;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-weight: 600;
+}
+
+.menu-link:hover {
+  background: #d2d2d2;
+}
+
+/* Brand grid (preview + full grid) */
+.brand-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.brand-list a {
+  text-decoration: none;
+  color: #0057b7;
+  font-weight: 600;
+}
+
+.brand-list a:hover {
+  text-decoration: underline;
+}
+
+/* Quiz placeholder styling */
+.quiz-placeholder {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  padding: 18px 20px;
+  background: #fafafa;
+  border-left: 4px solid #0057b7;
+  border-radius: 6px;
+}
+
+.quiz-placeholder h2 {
+  margin: 0 0 8px;
+  font-size: 1.4em;
+}
+
+/* Banner inside index.html */
+.site-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
