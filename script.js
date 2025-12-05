@@ -3,7 +3,6 @@
 //
 async function loadSunscreens() {
   try {
-    console.log("Attempting to load sunscreens.json...");
     const response = await fetch("data/sunscreens.json");
 
     if (!response.ok) {
@@ -11,9 +10,7 @@ async function loadSunscreens() {
       return [];
     }
 
-    const sunscreens = await response.json();
-    console.log("Loaded sunscreens:", sunscreens);
-    return sunscreens;
+    return await response.json();
   } catch (err) {
     console.error("Fetch error:", err);
     return [];
@@ -21,29 +18,7 @@ async function loadSunscreens() {
 }
 
 //
-//  FORMAT INGREDIENT LINKS
-//
-function formatIngredientLink(ing) {
-  const urlSlug = ing
-    .toLowerCase()
-    .replace(/[^a-z0-9 ]/g, "")
-    .replace(/\s+/g, "-");
-
-  return `<a href="https://incidecoder.com/ingredients/${urlSlug}" target="_blank">${ing}</a>`;
-}
-
-//
-//  HAZARD COLOR HELPER
-//
-function hazardColor(score) {
-  if (score == null) return "#888";    // grey for unknown
-  if (score <= 2) return "#4CAF50";    // green (low hazard)
-  if (score <= 5) return "#FFC107";    // yellow (moderate)
-  return "#F44336";                    // red (high hazard)
-}
-
-//
-//  SORTING FUNCTION
+//  SORTING
 //
 function sortByBrandProduct(list) {
   return list.sort((a, b) => {
@@ -61,16 +36,23 @@ function sortByBrandProduct(list) {
 }
 
 //
-//  DISPLAY SUNSCREENS (Homepage — Full Cards)
+// HAZARD COLOR
+//
+function hazardColor(score) {
+  if (score == null) return "#888";
+  if (score <= 2) return "#4CAF50";
+  if (score <= 5) return "#FFC107";
+  return "#F44336";
+}
+
+//
+//  DISPLAY FULL SUNSCREEN CARDS
 //
 function displaySunscreens(list) {
-  if (!list) return;
-
-  sortByBrandProduct(list);
-
   const container = document.getElementById("results");
   if (!container) return;
 
+  sortByBrandProduct(list);
   container.innerHTML = "";
 
   list.forEach(item => {
@@ -78,77 +60,29 @@ function displaySunscreens(list) {
     div.className = "sunscreen-card";
 
     const ingredientLinks =
-      item.ingredients?.map(ing => formatIngredientLink(ing)).join(", ") ??
-      "No ingredient list provided.";
-
-    const ss = item.safety_scores ?? {};
-    const rosacea = ss.rosacea ?? {};
-    const acne = ss.acne ?? {};
-    const sensitive = ss.sensitive ?? {};
-
-    const reportLink = `https://github.com/kristimetz/kristimetz.github.io/issues/new?template=sunscreen-issue.md&title=Issue%20with%20sunscreen%3A%20${item.id}&body=**Sunscreen%20ID%3A**%20${item.id}`;
+      item.ingredients?.map(ing => 
+        `<a href="https://incidecoder.com/ingredients/${ing.toLowerCase().replace(/[^a-z0-9 ]/g, "").replace(/\s+/g, "-")}" 
+            target="_blank">${ing}</a>`
+      ).join(", ") || "No ingredient list provided.";
 
     div.innerHTML = `
-      <h2>${item.brand ? `${item.brand} ${item.product}` : item.product}</h2>
+      <h2>${item.brand} ${item.product}</h2>
 
       <p><strong>SPF:</strong> ${item.spf ?? "Unknown"}</p>
-      <p><strong>PA Rating:</strong> ${item.pa ?? "Unknown"}</p>
       <p><strong>Type:</strong> ${item.type ?? "Unknown"}</p>
-      <p><strong>Texture/Finish:</strong> ${item.texture_finish ?? "Unknown"}</p>
-      <p><strong>Country:</strong> ${item.country ?? "Unknown"}</p>
-
-      <p><strong>Niacinamide?</strong> ${item.niacinamide ?? "Unknown"}</p>
-      <p><strong>Barrier Support:</strong> ${item.barrier_support ?? "Unknown"}</p>
-      <p><strong>Fragrance:</strong> ${item.fragrance ?? "Unknown"}</p>
-      <p><strong>White Cast:</strong> ${item.white_cast ?? "Unknown"}</p>
-      <p><strong>Visible Light Protection:</strong> ${item.visible_light_protection ?? "Unknown"}</p>
-      <p><strong>Water Resistant:</strong> ${item.water_resistant ?? "Unknown"}</p>
 
       <p><strong>Hazard Score:</strong> ${item.hazard_score ?? "N/A"}</p>
       <div style="
         width: 100px;
         height: 8px;
+        background:${hazardColor(item.hazard_score)};
         border-radius: 4px;
-        background: ${hazardColor(item.hazard_score)};
-        margin-bottom: 10px;
       "></div>
-
-      <details>
-        <summary><strong>Safety Scores</strong></summary>
-
-        <p><strong>Rosacea:</strong><br>
-          • Stinging: ${rosacea.stinging ?? "Unknown"}<br>
-          • Flushing: ${rosacea.flushing ?? "Unknown"}<br>
-          • Barrier Impact: ${rosacea.barrier ?? "Unknown"}
-        </p>
-
-        <p><strong>Acne:</strong><br>
-          • Comedogenicity: ${acne.comedogenicity ?? "Unknown"}<br>
-          • Fungal Acne: ${acne.fungal_acne ?? "Unknown"}
-        </p>
-
-        <p><strong>Sensitive Skin:</strong><br>
-          • Fragrance: ${sensitive.fragrance ?? "Unknown"}<br>
-          • Essential Oils: ${sensitive.essential_oils ?? "Unknown"}<br>
-          • Surfactant Strength: ${sensitive.surfactant_strength ?? "Unknown"}
-        </p>
-      </details>
 
       <details>
         <summary><strong>Ingredients</strong></summary>
         <p>${ingredientLinks}</p>
       </details>
-
-      <p style="margin-top: 10px;">
-        <a href="${reportLink}"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="report-link">
-          📣 Report an Issue with This Sunscreen
-        </a>
-      </p>
-
-      <p><em>${item.notes ?? ""}</em></p>
     `;
 
     container.appendChild(div);
@@ -156,122 +90,94 @@ function displaySunscreens(list) {
 }
 
 //
-//  DISPLAY SUNSCREENS WITH BRAND (All-Sunscreens Page)
+//  BUILD BRAND PILL LINKS (Homepage)
 //
-function displaySunscreensWithBrand(list) {
-  if (!list) return;
+function buildBrandPills(all) {
+  const pillContainer = document.getElementById("brand-pills");
+  if (!pillContainer) return;
 
-  sortByBrandProduct(list);
+  const brands = [...new Set(all.map(s => s.brand))].sort();
 
-  const container = document.getElementById("results");
-  if (!container) return;
-
-  container.innerHTML = "";
-
-  list.forEach(item => {
-    let productName = item.product;
-
-    if (item.brand && productName.toLowerCase().startsWith(item.brand.toLowerCase())) {
-      productName = productName.substring(item.brand.length).trim();
-    }
-
-    const brandTitle = item.brand
-      ? `${item.brand} – ${productName}`
-      : productName;
-
-    const div = document.createElement("div");
-    div.className = "sunscreen-card";
-
-    div.innerHTML = `
-      <h3>
-        <a href="sunscreen.html?id=${item.id}">
-          ${brandTitle}
-        </a>
-      </h3>
-    `;
-
-    container.appendChild(div);
-  });
-}
-
-//
-//  BRAND LIST (Homepage — Preview Grid)
-//
-function displayBrandList(all) {
-  const brandContainer = document.getElementById("brand-list");
-  if (!brandContainer) return;
-
-  const brands = [...new Set(all.map(item => item.brand))].sort();
-
-  brandContainer.innerHTML = brands
-    .map(brand => `<a href="#" data-brand="${brand}">${brand}</a>`)
+  pillContainer.innerHTML = brands
+    .map(b => `<span class="brand-pill" data-brand="${b}">${b}</span>`)
     .join("");
 
-  brandContainer.querySelectorAll("a").forEach(link => {
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
-      const brand = e.target.dataset.brand;
-      const filtered = all.filter(item => item.brand === brand);
-      displaySunscreens(filtered);
+  pillContainer.querySelectorAll(".brand-pill").forEach(pill => {
+    pill.addEventListener("click", () => {
+      const brand = pill.dataset.brand;
+      window.location.href = `brands.html?brand=${encodeURIComponent(brand)}`;
     });
   });
 }
 
 //
-//  BRAND LIST (Homepage — Full Brand Grid)
+//  FULL BRAND LIST GRID
 //
-function displayFullBrandGrid(all) {
-  const fullList = document.getElementById("allBrandGrid");
-  if (!fullList) return;
+function buildFullBrandGrid(all) {
+  const fullGrid = document.getElementById("allBrandGrid");
+  if (!fullGrid) return;
 
-  const brands = [...new Set(all.map(item => item.brand))].sort();
+  const brands = [...new Set(all.map(s => s.brand))].sort();
 
-  fullList.innerHTML = brands
-    .map(brand => `<a href="#" data-brand="${brand}">${brand}</a>`)
+  fullGrid.innerHTML = brands
+    .map(b => `<span class="brand-pill" data-brand="${b}">${b}</span>`)
     .join("");
 
-  fullList.querySelectorAll("a").forEach(link => {
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
-      const brand = e.target.dataset.brand;
-      const filtered = all.filter(item => item.brand === brand);
-      displaySunscreens(filtered);
+  fullGrid.querySelectorAll(".brand-pill").forEach(pill => {
+    pill.addEventListener("click", () => {
+      const brand = pill.dataset.brand;
+      window.location.href = `brands.html?brand=${encodeURIComponent(brand)}`;
     });
   });
 }
 
 //
-//  EXPAND/COLLAPSE FULL BRAND GRID
+//  SHOW/HIDE FULL BRAND GRID
 //
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById("showAllBrandsBtn");
-  const fullList = document.getElementById("allBrandGrid");
+  const fullGrid = document.getElementById("allBrandGrid");
 
-  if (btn && fullList) {
+  if (btn && fullGrid) {
     btn.addEventListener("click", () => {
-      if (fullList.style.display === "none") {
-        fullList.style.display = "flex";
-        btn.textContent = "Hide All Brands";
-      } else {
-        fullList.style.display = "none";
-        btn.textContent = "Show All Brands";
-      }
+      const isHidden = fullGrid.style.display === "none";
+      fullGrid.style.display = isHidden ? "flex" : "none";
+      btn.textContent = isHidden ? "Hide All Brands" : "Show All Brands";
     });
   }
 });
 
 //
+//  BRAND PAGE HANDLER
+//
+function loadBrandPage(all) {
+  const params = new URLSearchParams(window.location.search);
+  const brand = params.get("brand");
+
+  if (!brand) return;
+
+  const title = document.getElementById("brand-title");
+  const count = document.getElementById("brand-count");
+
+  title.textContent = brand;
+
+  const filtered = all.filter(s => s.brand === brand);
+  count.textContent = `${filtered.length} sunscreen(s) found`;
+
+  displaySunscreens(filtered);
+}
+
+//
 //  INITIALIZE PAGE
 //
 loadSunscreens().then(all => {
-  console.log("Initializing page with:", all);
+  const onBrandPage = window.location.pathname.includes("brands.html");
 
-  const onAllPage = !document.getElementById("brand-list");
-
-  if (onAllPage) {
-    displaySunscreensWithBrand(all);
+  if (onBrandPage) {
+    loadBrandPage(all);
   } else {
-    displayBrandList(all);
-    displayFullBrandGrid(all);
+    // homepage
+    buildBrandPills(all);
+    buildFullBrandGrid(all);
   }
 });
