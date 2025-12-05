@@ -54,14 +54,14 @@ function sortByBrandProduct(list) {
 
     if (brandA < brandB) return -1;
     if (brandA > brandB) return 1;
-    if (productA < productA) return -1;
+    if (productA < productB) return -1;
     if (productA > productB) return 1;
     return 0;
   });
 }
 
 //
-//  DISPLAY SUNSCREENS (Homepage — NO BRAND)
+//  DISPLAY SUNSCREENS (Homepage — Full Cards)
 //
 function displaySunscreens(list) {
   if (!list) return;
@@ -69,6 +69,8 @@ function displaySunscreens(list) {
   sortByBrandProduct(list);
 
   const container = document.getElementById("results");
+  if (!container) return;
+
   container.innerHTML = "";
 
   list.forEach(item => {
@@ -102,7 +104,6 @@ function displaySunscreens(list) {
       <p><strong>Visible Light Protection:</strong> ${item.visible_light_protection ?? "Unknown"}</p>
       <p><strong>Water Resistant:</strong> ${item.water_resistant ?? "Unknown"}</p>
 
-      <!-- ★ HAZARD SCORE + COLOR BAR -->
       <p><strong>Hazard Score:</strong> ${item.hazard_score ?? "N/A"}</p>
       <div style="
         width: 100px;
@@ -111,7 +112,6 @@ function displaySunscreens(list) {
         background: ${hazardColor(item.hazard_score)};
         margin-bottom: 10px;
       "></div>
-      <!-- ★ END HAZARD SCORE -->
 
       <details>
         <summary><strong>Safety Scores</strong></summary>
@@ -139,14 +139,14 @@ function displaySunscreens(list) {
         <p>${ingredientLinks}</p>
       </details>
 
-<p style="margin-top: 10px;">
-  <a href="${reportLink}"
-     target="_blank"
-     rel="noopener noreferrer"
-     class="report-link">
-    📣 Report an Issue with This Sunscreen
-  </a>
-</p>
+      <p style="margin-top: 10px;">
+        <a href="${reportLink}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="report-link">
+          📣 Report an Issue with This Sunscreen
+        </a>
+      </p>
 
       <p><em>${item.notes ?? ""}</em></p>
     `;
@@ -158,33 +158,30 @@ function displaySunscreens(list) {
 //
 //  DISPLAY SUNSCREENS WITH BRAND (All-Sunscreens Page)
 //
-//
-//  DISPLAY SUNSCREENS WITH BRAND (All-Sunscreens Page)
-//
 function displaySunscreensWithBrand(list) {
   if (!list) return;
 
   sortByBrandProduct(list);
 
   const container = document.getElementById("results");
+  if (!container) return;
+
   container.innerHTML = "";
 
   list.forEach(item => {
-let productName = item.product;
+    let productName = item.product;
 
-// Remove brand from product if the product already includes it
-if (item.brand && productName.toLowerCase().startsWith(item.brand.toLowerCase())) {
-  productName = productName.substring(item.brand.length).trim();
-}
+    if (item.brand && productName.toLowerCase().startsWith(item.brand.toLowerCase())) {
+      productName = productName.substring(item.brand.length).trim();
+    }
 
-const brandTitle = item.brand
-  ? `${item.brand} – ${productName}`
-  : productName;
+    const brandTitle = item.brand
+      ? `${item.brand} – ${productName}`
+      : productName;
 
     const div = document.createElement("div");
     div.className = "sunscreen-card";
 
-    // ★ Make the title clickable ★
     div.innerHTML = `
       <h3>
         <a href="sunscreen.html?id=${item.id}">
@@ -198,27 +195,7 @@ const brandTitle = item.brand
 }
 
 //
-//  SEARCH FUNCTION (Homepage Only)
-//
-function setupSearch(all) {
-  const search = document.getElementById("search");
-  if (!search) return;
-
-  search.addEventListener("input", () => {
-    const term = search.value.toLowerCase();
-
-    const filtered = all.filter(item =>
-      item.brand?.toLowerCase().includes(term) ||
-      item.product?.toLowerCase().includes(term) ||
-      item.ingredients?.some(ing => ing.toLowerCase().includes(term))
-    );
-
-    displaySunscreens(filtered);
-  });
-}
-
-//
-//  BRAND LIST (Homepage Only)
+//  BRAND LIST (Homepage — Preview Grid)
 //
 function displayBrandList(all) {
   const brandContainer = document.getElementById("brand-list");
@@ -235,31 +212,13 @@ function displayBrandList(all) {
       e.preventDefault();
       const brand = e.target.dataset.brand;
       const filtered = all.filter(item => item.brand === brand);
-
       displaySunscreens(filtered);
-      document.getElementById("search").value = brand;
     });
   });
 }
 
 //
-//  INITIALIZE PAGE
-//
-loadSunscreens().then(all => {
-  console.log("Initializing page with:", all);
-
-  const onAllPage = !document.getElementById("brand-list");
-
-  if (onAllPage) {
-    displaySunscreens(all);
-  } else {
-    displayBrandList(all);
-    displaySunscreens(all);
-    setupSearch(all);
-  }
-});
-//
-// FULL BRAND GRID + TOGGLE LOGIC
+//  BRAND LIST (Homepage — Full Brand Grid)
 //
 function displayFullBrandGrid(all) {
   const fullList = document.getElementById("allBrandGrid");
@@ -276,15 +235,13 @@ function displayFullBrandGrid(all) {
       e.preventDefault();
       const brand = e.target.dataset.brand;
       const filtered = all.filter(item => item.brand === brand);
-
       displaySunscreens(filtered);
     });
   });
 }
 
-
 //
-// EXPAND/COLLAPSE FULL BRAND LIST
+//  EXPAND/COLLAPSE FULL BRAND GRID
 //
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById("showAllBrandsBtn");
@@ -303,3 +260,18 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+//
+//  INITIALIZE PAGE
+//
+loadSunscreens().then(all => {
+  console.log("Initializing page with:", all);
+
+  const onAllPage = !document.getElementById("brand-list");
+
+  if (onAllPage) {
+    displaySunscreensWithBrand(all);
+  } else {
+    displayBrandList(all);
+    displayFullBrandGrid(all);
+  }
+});
