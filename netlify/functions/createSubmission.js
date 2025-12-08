@@ -29,11 +29,16 @@ Submitted from: Add a Sunscreen form
       }
     );
 
+    const text = await response.text();   // ⬅️ IMPORTANT
+    console.log("GitHub response:", text); // ⬅️ PRINT IT TO LOGS
+
     if (!response.ok) {
-      const text = await response.text();
       return {
         statusCode: 500,
-        body: JSON.stringify({ message: "Failed to create issue", details: text })
+        body: JSON.stringify({
+          message: "Failed to create issue",
+          details: text
+        })
       };
     }
 
@@ -43,6 +48,7 @@ Submitted from: Add a Sunscreen form
     };
 
   } catch (err) {
+    console.log("Function error:", err); // ⬅️ ALSO PRINT
     return {
       statusCode: 500,
       body: JSON.stringify({
