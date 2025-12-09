@@ -5,30 +5,76 @@
   <title>Search Results – The Sunscreen Lab</title>
   <link rel="stylesheet" href="global.css">
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+
+  <style>
+    body {
+      font-family: var(--font-main, sans-serif);
+      max-width: 900px;
+      margin: 40px auto;
+      line-height: 1.5;
+    }
+    .result-card {
+      border: 1px solid #ddd;
+      padding: 16px;
+      margin: 12px 0;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+    .result-card h3 {
+      margin-bottom: 4px;
+    }
+    .result-card a {
+      color: var(--color-accent, #0a85ff);
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
 </head>
 
 <body>
+
   <h1>Search Results</h1>
   <p id="search-summary"></p>
 
   <div id="results"></div>
 
   <script>
-    // Get search term from URL
     const params = new URLSearchParams(window.location.search);
-    const query = params.get("q")?.toLowerCase() || "";
+    const query = params.get("q") || "";
     document.getElementById("search-summary").textContent =
       query ? `Showing results for: "${query}"` : "No search term provided.";
 
-    // Load sunscreen data
+    // Load sunscreen dataset
     fetch("sunscreens.json")
       .then(res => res.json())
       .then(data => {
-        const results = data.filter(item => 
-          item.name.toLowerCase().includes(query) ||
-          item.brand.toLowerCase().includes(query) ||
-          (item.filters?.join(" ").toLowerCase().includes(query))
-        );
+
+        // Flatten filters + ingredients for better searching
+        const processed = data.map(item => ({
+          ...item,
+          filter_names: item.filters?.map(f => f.name) || [],
+          ingredient_list: item.ingredients?.join(" ") || ""
+        }));
+
+        // Configure Fuse.js
+        const fuse = new Fuse(processed, {
+          includeScore: true,
+          threshold: 0.32,          // fuzzy tolerance (lower = stricter)
+          keys: [
+            "brand",
+            "product",
+            "notes",
+            "country",
+            "type",
+            "filter_names",
+            "ingredient_list",
+            "visible_light_protection",
+            "fragrance"
+          ]
+        });
+
+        // Run search
+        const results = query ? fuse.search(query) : [];
 
         const container = document.getElementById("results");
 
@@ -37,15 +83,20 @@
           return;
         }
 
+        // Display results
         container.innerHTML = results
-          .map(item => `
-            <div class="result-card">
-              <h3>${item.name}</h3>
-              <p><strong>Brand:</strong> ${item.brand}</p>
-              <p><strong>Filters:</strong> ${item.filters.join(", ")}</p>
-              <a href="sunscreen.html?id=${item.id}">View Details</a>
-            </div>
-          `)
+          .map(r => {
+            const item = r.item;
+            return `
+              <div class="result-card">
+                <h3>${item.product}</h3>
+                <p><strong>Brand:</strong> ${item.brand}</p>
+                <p><strong>Type:</strong> ${item.type}</p>
+                <p><strong>Filters:</strong> ${item.filter_names.join(", ")}</p>
+                <a href="sunscreen.html?id=${item.id}">View Details →</a>
+              </div>
+            `;
+          })
           .join("");
       });
   </script>
