@@ -73,14 +73,14 @@
   <div id="results"></div>
 
   <script>
-    // Read query string
     const params = new URLSearchParams(window.location.search);
     const query = params.get("q") || "";
 
     document.getElementById("search-summary").textContent =
       query ? `Showing results for: "${query}"` : "No search term provided.";
 
-    // Load sunscreen data - FIXED PATH
+
+    // ---- FIXED ABSOLUTE JSON PATH ----
     fetch("/sunscreenlab/data/sunscreens.json")
       .then(res => res.json())
       .then(data => {
@@ -119,22 +119,29 @@
           return;
         }
 
+        // ---- NEW CORRECT HIGHLIGHT FUNCTION ----
         function highlight(text, matches, field) {
           if (!matches) return text;
 
-          let result = text;
-          const fieldMatches = matches.filter(m => m.key === field);
+          const fieldMatch = matches.find(m => m.key === field);
+          if (!fieldMatch) return text;
 
-          fieldMatches.forEach(m => {
-            m.indices.forEach(([start, end]) => {
-              const substring = result.substring(start, end + 1);
-              result = result.replace(substring, `<mark>${substring}</mark>`);
-            });
+          let result = text;
+
+          // Sort descending so index shifts don't break later replacements
+          const indices = [...fieldMatch.indices].sort((a, b) => b[0] - a[0]);
+
+          indices.forEach(([start, end]) => {
+            const before = result.slice(0, start);
+            const match = result.slice(start, end + 1);
+            const after = result.slice(end + 1);
+            result = `${before}<mark>${match}</mark>${after}`;
           });
 
           return result;
         }
 
+        // ---- RENDER RESULTS ----
         container.innerHTML = results
           .map(r => {
             const item = r.item;
