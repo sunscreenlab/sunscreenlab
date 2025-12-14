@@ -6,63 +6,6 @@
 
   <link rel="stylesheet" href="styles/global.css">
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-
-  <style>
-    body {
-      font-family: var(--font-main, sans-serif);
-      max-width: 900px;
-      margin: 40px auto;
-      line-height: 1.5;
-    }
-
-    #search-summary {
-      margin-bottom: 24px;
-      font-size: 1.1rem;
-      color: var(--color-text-light);
-    }
-
-    .result-card {
-      border: 1px solid #ddd;
-      background: #fafafa;
-      padding: 18px;
-      margin: 14px 0;
-      border-radius: 10px;
-      transition: box-shadow 0.2s ease;
-    }
-
-    .result-card:hover {
-      box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
-    }
-
-    .result-title {
-      margin: 0 0 6px;
-      font-size: 1.2rem;
-      font-weight: bold;
-    }
-
-    .result-meta {
-      margin: 4px 0;
-      font-size: 0.95rem;
-    }
-
-    .view-link {
-      display: inline-block;
-      margin-top: 10px;
-      color: var(--color-accent, #0a85ff);
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    .view-link:hover {
-      text-decoration: underline;
-    }
-
-    mark {
-      background: #fff3b0;
-      padding: 2px 3px;
-      border-radius: 3px;
-    }
-  </style>
 </head>
 
 <body>
@@ -79,8 +22,7 @@
     document.getElementById("search-summary").textContent =
       query ? `Showing results for: "${query}"` : "No search term provided.";
 
-
-    // ---- FIXED ABSOLUTE JSON PATH ----
+    // ---- LOAD DATA ----
     fetch("/sunscreendna/data/sunscreens.json")
       .then(res => res.json())
       .then(data => {
@@ -119,7 +61,7 @@
           return;
         }
 
-        // ---- NEW CORRECT HIGHLIGHT FUNCTION ----
+        // ---- HIGHLIGHT FUNCTION ----
         function highlight(text, matches, field) {
           if (!matches) return text;
 
@@ -128,7 +70,6 @@
 
           let result = text;
 
-          // Sort descending so index shifts don't break later replacements
           const indices = [...fieldMatch.indices].sort((a, b) => b[0] - a[0]);
 
           indices.forEach(([start, end]) => {
@@ -151,17 +92,17 @@
 
             return `
               <div class="result-card">
-                <h3 class="result-title">${highlightedProduct}</h3>
+                <h3 class="result-title">
+                  <a href="sunscreen.html?id=${item.id}" class="result-title-link">
+                    ${highlightedBrand} – ${highlightedProduct}
+                  </a>
+                </h3>
 
-                <p class="result-meta"><strong>Brand:</strong> ${highlightedBrand}</p>
                 <p class="result-meta"><strong>Type:</strong> ${item.type || "Unknown"}</p>
-                <p class="result-meta"><strong>Filters:</strong> 
+
+                <p class="result-meta"><strong>Filters:</strong>
                   ${item.filter_names.length ? item.filter_names.join(", ") : "None listed"}
                 </p>
-
-                <a class="view-link" href="sunscreen.html?id=${item.id}">
-                  View Details →
-                </a>
               </div>
             `;
           })
