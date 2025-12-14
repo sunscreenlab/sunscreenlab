@@ -134,6 +134,13 @@ header {
   cursor: pointer;
 }
 
+/* 🔑 NAV LINKS SHOULD NOT LOOK LIKE TEXT LINKS */
+.nav-row a,
+.nav-row a:hover,
+.nav-row a:visited {
+  text-decoration: none;
+}
+
 /* ----------------------------------------------------------
    6. Search Bar (Primary Action)
 ---------------------------------------------------------- */
