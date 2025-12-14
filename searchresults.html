@@ -33,20 +33,19 @@
           ingredient_text: item.ingredients?.join(" ") || ""
         }));
 
-        const fuse = new Fuse(processed, {
-          includeScore: true,
-          includeMatches: true,
-          threshold: 0.32,
-          keys: [
-            "brand",
-            "product",
-            "notes",
-            "type",
-            "country",
-            "filter_names",
-            "ingredient_text"
-          ]
-        });
+const fuse = new Fuse(processed, {
+  includeScore: true,
+  threshold: 0.32,
+  keys: [
+    "brand",
+    "product",
+    "notes",
+    "type",
+    "country",
+    "filter_names",
+    "ingredient_text"
+  ]
+});
 
         const results = query ? fuse.search(query) : [];
         const container = document.getElementById("results");
@@ -61,40 +60,19 @@
           return;
         }
 
-        // ---- HIGHLIGHT FUNCTION ----
-        function highlight(text, matches, field) {
-          if (!matches) return text;
-
-          const fieldMatch = matches.find(m => m.key === field);
-          if (!fieldMatch) return text;
-
-          let result = text;
-
-          const indices = [...fieldMatch.indices].sort((a, b) => b[0] - a[0]);
-
-          indices.forEach(([start, end]) => {
-            const before = result.slice(0, start);
-            const match = result.slice(start, end + 1);
-            const after = result.slice(end + 1);
-            result = `${before}<mark>${match}</mark>${after}`;
-          });
-
-          return result;
-        }
 
         // ---- RENDER RESULTS ----
         container.innerHTML = results
           .map(r => {
             const item = r.item;
 
-            const highlightedProduct = highlight(item.product, r.matches, "product");
-            const highlightedBrand = highlight(item.brand, r.matches, "brand");
+            const title = `${item.brand} – ${item.product}`;
 
             return `
               <div class="result-card">
                 <h3 class="result-title">
                   <a href="sunscreen.html?id=${item.id}" class="result-title-link">
-                    ${highlightedBrand} – ${highlightedProduct}
+                    ${title}
                   </a>
                 </h3>
 
