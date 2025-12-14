@@ -61,8 +61,11 @@ function displaySunscreens(list) {
 
     const ingredientLinks =
       item.ingredients?.map(ing => 
-        `<a href="https://incidecoder.com/ingredients/${ing.toLowerCase().replace(/[^a-z0-9 ]/g, "").replace(/\s+/g, "-")}" 
-            target="_blank">${ing}</a>`
+        `<a href="https://incidecoder.com/ingredients/${ing
+          .toLowerCase()
+          .replace(/[^a-z0-9 ]/g, "")
+          .replace(/\s+/g, "-")}" 
+          target="_blank">${ing}</a>`
       ).join(", ") || "No ingredient list provided.";
 
     div.innerHTML = `
@@ -99,15 +102,13 @@ function buildBrandPills(all) {
   const brands = [...new Set(all.map(s => s.brand))].sort();
 
   pillContainer.innerHTML = brands
-    .map(b => `<span class="brand-pill" data-brand="${b}">${b}</span>`)
+    .map(
+      brand =>
+        `<a class="brand-pill" href="searchresults.html?q=${encodeURIComponent(brand)}">
+          ${brand}
+        </a>`
+    )
     .join("");
-
-  pillContainer.querySelectorAll(".brand-pill").forEach(pill => {
-    pill.addEventListener("click", () => {
-      const brand = pill.dataset.brand;
-      window.location.href = `brands.html?brand=${encodeURIComponent(brand)}`;
-    });
-  });
 }
 
 //
@@ -120,15 +121,13 @@ function buildFullBrandGrid(all) {
   const brands = [...new Set(all.map(s => s.brand))].sort();
 
   fullGrid.innerHTML = brands
-    .map(b => `<span class="brand-pill" data-brand="${b}">${b}</span>`)
+    .map(
+      brand =>
+        `<a class="brand-pill" href="searchresults.html?q=${encodeURIComponent(brand)}">
+          ${brand}
+        </a>`
+    )
     .join("");
-
-  fullGrid.querySelectorAll(".brand-pill").forEach(pill => {
-    pill.addEventListener("click", () => {
-      const brand = pill.dataset.brand;
-      window.location.href = `brands.html?brand=${encodeURIComponent(brand)}`;
-    });
-  });
 }
 
 //
@@ -148,36 +147,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //
-//  BRAND PAGE HANDLER
-//
-function loadBrandPage(all) {
-  const params = new URLSearchParams(window.location.search);
-  const brand = params.get("brand");
-
-  if (!brand) return;
-
-  const title = document.getElementById("brand-title");
-  const count = document.getElementById("brand-count");
-
-  title.textContent = brand;
-
-  const filtered = all.filter(s => s.brand === brand);
-  count.textContent = `${filtered.length} sunscreen(s) found`;
-
-  displaySunscreens(filtered);
-}
-
-//
-//  INITIALIZE PAGE
+//  INITIALIZE HOMEPAGE
 //
 loadSunscreens().then(all => {
-  const onBrandPage = window.location.pathname.includes("brands.html");
-
-  if (onBrandPage) {
-    loadBrandPage(all);
-  } else {
-    // homepage
-    buildBrandPills(all);
-    buildFullBrandGrid(all);
-  }
+  buildBrandPills(all);
+  buildFullBrandGrid(all);
 });
