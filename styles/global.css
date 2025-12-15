@@ -235,3 +235,27 @@ button:hover {
   padding: var(--space-5);
   border-radius: 10px;
 }
+/* Brand pills */
+.brand-pill {
+  display: inline-block;
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-bg-alt);
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+
+  /* anchor normalization */
+  text-decoration: none;
+  color: var(--color-text);
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.brand-pill:hover {
+  background: var(--color-action-soft);
+  border-color: var(--color-action);
+}
+
+.brand-pill:visited {
+  color: var(--color-text);
+}
