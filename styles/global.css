@@ -157,6 +157,13 @@ header {
 .nav-row a:visited {
   text-decoration: none;
 }
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+}
+
 
 /* ----------------------------------------------------------
    6. Search Bar (Primary Action)
