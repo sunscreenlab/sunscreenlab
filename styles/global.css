@@ -89,13 +89,56 @@ button:hover {
 }
 
 /* ----------------------------------------------------------
-   5. Header / Navigation (FIXED)
+   5. Header / Navigation
 ---------------------------------------------------------- */
 
-/* ==============================
-   Primary CTA Button (Header)
-   ============================== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: radial-gradient(
+    circle at 65% 40%,
+    #FBF5EC 0%,
+    #F7F4EF 55%,
+    #F2EDE6 100%
+  );
+}
 
+/* Needed for mobile dropdown positioning */
+.header-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: var(--space-4);
+}
+
+.site-logo {
+  height: 145px;
+  width: auto;
+  display: block;
+}
+
+/* Desktop nav */
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+}
+
+/* Hamburger hidden by default (desktop-first) */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* ----------------------------------------------------------
+   6. Primary CTA Button
+---------------------------------------------------------- */
 .menu-link-primary {
   display: inline-flex;
   align-items: center;
@@ -109,71 +152,24 @@ button:hover {
   text-decoration: none;
 
   color: #ffffff;
-  background-color: var(--color-accent);
-
+  background-color: var(--color-action);
   border-radius: 8px;
-  border: none;
 
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
-/* Hover / focus states */
 .menu-link-primary:hover,
 .menu-link-primary:focus-visible {
-  background-color: #006fd6; /* slightly darker accent */
+  background-color: var(--color-action-hover);
   transform: translateY(-1px);
 }
 
-/* Active (click) */
 .menu-link-primary:active {
   transform: translateY(0);
 }
 
-/* Hide hamburger on desktop */
-.nav-toggle {
-  display: none;
-}
-
-/* Header container ONLY */
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  line-height: normal;
-  background: radial-gradient(
-    circle at 65% 40%,
-    #FBF5EC 0%,
-    #F7F4EF 55%,
-    #F2EDE6 100%
-  );
-}
-
-/* Inner layout + padding */
-.header-inner {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: var(--space-4) var(--space-4);
-  line-height: 1;
-}
-
-/* Logo (unchanged size, intentional) */
-.site-logo {
-  height: 145px;
-  width: auto;
-  display: block;
-}
-
-/* Navigation row */
-.site-nav {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-left: auto;
-}
-
 /* ----------------------------------------------------------
-   6. Search Bar
+   7. Search Bar
 ---------------------------------------------------------- */
 .search-bar {
   display: flex;
@@ -189,18 +185,13 @@ button:hover {
   border: none;
   padding: 10px 12px;
   font-size: 16px;
-  height: 100%;
 }
 
 .search-bar button {
   border: none;
   background: var(--color-action-primary);
   padding: 0 14px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 700;
 }
@@ -210,15 +201,15 @@ button:hover {
 }
 
 /* ----------------------------------------------------------
-   7. Dropdown Menu
+   8. Dropdown Menu
 ---------------------------------------------------------- */
 .dropdown {
   position: relative;
-  display: inline-block;
 }
 
 .dropdown-btn {
   cursor: pointer;
+  font-weight: 600;
 }
 
 .dropdown-content {
@@ -237,7 +228,6 @@ button:hover {
   padding: 10px 14px;
   color: var(--color-text);
   text-decoration: none;
-  font-size: 0.95rem;
 }
 
 .dropdown-content a:hover {
@@ -249,43 +239,21 @@ button:hover {
 }
 
 /* ----------------------------------------------------------
-   8. Browse by Brand
+   9. Cards / Brands
 ---------------------------------------------------------- */
-.section-brands {
-  padding: var(--space-6) 0;
-}
-
 .brand-grid {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
-  margin-top: var(--space-2);
 }
 
-/* ----------------------------------------------------------
-   9. Cards / Boxes
----------------------------------------------------------- */
-.recommender-box,
-.about-box {
-  border: 1px solid var(--color-border);
-  background: var(--color-bg-alt);
-  padding: var(--space-5);
-  border-radius: 10px;
-}
-/* Brand pills */
 .brand-pill {
-  display: inline-block;
   padding: var(--space-2) var(--space-4);
-  background: var(--color-bg-alt);
-  border-radius: 6px;
   border: 1px solid var(--color-border);
-
-  /* anchor normalization */
+  border-radius: 6px;
+  background: var(--color-bg-alt);
   text-decoration: none;
   color: var(--color-text);
-
-  cursor: pointer;
-  transition: all 0.2s ease;
 }
 
 .brand-pill:hover {
@@ -294,25 +262,22 @@ button:hover {
 }
 
 /* ----------------------------------------------------------
-   10. Mobile
+   10. Mobile Navigation
 ---------------------------------------------------------- */
-
-
-
-  .nav-toggle {
-    display: block; /* show hamburger */
-    margin-left: auto;
-    font-size: 1.5rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-}
 @media (max-width: 900px) {
+
+  /* Hide desktop nav */
   .site-nav {
     display: none;
   }
 
+  /* Show hamburger */
+  .nav-toggle {
+    display: block;
+    margin-left: auto;
+  }
+
+  /* Open state */
   .site-nav.open {
     display: flex;
     flex-direction: column;
@@ -331,12 +296,16 @@ button:hover {
     z-index: 1000;
   }
 
-  .nav-toggle {
-    display: block;
-    margin-left: auto;
-    font-size: 1.5rem;
-    background: none;
-    border: none;
-    cursor: pointer;
+  /* Full-width touch targets */
+  .site-nav a,
+  .site-nav button {
+    width: 100%;
+    text-align: left;
+  }
+
+  /* Dropdown behaves like normal list */
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
   }
 }
