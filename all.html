@@ -4,13 +4,83 @@
   <meta charset="UTF-8" />
   <title>All Sunscreens – Sunscreen DNA</title>
 
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Global stylesheet -->
   <link rel="stylesheet" href="styles/global.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+
+  <!-- ==========================================
+       SITE HEADER (Logo + Navigation)
+       ========================================== -->
+  <header class="site-header">
+    <div class="header-inner">
+
+      <!-- LOGO -->
+      <img
+        src="images/sunscreen-dna-logo-cropped.png"
+        alt="Sunscreen DNA"
+        class="site-logo"
+      >
+
+      <!-- PRIMARY NAVIGATION -->
+      <nav class="site-nav">
+
+        <!-- SEARCH -->
+        <form
+          id="site-search"
+          action="searchresults.html"
+          method="GET"
+          class="search-bar"
+        >
+          <input
+            type="text"
+            name="q"
+            placeholder="Search sunscreens…"
+            required
+          />
+          <button type="submit" aria-label="Search">🔍</button>
+        </form>
+
+        <!-- DROPDOWN -->
+        <div class="dropdown">
+          <button class="dropdown-btn menu-link">
+            Explore Sunscreens
+          </button>
+          <div class="dropdown-content">
+            <a href="all.html">All Sunscreens</a>
+            <a href="brands.html">By Brand</a>
+            <a href="types.html">By Filter Type</a>
+            <a href="spf.html">By SPF Range</a>
+            <a href="finish.html">By Finish</a>
+            <a href="filters.html">UV Filter Encyclopedia</a>
+          </div>
+        </div>
+
+        <!-- PRIMARY CTA -->
+        <a
+          href="https://github.com/sunscreenlab/sunscreendna/issues/new?template=sunscreen-submission.yml"
+          class="menu-link menu-link-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Add a Sunscreen
+        </a>
+
+      </nav>
+
+      <!-- HAMBURGER BUTTON -->
+      <button class="nav-toggle" aria-label="Open menu">
+        ☰
+      </button>
+
+    </div>
+  </header>
 
   <!-- ==========================================
        PAGE HEADER
@@ -21,10 +91,6 @@
       Browse and filter all sunscreens currently in the Sunscreen DNA database.
       Filter type (mineral, chemical, hybrid) is determined automatically based
       on the UV filters used.
-    </p>
-
-    <p style="margin-top: 8px;">
-      <a href="index.html">← Back to Home</a>
     </p>
   </section>
 
@@ -47,7 +113,7 @@
         </select>
       </div>
 
-      <!-- Filter Type (derived) -->
+      <!-- Filter Type -->
       <div>
         <label for="typeFilter"><strong>Filter Type</strong></label><br>
         <select id="typeFilter">
@@ -104,7 +170,6 @@
 
       const filtered = allSunscreens.filter(s => {
         const derivedType = getFilterType(s.filters || []);
-
         return (!region || s.region === region) &&
                (!type || derivedType === type);
       });
@@ -117,9 +182,8 @@
       table.innerHTML = "";
 
       data.forEach(s => {
-        const row = document.createElement("tr");
-
         const filterType = getFilterType(s.filters || []);
+        const row = document.createElement("tr");
 
         row.innerHTML = `
           <td style="padding:8px;">${s.brand || ""}</td>
@@ -133,21 +197,17 @@
       });
 
       document.getElementById("resultsSummary").textContent =
-        `Showing ${data.length} sunscreen${data.length !== 1 ? "s" : ""}`;
+        \`Showing \${data.length} sunscreen\${data.length !== 1 ? "s" : ""}\`;
     }
 
-    document.getElementById("regionFilter")
-      .addEventListener("change", applyFilters);
+    document.getElementById("regionFilter").addEventListener("change", applyFilters);
+    document.getElementById("typeFilter").addEventListener("change", applyFilters);
 
-    document.getElementById("typeFilter")
-      .addEventListener("change", applyFilters);
-
-    document.getElementById("resetFilters")
-      .addEventListener("click", () => {
-        document.getElementById("regionFilter").value = "";
-        document.getElementById("typeFilter").value = "";
-        applyFilters();
-      });
+    document.getElementById("resetFilters").addEventListener("click", () => {
+      document.getElementById("regionFilter").value = "";
+      document.getElementById("typeFilter").value = "";
+      applyFilters();
+    });
 
     loadSunscreens().then(data => {
       allSunscreens = data;
