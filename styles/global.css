@@ -39,6 +39,10 @@
 /* ----------------------------------------------------------
    3. Global Base Styles
 ---------------------------------------------------------- */
+.page-all .search-bar {
+  display: none;
+}
+
 body {
   font-family: var(--font-main);
   background: var(--color-bg);
