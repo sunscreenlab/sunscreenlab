@@ -163,60 +163,58 @@
        ========================================== -->
   <script src="script.js"></script>
 
-  <script>
-    let allSunscreens = [];
+<script>
+  let allSunscreens = [];
 
-    function applyFilters() {
-      const region = document.getElementById("regionFilter").value;
-      const type = document.getElementById("typeFilter").value;
+  function applyFilters() {
+    const region = document.getElementById("regionFilter").value;
+    const type = document.getElementById("typeFilter").value;
 
-      const filtered = allSunscreens.filter(s => {
-        const derivedType = getFilterType(s.filters || []);
-        return (!region || s.region === region) &&
-               (!type || derivedType === type);
-      });
-
-      renderTable(filtered);
-    }
-
-    function renderTable(data) {
-      const table = document.getElementById("resultsTable");
-      table.innerHTML = "";
-
-      data.forEach(s => {
-        const filterType = getFilterType(s.filters || []);
-        const row = document.createElement("tr");
-
-        row.innerHTML = `
-          <td style="padding:8px;">${s.brand || ""}</td>
-          <td style="padding:8px;">${s.name || ""}</td>
-          <td style="padding:8px;">${s.spf || ""}</td>
-          <td style="padding:8px;">${s.region || ""}</td>
-          <td style="padding:8px;">${filterType}</td>
-        `;
-
-        table.appendChild(row);
-      });
-
-      document.getElementById("resultsSummary").textContent =
-        `Showing ${data.length} sunscreen${data.length !== 1 ? "s" : ""}`;
-
-    }
-
-    document.getElementById("regionFilter").addEventListener("change", applyFilters);
-    document.getElementById("typeFilter").addEventListener("change", applyFilters);
-
-    document.getElementById("resetFilters").addEventListener("click", () => {
-      document.getElementById("regionFilter").value = "";
-      document.getElementById("typeFilter").value = "";
-      applyFilters();
+    const filtered = allSunscreens.filter(s => {
+      const derivedType = getFilterType(s.filters || []);
+      return (!region || s.region === region) &&
+             (!type || derivedType === type);
     });
 
-    loadSunscreens().then(data => {
-      allSunscreens = data;
-      renderTable(allSunscreens);
+    renderTable(filtered);
+  }
+
+  function renderTable(data) {
+    const table = document.getElementById("resultsTable");
+    table.innerHTML = "";
+
+    data.forEach(s => {
+      const filterType = getFilterType(s.filters || []);
+      const row = document.createElement("tr");
+
+      row.innerHTML =
+        "<td style='padding:8px;'>" + (s.brand || "") + "</td>" +
+        "<td style='padding:8px;'>" + (s.name || s.product || "") + "</td>" +
+        "<td style='padding:8px;'>" + (s.spf || "") + "</td>" +
+        "<td style='padding:8px;'>" + (s.region || "") + "</td>" +
+        "<td style='padding:8px;'>" + filterType + "</td>";
+
+      table.appendChild(row);
     });
-  </script>
+
+    document.getElementById("resultsSummary").textContent =
+      "Showing " + data.length + " sunscreens";
+  }
+
+  document.getElementById("regionFilter").addEventListener("change", applyFilters);
+  document.getElementById("typeFilter").addEventListener("change", applyFilters);
+
+  document.getElementById("resetFilters").addEventListener("click", () => {
+    document.getElementById("regionFilter").value = "";
+    document.getElementById("typeFilter").value = "";
+    applyFilters();
+  });
+
+  loadSunscreens().then(data => {
+    allSunscreens = data || [];
+    renderTable(allSunscreens);
+  });
+</script>
 
 </body>
 </html>
