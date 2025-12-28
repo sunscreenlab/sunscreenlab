@@ -1,19 +1,65 @@
 [
   {
-    "id": "boj-relief-sun",
-    "brand": "Beauty of Joseon",
-    "product": "Relief Sun: Rice + Probiotics",
+    "brand": "AHC",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      }
+    ],
+    "id": "ahc-masters-aqua-rich-sun-cream",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Propanediol",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Polymethylsilsesquioxane",
+      "Ethylhexyl Triazone",
+      "Niacinamide",
+      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+      "Coco-caprylate/Caprate",
+      "Butylene Glycol",
+      "Caprylyl Methicone",
+      "Diethylhexyl Butamido Triazine",
+      "Glyerin",
+      "1",
+      "2-Hexanediol",
+      "Pentylene Glycol",
+      "Arachidyl Alcohol",
+      "Sodium Stearoyl Glutamate",
+      "Polyglyceryl-3 Methylglucose Distearate",
+      "Sorbitan Sesquioleate",
+      "Behenyl Alcohol",
+      "Decyl Glucoside",
+      "Caprylyl Glycol",
+      "Arachidyl Glucoside",
+      "Hydroxyacetophenone",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Carbomer",
+      "Polyacrylate Crosspolymer-6",
+      "Ethylhexylglycerin",
+      "Adenosine",
+      "Dipotassium Glycyrrhizate",
+      "Glucose",
+      "t-Butyl Alcohol",
+      "Xanthan Gum",
+      "Tromethamine",
+      "Disodium EDTA."
+    ],
     "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "AHC Masters Aqua Rich Sun Cream",
+    "spf": null,
     "type": "chemical",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "natural-dewy",
-    "white_cast": 0,
-    "country": "Korea",
-    "korean": true,
-    "fragrance": "none",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Beauty of Joseon",
     "filters": [
       {
         "name": "Uvinul A Plus",
@@ -28,23 +74,7 @@
         "category": "broad-spectrum"
       }
     ],
-    "barrier_support": "5",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 1,
-        "flushing": 2,
-        "barrier": 3
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
+    "id": "boj-relief-sun",
     "ingredients": [
       "Water",
       "Butylene Glycol",
@@ -56,291 +86,17 @@
       "Oryza Sativa Extract",
       "Bifida Ferment Lysate"
     ],
+    "korean": true,
+    "niacinamide": "Yes",
     "notes": "Very popular K-beauty sunscreen with high tolerability.",
-    "hazard_score": null
-  },
-  {
-    "id": "roundlab-birch-juice",
-    "brand": "Round Lab",
-    "product": "Birch Juice Moisturizing Sunscreen",
-    "niacinamide": "Yes",
+    "pa": "PA++++",
+    "product": "Relief Sun: Rice + Probiotics",
+    "spf": 50,
     "type": "chemical",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "hydrating-dewy",
-    "white_cast": 0,
-    "country": "Korea",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Uvinul A Plus",
-        "category": "UVA"
-      },
-      {
-        "name": "Uvinul T 150",
-        "category": "UVB"
-      }
-    ],
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 1,
-        "flushing": 2,
-        "barrier": 3
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Birch Juice",
-      "1,2-Hexanediol",
-      "Glycerin",
-      "Niacinamide",
-      "Uvinul A Plus",
-      "Uvinul T 150"
-    ],
-    "notes": "Hydrating; good for dry and dehydrated skin.",
-    "hazard_score": null
+    "water_resistant": "none"
   },
   {
-    "id": "elta-md-uv-clear",
-    "brand": "EltaMD",
-    "product": "UV Clear Broad-Spectrum SPF 46",
-    "niacinamide": "Yes",
-    "type": "hybrid",
-    "spf": 46,
-    "pa": "PA+++",
-    "visible_light_protection": "minimal",
-    "water_resistant": "none",
-    "texture_finish": "lightweight",
-    "white_cast": 0,
-    "country": "USA",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Zinc Oxide 9%",
-        "category": "mineral"
-      },
-      {
-        "name": "Octinoxate 7.5%",
-        "category": "chemical UVB"
-      }
-    ],
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 1,
-        "flushing": 2,
-        "barrier": 3
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Zinc Oxide",
-      "Octinoxate",
-      "Niacinamide",
-      "Sodium Hyaluronate",
-      "Tocopheryl Acetate",
-      "Lactic Acid"
-    ],
-    "notes": "Extremely popular for rosacea and acne-prone skin.",
-    "hazard_score": 1
-  },
-  {
-    "id": "goodal-heartleaf-calming-moisture-sun-cream",
-    "brand": "Goodal",
-    "product": "Heartleaf Calming Moisture Sun Cream",
-    "niacinamide": "No",
-    "type": "chemical",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "natural-hydrating",
-    "white_cast": 0,
-    "country": "Korea",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "UVB"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "UVA"
-      },
-      {
-        "name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
-        "category": "broad-spectrum"
-      },
-      {
-        "name": "Diethylhexyl Butamido Triazone",
-        "category": "UVB"
-      }
-    ],
-    "barrier_support": "3",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 1,
-        "flushing": 1,
-        "barrier": 2
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Propanediol",
-      "Polymethylsilsesquioxane",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Ethylhexyl Triazone",
-      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
-      "Coco-Caprylate/Caprate",
-      "Diethylhexyl Butamido Triazone",
-      "Butylene Glycol",
-      "Glycerin",
-      "1,2-Hexanediol",
-      "Caprylyl Methicone",
-      "Houttuynia Cordata Extract",
-      "Pentylene Glycol",
-      "Behenyl Alcohol",
-      "Poly C10-30 Alkyl Acrylate",
-      "Polyglyceryl-3 Methylglucose Distearate",
-      "Decyl Glucoside",
-      "Tromethamine",
-      "Carbomer",
-      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
-      "Sodium Stearoyl Glutamate",
-      "Polyacrylate Crosspolymer-6",
-      "Ethylhexylglycerin",
-      "Xanthan Gum",
-      "t-Butyl Alcohol",
-      "Tocopherol"
-    ],
-    "notes": "Gentle chemical sunscreen with heartleaf extract; typically well-tolerated for sensitive and barrier-compromised skin.",
-    "hazard_score": 1
-  },
-  {
-    "id": "eltamd-uv-skin-recovery-green-tint",
-    "brand": "EltaMD",
-    "product": "UV Skin Recovery Color Correcting Green Tint Broad Spectrum SPF 50",
-    "niacinamide": "No",
-    "type": "mineral",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "high",
-    "water_resistant": "none",
-    "texture_finish": "natural-soft-matte",
-    "white_cast": 0,
-    "country": "USA",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Zinc Oxide",
-        "category": "mineral (broad-spectrum)"
-      }
-    ],
-    "barrier_support": "4",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 1,
-        "barrier": 4
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dimethicone",
-      "Butyloctyl Salicylate",
-      "Caprylic/Capric Triglyceride",
-      "Ethylhexyl Methoxycrylene",
-      "Octyldodecyl Neopentanoate",
-      "Taurine",
-      "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
-      "Butylene Glycol",
-      "Phenoxyethanol",
-      "Cetearyl Alcohol",
-      "Arginine",
-      "Triethoxycaprylylsilane",
-      "Oleth-3 Phosphate",
-      "Oleth-20",
-      "Coco-Glucoside",
-      "Polyisobutene",
-      "Polyhydroxystearic Acid",
-      "PEG-7 Trimethylolpropane Coconut Ether",
-      "Salicyloyl Phytosphingosine",
-      "Tocopheryl Acetate",
-      "Glycerin",
-      "Tocopherol",
-      "Ethylhexylglycerin",
-      "Pongamia Pinnata Seed Extract",
-      "Glycine",
-      "Lactic Acid",
-      "Polyglyceryl-10 Stearate",
-      "Centella Asiatica Leaf Extract",
-      "Triethyl Citrate",
-      "Polyglyceryl-6 Behenate",
-      "Behenic Acid",
-      "Ceramide NP",
-      "Cholesterol",
-      "Glyceryl Stearate",
-      "Ceramide NS",
-      "Ceramide EOP",
-      "Ceramide AP",
-      "Sodium Cetearyl Sulfate",
-      "Yellow 5",
-      "Blue 1"
-    ],
-    "notes": "Mineral-only zinc oxide formula with green tint for neutralizing redness. Strong barrier support; excellent for rosacea.",
-    "hazard_score": 4
-  },
-  {
-    "id": "boj-relief-sun-aqua-fresh-rice-b5",
     "brand": "Beauty of Joseon",
-    "product": "Relief Sun Aqua Fresh Rice + B5",
-    "niacinamide": "No",
-    "type": "chemical",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "lightweight-hydrating",
-    "white_cast": 0,
-    "country": "Korea",
-    "fragrance": "none",
     "filters": [
       {
         "name": "Ethylhexyl Triazone",
@@ -359,23 +115,7 @@
         "category": "broad-spectrum"
       }
     ],
-    "barrier_support": "4",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 1,
-        "flushing": 1,
-        "barrier": 3
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
+    "id": "boj-relief-sun-aqua-fresh-rice-b5",
     "ingredients": [
       "Water",
       "Oryza Sativa (Rice) Seed Water",
@@ -423,31 +163,436 @@
       "Rice Amino Acids",
       "Rice sh-Oligopeptide-1"
     ],
+    "niacinamide": "No",
     "notes": "Light hydrating chemical sunscreen with panthenol, beta-glucan, oat extract, and ceramide NP. Excellent for sensitive skin.",
-    "hazard_score": 1
+    "pa": "PA++++",
+    "product": "Relief Sun Aqua Fresh Rice + B5",
+    "spf": 50,
+    "type": "chemical",
+    "water_resistant": "none"
   },
   {
-    "id": "thankyoufarmer-skin-relief-sun-cream",
-    "brand": "Thank You Farmer",
-    "product": "Skin Relief Sun Cream",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "natural-hydrating",
-    "white_cast": 0,
-    "country": "Korea",
-    "fragrance": "none",
+    "brand": "Celimax",
     "filters": [
       {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "name": "Titanium Dioxide",
+        "category": "broad-spectrum"
+      },
+      {
+        "name": "Uvinul A Plus",
         "category": "UVA"
       },
       {
+        "name": "Uvinul T150",
+        "category": "UVB"
+      },
+      {
+        "name": "IsNina",
+        "category": "UVB"
+      }
+    ],
+    "id": "celimax-heart-pink-toneup",
+    "ingredients": [
+      "Water",
+      "Titanium Dioxide",
+      "Dibutyl Adipate",
+      "Propanediol",
+      "Caprylic/Capric Triglyceride",
+      "Uvinul A Plus",
+      "Uvinul T150",
+      "Niacinamide",
+      "IsNina",
+      "Houttuynia Cordata Extract",
+      "Panthenol",
+      "Dimethicone",
+      "Stearic Acid",
+      "Alumina",
+      "Several Hyaluronic Acids"
+    ],
+    "niacinamide": "Yes",
+    "notes": "Hybrid pink tone-up with strong VL protection and a matte finish.",
+    "pa": "PA++++",
+    "product": "Heart Pink Tone-Up Sun Cream",
+    "spf": 50,
+    "type": "hybrid",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Ciele",
+    "filters": [
+      {
+        "name": "Zinc Oxide",
+        "category": "broad-spectrum"
+      }
+    ],
+    "id": "ciele-tint-protect",
+    "ingredients": [
+      "Zinc Oxide 12%",
+      "Water",
+      "C12-15 Alkyl Benzoate",
+      "Titanium Dioxide",
+      "Niacinamide",
+      "Bisabolol",
+      "Allantoin",
+      "Dimethicone",
+      "Iron Oxides",
+      "Mica"
+    ],
+    "niacinamide": "Yes",
+    "notes": "Tinted mineral sunscreen with strong VL protection; very rosacea-friendly.",
+    "pa": "PA++++",
+    "product": "Tint & Protect SPF50+",
+    "spf": 50,
+    "type": "mineral",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Ciele",
+    "filters": [
+      {
+        "name": "Zinc Oxide",
+        "category": "mineral"
+      },
+      {
+        "name": "Titanium Dioxide",
+        "category": "mineral"
+      }
+    ],
+    "id": "ciele-tint-protect-medium-coverage-serum-foundation-spf-50",
+    "ingredients": [
+      "Zinc Oxide 12%",
+      "Water",
+      "C12-15 Alkyl Benzoate",
+      "Titanium Dioxide CI 77891",
+      "Butyloctyl Salicylate",
+      "Lauryl PEG-8 Dimethicone",
+      "Isododecane",
+      "Propanediol",
+      "Dimethicone",
+      "Niacinamide",
+      "Polymethylsilsesquioxane",
+      "Isoehexadecane",
+      "Trilaureth-4 Phosphate",
+      "Dimethiconol/Propylsilsesquioxane/Silicate Crosspolymer",
+      "Caprylyl Methicone",
+      "Mica",
+      "Octyldodecyl Neopentanoate",
+      "Lauryl PEG-10 Tris(trimethylsiloxy)silylethyl Dimethicone",
+      "Sodium Chloride",
+      "Phenoxyethanol",
+      "Bisabolol",
+      "Iron Oxides CI 77492",
+      "Disteardimonium Hectorite",
+      "Caprylyl Glycol",
+      "Aluminum Hydroxide",
+      "Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate",
+      "Ethylhexylglycerin",
+      "Hexylene Glycol",
+      "Propylene Carbonate",
+      "Hydrogenated Lecithin",
+      "Iron Oxides CI 77491",
+      "Iron Oxides CI 77499",
+      "PEG-10",
+      "Tetrasodium Glutamate Diacetate",
+      "Sodium Hydroxide."
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "Ciele Tint & Protect Medium Coverage Serum Foundation SPF 50+",
+    "spf": null,
+    "type": "mineral",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Colorescience",
+    "filters": [
+      {
+        "name": "Zinc Oxide",
+        "category": "mineral"
+      },
+      {
+        "name": "Titanium Dioxide",
+        "category": "mineral"
+      }
+    ],
+    "id": "colorescience-sunforgettable-face-shield-flex-spf-50",
+    "ingredients": [
+      "Zinc Oxide 12%",
+      "Water",
+      "C12-15 Alkyl Benzoate",
+      "Butyloctyl Salicylate",
+      "Lauryl PEG-8 Dimethicone",
+      "Isododecane",
+      "Propanediol",
+      "Caprylyl Methicone",
+      "Dimethicone",
+      "Niacinamide",
+      "Tridecyl Salicylate",
+      "Dimethicone/Vinyl Dimethicone Crosspolymer",
+      "Trilaureth-4 Phosphate",
+      "Dimethiconol/Propylsilsesquioxane/Silicate Crosspolymer",
+      "Lauryl PEG-10 Tris(trimethylsiloxy)silylethyl Dimethicone",
+      "Mica",
+      "Polyester-1",
+      "Maltodextrin",
+      "Sodium Chloride",
+      "Bisabolol (Levomenol)",
+      "Disodium Lauriminodipropionate Tocopheryl Phosphates",
+      "Ethylhexylglycerin",
+      "Tremella Fuciformis Sporocarp Extract",
+      "Allantoin",
+      "Silica Dimethyl Silylate",
+      "Caprylyl Glycol",
+      "Isoechett-10",
+      "Zein",
+      "Hexylene Glycol",
+      "Dimethylmethoxy Chromanol",
+      "Synthetic Fluorphlogopite",
+      "Zea Mays (Corn) Starch",
+      "Silica",
+      "Caesalpinia Spinosa (Tara) Fruit Pod Extract",
+      "Hydrogenated Lecithin",
+      "Tetrasodium Glutamate Diacetate",
+      "Caprylic/Capric Triglyceride",
+      "Helianthus Annuus Sprout Extract",
+      "Phenoxyethanol",
+      "Sodium Benzoate",
+      "Benzoic Acid",
+      "Dehydroacetic Acid",
+      "Sodium Hydroxide",
+      "Sodium Myristoyl Glutamate",
+      "Aluminum Hydroxide",
+      "Titanium Dioxide (CI 77891)",
+      "Iron Oxides (CI 77491",
+      "CI 77492",
+      "CI 77499)."
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "Colorescience Sunforgettable Face Shield Flex SPF 50",
+    "spf": null,
+    "type": "mineral",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Dr",
+    "filters": [
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      },
+      {
+        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+        "category": "chemical"
+      },
+      {
+        "name": "Ethylhexyl Salicylate",
+        "category": "chemical"
+      }
+    ],
+    "id": "dr-melaxim-sunscreen",
+    "ingredients": [
+      "Water",
+      "Ethylhexyl Methoxycinnamate",
+      "Propanediol",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "Ethylhexyl Salicylate",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+      "Aqua",
+      "Disiloxane",
+      "Dicaprylyl Carbonate",
+      "Propanediol",
+      "Isohexadecane",
+      "Dimethicone",
+      "Cetyl PEG/PPG-10/1 Dimethicone",
+      "Sodium Chloride",
+      "Decyl Glucoside",
+      "Propylene Glycol",
+      "Xanthan Gum",
+      "Hydroxyacetophenone",
+      "Dipropylene Glycol",
+      "Caprylyl Glycol",
+      "Dipotassium Glycyrrhizate",
+      "1",
+      "2-Hexanediol",
+      "Caprylhydroxamic Acid",
+      "Tocopheryl Acetate",
+      "Disodium EDTA",
+      "Menthol",
+      "Menthyl Lactate",
+      "Caprylic/Capric Triglyceride",
+      "Laminaria Ochroleuca Extract",
+      "Calendula Officinalis Flower Extract",
+      "Aloe Barbadensis Leaf Juice",
+      "Citric Acid",
+      "Potassium Sorbate",
+      "Sodium Benzoate."
+    ],
+    "niacinamide": "No",
+    "notes": "",
+    "pa": null,
+    "product": "Dr Melaxim Sunscreen",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "EltaMD",
+    "filters": [
+      {
+        "name": "Zinc Oxide 9%",
+        "category": "mineral"
+      },
+      {
+        "name": "Octinoxate 7.5%",
+        "category": "chemical UVB"
+      }
+    ],
+    "id": "elta-md-uv-clear",
+    "ingredients": [
+      "Zinc Oxide",
+      "Octinoxate",
+      "Niacinamide",
+      "Sodium Hyaluronate",
+      "Tocopheryl Acetate",
+      "Lactic Acid"
+    ],
+    "niacinamide": "Yes",
+    "notes": "Extremely popular for rosacea and acne-prone skin.",
+    "pa": "PA+++",
+    "product": "UV Clear Broad-Spectrum SPF 46",
+    "spf": 46,
+    "type": "hybrid",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "EltaMD",
+    "filters": [
+      {
+        "name": "Zinc Oxide",
+        "category": "mineral (broad-spectrum)"
+      }
+    ],
+    "id": "eltamd-uv-skin-recovery-green-tint",
+    "ingredients": [
+      "Water",
+      "Dimethicone",
+      "Butyloctyl Salicylate",
+      "Caprylic/Capric Triglyceride",
+      "Ethylhexyl Methoxycrylene",
+      "Octyldodecyl Neopentanoate",
+      "Taurine",
+      "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
+      "Butylene Glycol",
+      "Phenoxyethanol",
+      "Cetearyl Alcohol",
+      "Arginine",
+      "Triethoxycaprylylsilane",
+      "Oleth-3 Phosphate",
+      "Oleth-20",
+      "Coco-Glucoside",
+      "Polyisobutene",
+      "Polyhydroxystearic Acid",
+      "PEG-7 Trimethylolpropane Coconut Ether",
+      "Salicyloyl Phytosphingosine",
+      "Tocopheryl Acetate",
+      "Glycerin",
+      "Tocopherol",
+      "Ethylhexylglycerin",
+      "Pongamia Pinnata Seed Extract",
+      "Glycine",
+      "Lactic Acid",
+      "Polyglyceryl-10 Stearate",
+      "Centella Asiatica Leaf Extract",
+      "Triethyl Citrate",
+      "Polyglyceryl-6 Behenate",
+      "Behenic Acid",
+      "Ceramide NP",
+      "Cholesterol",
+      "Glyceryl Stearate",
+      "Ceramide NS",
+      "Ceramide EOP",
+      "Ceramide AP",
+      "Sodium Cetearyl Sulfate",
+      "Yellow 5",
+      "Blue 1"
+    ],
+    "niacinamide": "No",
+    "notes": "Mineral-only zinc oxide formula with green tint for neutralizing redness. Strong barrier support; excellent for rosacea.",
+    "pa": "PA++++",
+    "product": "UV Skin Recovery Color Correcting Green Tint Broad Spectrum SPF 50",
+    "spf": 50,
+    "type": "mineral",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "EltaMD",
+    "filters": [],
+    "id": "eltamd-uv-skin-recovery-red-correcting-green-tint",
+    "ingredients": [
+      "Water",
+      "Dimethicone",
+      "Butyloctyl Salicylate",
+      "Caprylic/Capric Triglyceride",
+      "Ethylhexyl Methoxycrylene",
+      "Octyldodecyl Neopentanoate",
+      "Taurine",
+      "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
+      "Butylene Glycol",
+      "Phenoxyethanol",
+      "Cetearyl Alcohol",
+      "Arginine",
+      "Triethoxycaprylylsilane",
+      "Oleth-3 Phosphate",
+      "Oleth-20",
+      "Coco-Glucoside",
+      "Polyisobutene",
+      "Polyhydroxystearic Acid",
+      "PEG-7 Trimethylolpropane Coconut Ether",
+      "Salicyloyl Phytosphingosine",
+      "Tocopheryl Acetate",
+      "Glycerin",
+      "Tocopherol",
+      "Ethylhexylglycerin",
+      "Pongamia Pinnata Seed Extract",
+      "Glycine",
+      "Lactic Acid",
+      "Polyglyceryl-10 Stearate",
+      "Centella Asiatica Leaf Extract",
+      "Triethyl Citrate",
+      "Polyglyceryl-6 Behenate",
+      "Behenic Acid",
+      "Ceramide NP",
+      "Cholesterol",
+      "Glyceryl Stearate",
+      "Ceramide NS",
+      "Ceramide EOP",
+      "Ceramide AP",
+      "Sodium Cetearyl Sulfate",
+      "Yellow 5",
+      "Blue 1."
+    ],
+    "niacinamide": "No",
+    "notes": "",
+    "pa": null,
+    "product": "EltaMD UV Skin Recovery Red Correcting Green Tint",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Goodal",
+    "filters": [
+      {
         "name": "Ethylhexyl Triazone",
         "category": "UVB"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "UVA"
       },
       {
         "name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
@@ -458,50 +603,23 @@
         "category": "UVB"
       }
     ],
-    "barrier_support": "3",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 1,
-        "flushing": 2,
-        "barrier": 3
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
+    "id": "goodal-heartleaf-calming-moisture-sun-cream",
     "ingredients": [
       "Water",
       "Dibutyl Adipate",
       "Propanediol",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
       "Polymethylsilsesquioxane",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
       "Ethylhexyl Triazone",
-      "Niacinamide",
-      "Methylene Bis-benzotriazolyl Tetramethylbutylphenol",
+      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
       "Coco-Caprylate/Caprate",
-      "Caprylyl Methicone",
       "Diethylhexyl Butamido Triazone",
-      "Glycerin",
       "Butylene Glycol",
+      "Glycerin",
       "1,2-Hexanediol",
+      "Caprylyl Methicone",
+      "Houttuynia Cordata Extract",
       "Pentylene Glycol",
-      "Centella Asiatica Extract",
-      "Salvia Hispanica Seed Extract",
-      "Anastatica Hierochuntica Extract",
-      "Solanum Melongena (Eggplant) Fruit Extract",
-      "Lonicera Japonica Flower Extract",
-      "Forsythia Suspensa Fruit Extract",
-      "Angelica Gigas Root Extract",
-      "Cnidium Officinale Root Extract",
-      "Gardenia Jasminoides Fruit Extract",
-      "Coptis Japonica Root Extract",
-      "Glycyrrhiza Uralensis Root Extract",
       "Behenyl Alcohol",
       "Poly C10-30 Alkyl Acrylate",
       "Polyglyceryl-3 Methylglucose Distearate",
@@ -512,28 +630,632 @@
       "Sodium Stearoyl Glutamate",
       "Polyacrylate Crosspolymer-6",
       "Ethylhexylglycerin",
-      "Adenosine",
       "Xanthan Gum",
       "t-Butyl Alcohol",
       "Tocopherol"
     ],
-    "notes": "Botanical-heavy chemical sunscreen with centella, niacinamide, licorice, and soothing extracts. Great formula but may be too botanical for hypersensitive rosacea.",
-    "hazard_score": 1
+    "niacinamide": "No",
+    "notes": "Gentle chemical sunscreen with heartleaf extract; typically well-tolerated for sensitive and barrier-compromised skin.",
+    "pa": "PA++++",
+    "product": "Heartleaf Calming Moisture Sun Cream",
+    "spf": 50,
+    "type": "chemical",
+    "water_resistant": "none"
   },
   {
-    "id": "iunik-centella-calming-daily-sunscreen",
-    "brand": "iUNIK",
-    "product": "Centella Calming Daily Sunscreen",
+    "brand": "Haruharu",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      },
+      {
+        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+        "category": "chemical"
+      },
+      {
+        "name": "Terephthalylidene Dicamphor Sulfonic Acid",
+        "category": "chemical"
+      }
+    ],
+    "id": "haruharu-airyfit-sunscreen",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Propanediol",
+      "Butyloctyl Salicylate",
+      "Ethylhexyl Triazone",
+      "Terephthalylidene Dicamphor Sulfonic Acid",
+      "Glycerin",
+      "Niacinamide",
+      "Tromethamine",
+      "Polyglyceryl-3 Distearate",
+      "1",
+      "2-Hexanediol",
+      "Pentelyne Glycol",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Cetearyl Alcohol",
+      "Caprylyl Methicone",
+      "Polysilicone-15",
+      "Stellaria Media (Chickweed) Extract",
+      "Helianthus Annuus (Sunflower) Flower Extract",
+      "Vaccinium Vitis-Idaea Fruit Extract",
+      "Oryza Sativa (Rice) Extract",
+      "Bellis Perennis (Daisy) Flower Extract",
+      "Houttuynia Cordata Extract",
+      "Oryza Sativa (Rice) Bran Oil",
+      "Hydrogenated Lecithin",
+      "Polymethylsilsesquioxane",
+      "Palmitic Acid",
+      "Butylene Glycol",
+      "Stearic Acid",
+      "Glyceryl Stearate",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "Potassium Cetyl Phosphate",
+      "Poly C10-30 Alkyl Acrylate",
+      "Methylpropanediol",
+      "Carbomer",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Glyceryl Stearate Citrate",
+      "Ethylhexylglycerin",
+      "Adenosine",
+      "Polyether-1",
+      "Myristic Acid",
+      "Biosaccharide Gum-1",
+      "Tocopherol",
+      "Moringa Oleifera Seed Oil",
+      "Ceramide NP",
+      "Phytosphingosine",
+      "Phenethyl Alcohol",
+      "Sodium Chloride",
+      "Disodium Phosphate",
+      "Potassium Chloride",
+      "Potassium Phosphate"
+    ],
     "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "Haruharu Airyfit Sunscreen",
+    "spf": null,
     "type": "chemical",
-    "spf": 50,
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Haruharu Wonder",
+    "filters": [
+      {
+        "name": "Zinc Oxide",
+        "category": "broad-spectrum"
+      }
+    ],
+    "id": "haruharu-black-rice-pure-mineral",
+    "ingredients": [
+      "Water",
+      "Zinc Oxide",
+      "Cyclohexasiloxane",
+      "Butyloctyl Salicylate",
+      "Niacinamide",
+      "Rice Extract",
+      "Rice Bran Oil",
+      "Ceramide NP",
+      "Phytosphingosine",
+      "Houttuynia Cordata Extract",
+      "Sunflower Flower Extract"
+    ],
+    "niacinamide": "Yes",
+    "notes": "Mineral sunscreen with ceramides and rice extracts; high barrier support.",
     "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "natural-hydrating",
-    "white_cast": 0,
-    "country": "Korea",
-    "fragrance": "none",
+    "product": "Black Rice Pure Mineral Relief Daily",
+    "spf": 50,
+    "type": "mineral",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Haruharu Wonder",
+    "filters": [
+      {
+        "name": "Uvinul T150",
+        "category": "UVB"
+      },
+      {
+        "name": "Mexoryl SX",
+        "category": "UVA"
+      },
+      {
+        "name": "Uvinul A Plus",
+        "category": "UVA"
+      },
+      {
+        "name": "Polysilicone-15",
+        "category": "UVB"
+      },
+      {
+        "name": "Tinosorb S",
+        "category": "broad-spectrum"
+      }
+    ],
+    "id": "haruharu-black-rice-moisture-airyfit",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Propanediol",
+      "Uvinul T150",
+      "Mexoryl SX",
+      "Niacinamide",
+      "Rice Extract",
+      "Rice Bran Oil",
+      "Ceramide NP",
+      "Phytosphingosine",
+      "Plant Extracts"
+    ],
+    "niacinamide": "Yes",
+    "notes": "Hydrating chemical sunscreen with ceramides and botanicals.",
+    "pa": "PA++++",
+    "product": "Black Rice Moisture Airyfit Sunscreen",
+    "spf": 50,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Hera",
+    "filters": [
+      {
+        "name": "Uvinul T150",
+        "category": "UVB"
+      },
+      {
+        "name": "Mexoryl SX",
+        "category": "UVA"
+      },
+      {
+        "name": "Uvinul A Plus",
+        "category": "UVA"
+      },
+      {
+        "name": "Polysilicone-15",
+        "category": "UVB"
+      },
+      {
+        "name": "Tinosorb S",
+        "category": "broad-spectrum"
+      }
+    ],
+    "id": "hera-multi-defense-fresh",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Propanediol",
+      "Ethylhexyl Triazone",
+      "Terephthalylidene Dicamphor Sulfonic Acid",
+      "Niacinamide",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Polysilicone-15",
+      "Tinosorb S",
+      "Fragrance",
+      "Various Plant Extracts"
+    ],
+    "niacinamide": "Yes",
+    "notes": "Luxurious fragranced sunscreen; elegant texture but not rosacea-safe.",
+    "pa": "PA++++",
+    "product": "UV Protector Multi-Defense Fresh",
+    "spf": 50,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Hera",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      },
+      {
+        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+        "category": "chemical"
+      },
+      {
+        "name": "Terephthalylidene Dicamphor Sulfonic Acid",
+        "category": "chemical"
+      }
+    ],
+    "id": "hera-uv-protector-multi-defense-fresh",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Propanediol",
+      "Ethylhexyl Triazone",
+      "Terephthalylidene Dicamphor Sulfonic Acid",
+      "Arginine",
+      "Niacinamide",
+      "Polyglyceryl-3 Distearate",
+      "1",
+      "2-Hexanediol",
+      "Pentelyne Glycol",
+      "Cetearyl Alcohol",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Polysilicone-15",
+      "Glycerin",
+      "Caprylyl Methicone",
+      "Polymethylsilsesquioxane",
+      "Glyceryl Stearate",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "Potassium Cetyl Phosphate",
+      "Methylpropanediol",
+      "Sodium Acrylates Crosspolymer-2",
+      "Inulin Lauryl Carbamate",
+      "Carbomer",
+      "Fragrance",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Glyceryl Stearate Citrate",
+      "Sphingomonas Ferment Extract",
+      "Ethylhexylglycerin",
+      "Adenosine",
+      "Polyether-1",
+      "Butylene Glycol",
+      "Tocopheryl Acetate",
+      "Ethylhexyl Palmitate",
+      "Paeonia Suffruticosa Extract",
+      "Paeonia Lactiflora Root Extract",
+      "Biosaccharide Gum-1",
+      "Disodium EDTA",
+      "Saccharomyces Ferment Filtrate."
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "Hera UV Protector Multi-Defense Fresh",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Hours of Hur",
+    "filters": [
+      {
+        "name": "Uvinul T150",
+        "category": "UVB"
+      },
+      {
+        "name": "Mexoryl SX",
+        "category": "UVA"
+      },
+      {
+        "name": "Uvinul A Plus",
+        "category": "UVA"
+      },
+      {
+        "name": "Polysilicone-15",
+        "category": "UVB"
+      },
+      {
+        "name": "Tinosorb S",
+        "category": "broad-spectrum"
+      }
+    ],
+    "id": "hours-of-hur-weightless",
+    "ingredients": [
+      "Citrus Junos Fruit Extract",
+      "Honey Extract",
+      "Ethylhexyl Triazone",
+      "Terephthalylidene Dicamphor Sulfonic Acid",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Polysilicone-15",
+      "Tinosorb S"
+    ],
+    "niacinamide": "No",
+    "notes": "Lightweight chemical sunscreen; citrus extract makes it less rosacea-friendly.",
+    "pa": "PA++++",
+    "product": "Weightless Sun Fluid",
+    "spf": 50,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "House",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      },
+      {
+        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+        "category": "chemical"
+      },
+      {
+        "name": "Terephthalylidene Dicamphor Sulfonic Acid",
+        "category": "chemical"
+      }
+    ],
+    "id": "house-of-hur-weightless-sun-fluid",
+    "ingredients": [
+      "Citrus Junos Fruit Extract",
+      "Water",
+      "Honey Extract",
+      "Dibutyl Adipate",
+      "Ethylhexyl Triazone",
+      "Terephthalylidene Dicamphor Sulfonic Acid",
+      "Silica",
+      "Butylene Glycol",
+      "Methylpropanediol",
+      "Tromethamine",
+      "Polyglyceryl-3 Distearate",
+      "1",
+      "2-Hexanediol",
+      "Caprylyl Methicone",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Polysilicone-15",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Potassium Cetyl Phosphate",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "Glyceryl Stearate",
+      "Pentelyne Glycol",
+      "Polyacrylate Crosspolymer-6",
+      "Hydroxyacetophenone",
+      "Polyether-1",
+      "Glyceryl Stearate Citrate",
+      "Ethylhexylglycerin",
+      "Disodium EDTA."
+    ],
+    "niacinamide": "No",
+    "notes": "",
+    "pa": null,
+    "product": "House of Hur Weightless Sun Fluid",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Ingu",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      },
+      {
+        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+        "category": "chemical"
+      },
+      {
+        "name": "Butyl Methoxydibenzoylmethane",
+        "category": "chemical"
+      },
+      {
+        "name": "Titanium Dioxide",
+        "category": "mineral"
+      }
+    ],
+    "id": "ingu-super-light-soothing-sunscreen",
+    "ingredients": [
+      "Deionized Water",
+      "Dibutyl Adipate",
+      "Propylene Glycol",
+      "Dimethicone",
+      "Octyl Salicylate",
+      "Butyl Methoxydibenzoylmethane",
+      "Ethylhexyl triazone",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "Isododecane",
+      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+      "Cyclopentasiloxane",
+      "Potassium Cetyl Phosphate",
+      "Titanium Dioxide",
+      "Steareth-2",
+      "Steareth-21",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Alpha-Glucan Oligosaccharide",
+      "PEG-10 Dimethicone",
+      "Decyl Glucoside",
+      "Methylpropanediol",
+      "Glyceryl Stearate SE",
+      "PEG-100 Stearate",
+      "Xanthan Gum",
+      "Xylitylglucoside",
+      "Alumina",
+      "Caprylyl Glycol",
+      "Anhydroxylitol",
+      "Polyquaternium-80",
+      "Xylitol",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Disodium EDTA",
+      "Methicone",
+      "Didecyldimonium Chloride",
+      "Glucose",
+      "Melanin",
+      "Tocopheryl Acetate",
+      "Dipropylene Glycol",
+      "Pentylene Glycol",
+      "Polysorbate 80",
+      "Asiaticoside",
+      "Madecassic acid",
+      "Asiatic acid",
+      "Ethylhexylglycerin",
+      "Sodium Benzoate",
+      "Cholesterol"
+    ],
+    "niacinamide": "No",
+    "notes": "",
+    "pa": null,
+    "product": "Ingu Super Light Soothing Sunscreen",
+    "spf": null,
+    "type": "hybrid",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Innbeauty",
+    "filters": [
+      {
+        "name": "Zinc Oxide",
+        "category": "mineral"
+      },
+      {
+        "name": "Titanium Dioxide",
+        "category": "mineral"
+      }
+    ],
+    "id": "innbeauty-project-mineral-sun-flow-spf-43",
+    "ingredients": [
+      "Zinc Oxide 14.2%",
+      "Water",
+      "Caprylic/Capric Triglyceride",
+      "Propanediol",
+      "Coco-Caprylate/Caprate",
+      "Pentaerythrityl Tetraisostearate",
+      "Dimethicone",
+      "Butyloctyl Salicylate",
+      "Cetearyl Olivate",
+      "Cetyl Alcohol",
+      "Glycerin/Sebacic Acid Copolymer",
+      "Palmitoyl Tripeptide-5",
+      "Palmitoyl Tripeptide-1",
+      "Palmitoyl Tetrapeptide-7",
+      "Tetrahexyldecyl Ascorbate",
+      "Oryza Sativa (Rice) Extract",
+      "Oryza Sativa (Rice) Germ Extract",
+      "Niacinamide",
+      "Superoxide Dismutase",
+      "Resveratrol",
+      "Bisabolol",
+      "Allantoin",
+      "Rhodomyrtus Tomentosa Fruit Extract",
+      "Pongamia Pinnata Seed Extract",
+      "Leuconostoc/Radish Root Ferment Filtrate",
+      "Polygonum Aviculare Extract",
+      "Glycerin",
+      "Butylene Glycol",
+      "Sorbitol",
+      "Sodium Lactate",
+      "Serine",
+      "Urea",
+      "1",
+      "2-Hexanediol",
+      "VP/Eicosene Copolymer",
+      "Polyglyceryl-3 Polyricinoleate",
+      "Lecithin",
+      "Polyhydroxystearic Acid",
+      "Isostearic Acid",
+      "C12-15 Alkyl Benzoate",
+      "Polyacrylate Crosspolymer-6",
+      "Xanthan Gum",
+      "Ethylene/Propylene/Styrene Copolymer",
+      "Polyglyceryl-3 Diisostearate",
+      "Pentylene Glycol",
+      "Polysilicone-11",
+      "Caprylhydroxamic Acid",
+      "Sodium Phytate",
+      "Polyglyceryl-3 Lauate/Laurate",
+      "Lactic Acid",
+      "Palmitic Acid",
+      "Butylene/Ethylene/Styrene Copolymer",
+      "Sodium Chloride",
+      "Hydroxyacetophenone",
+      "Tetra-di-t-butyl Hydroxyhydrocinnamate",
+      "Sorbitan Laurate",
+      "C18-36 Acid Triglyceride. May contain +/-: Mica CI 77019",
+      "Titanium Dioxide CI 77891",
+      "Iron Oxides CI 77498",
+      "Iron Oxides CI 77491",
+      "Iron Oxides CI 77499."
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "Innbeauty Project Mineral Sun Flow SPF 43",
+    "spf": null,
+    "type": "mineral",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Innisfree",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      },
+      {
+        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+        "category": "chemical"
+      }
+    ],
+    "id": "innisfree-green-tea-hyaluronic-sunscreen",
+    "ingredients": [
+      "Water",
+      "Diisopropyl Sebacate",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "Propanediol",
+      "Alcohol",
+      "C12-15 Alkyl Benzoate",
+      "Phenethyl Benzoate",
+      "Ethylhexyl Triazone",
+      "Niacinamide",
+      "Methylpropanediol",
+      "Silica",
+      "Lauryl Lactate",
+      "Isoamyl p-Methoxycinnamate",
+      "Polysilicone-15",
+      "Camellia Sinensis Leaf Extract",
+      "Artemisia Princeps Leaf Extract",
+      "Prunus Mume Fruit Extract",
+      "Aloe Barbadensis Leaf Extract",
+      "Sphingomonas Ferment Extract",
+      "Cyananchum Atratum Extract",
+      "Althaea Rosea Flower Extract",
+      "Nelumbo Nucifera Flower Extract",
+      "Tocopherol",
+      "Glycerin",
+      "Pentylene Glycol",
+      "Butylene Glycol",
+      "Lactic Acid",
+      "Citric Acid",
+      "Cellulose Gum",
+      "Xanthan Gum",
+      "Microcrystalline Cellulose",
+      "Ethylhexylglycerin",
+      "Dibutyl Ethylhexanoyl Glutamide",
+      "Dibutyl Lauroyl Glutamide",
+      "Dimethyl Capramide",
+      "Carbomer",
+      "1",
+      "2-Hexanediol",
+      "Tromethamine",
+      "Hydroxyacetophenone",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Sodium Polyacryloyldimethyl Taurate",
+      "Polyacrylate Crosspolymer-6",
+      "Sodium Acrylates Crosspolymer-2",
+      "C30-45 Alkyl Dimethylsilyl Polypropylene/silsesquioxane"
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "Innisfree Green Tea Hyaluronic Sunscreen",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "iUNIK",
     "filters": [
       {
         "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
@@ -548,23 +1270,7 @@
         "category": "broad-spectrum"
       }
     ],
-    "barrier_support": "4",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 1,
-        "flushing": 2,
-        "barrier": 3
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
+    "id": "iunik-centella-calming-daily-sunscreen",
     "ingredients": [
       "Centella Asiatica Extract",
       "Water",
@@ -601,46 +1307,310 @@
       "Tromethamine",
       "Disodium EDTA"
     ],
+    "niacinamide": "Yes",
     "notes": "Very gentle daily chemical sunscreen with Centella, beta-glucan, allantoin, and licorice extract. Rosacea safe for most.",
-    "hazard_score": 1
+    "pa": "PA++++",
+    "product": "Centella Calming Daily Sunscreen",
+    "spf": 50,
+    "type": "chemical",
+    "water_resistant": "none"
   },
   {
-    "id": "lightsaver-shade0",
-    "brand": "Lightsaver",
-    "product": "Shade 0 Activated Non-Tinted Mineral Face Sunscreen",
+    "brand": "iUNIK",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      }
+    ],
+    "id": "iunik-centella-calming-daily-sunscreen",
+    "ingredients": [
+      "Centella Asiatica Extract(49%)",
+      "Water",
+      "Dibutyl Adipate",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Ethylhexyl Triazone",
+      "Glycerin",
+      "Niacinamide",
+      "Polymethyl Methacrylate",
+      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+      "Polysilicone-15",
+      "1",
+      "2-Hexanediol",
+      "Beta-Glucan",
+      "Allantoin",
+      "Butylene Glycol",
+      "Pentelyne Glycol",
+      "Arachidyl Alcohol",
+      "Sodium Stearoyl Glutamate",
+      "Polyglyceryl-3 Methylglucose Distearate",
+      "Sorbitan Sesquioleate",
+      "Behenyl Alcohol",
+      "Decyl Glucoside",
+      "Caprylyl Glycol",
+      "Arachidyl Glucoside",
+      "Hydroxyacetophenone",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Carbomer",
+      "Polyacrylate Crosspolymer-6",
+      "Adenosine",
+      "Dipotassium Glycyrrhizate",
+      "Glucose",
+      "t-Butyl Alcohol",
+      "Xanthan Gum",
+      "Tromethamine",
+      "Disodium EDTA."
+    ],
     "niacinamide": "Yes",
-    "type": "mineral",
-    "spf": 33,
-    "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "natural",
-    "white_cast": 1,
-    "country": "USA",
-    "fragrance": "none",
+    "notes": "",
+    "pa": null,
+    "product": "iUNIK Centella Calming Daily Sunscreen",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "iUNIK",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      },
+      {
+        "name": "Terephthalylidene Dicamphor Sulfonic Acid",
+        "category": "chemical"
+      },
+      {
+        "name": "Drometrizole Trisiloxane",
+        "category": "chemical"
+      }
+    ],
+    "id": "iunik-beta-glucan-barrier-sunscreen",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "2",
+      "3-Butanediol",
+      "Ethylhexyl Triazone",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Drometrizole Trisiloxane",
+      "Terephthalylidene Dicamphor Sulfonic Acid",
+      "1",
+      "2-Hexanediol",
+      "Butyloctyl Salicylate",
+      "Behenyl Alcohol",
+      "Tromethamine",
+      "Diethylhexyl Butamido Triazine",
+      "Diisopropyl Sebacate",
+      "Vinyl Dimethicone",
+      "Arachidyl Alcohol",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Methyl Methacrylate Crosspolymer",
+      "Caprylyl Methicone",
+      "Batyl Alcohol",
+      "Stearic Acid",
+      "Sodium Polyacryloyldimethyl Taurate",
+      "Arachidyl Glucoside",
+      "Polyacrylate Crosspolymer-6",
+      "Stearyl Alcohol",
+      "Allantoin",
+      "Ethylhexylglycerin",
+      "Panthenol",
+      "Lecithin",
+      "Caprylic/Capric Triglyceride",
+      "Microcrystalline Cellulose",
+      "Cellulose Gum",
+      "Glucose",
+      "Butylene Glycol",
+      "Propanediol",
+      "Beta-Glucan (1",
+      "000 ppb)",
+      "Maltodextrin",
+      "Chlorella Ferment",
+      "Lactobacillus Ferment",
+      "Panax Ginseng Extract",
+      "Sodium Benzoate",
+      "Glyceryl Caprylate",
+      "Acetyl Hexapeptide-8."
+    ],
+    "niacinamide": "No",
+    "notes": "",
+    "pa": null,
+    "product": "iUNIK Beta-Glucan Barrier Sunscreen",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Joudeness",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      },
+      {
+        "name": "Terephthalylidene Dicamphor Sulfonic Acid",
+        "category": "chemical"
+      },
+      {
+        "name": "Drometrizole Trisiloxane",
+        "category": "chemical"
+      }
+    ],
+    "id": "joudeness-sunscreen",
+    "ingredients": [
+      "Water",
+      "Diethylhexyl Succinate",
+      "Propanediol",
+      "Drometrizole Trisiloxane",
+      "Ethylhexyl Triazone",
+      "Niacinamide",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Terephthalylidene Dicamphor Sulfonic Acid",
+      "1",
+      "2-Hexanediol",
+      "Behenyl Alcohol",
+      "Tromethamine",
+      "Sodium Polyacryloyldimethyl Taurate",
+      "Phenyl Trimethicone",
+      "Caprylyl Methicone",
+      "Polyacrylate Crosspolymer-6",
+      "Arachidyl Alcohol",
+      "Hyaluronic Acid (2",
+      "202 ppm)",
+      "Potassium Cetyl Phosphate",
+      "Butylene Glycol",
+      "Lactobacillus Ferment Lysate",
+      "Ethylhexylglycerin",
+      "Caprylyl Glycol",
+      "Panthenol",
+      "Adenosine",
+      "Glycerin",
+      "Sodium Hyaluronate(260 ppm)",
+      "Allantoin",
+      "Sodium Metaphosphate",
+      "Madecassoside",
+      "Ceramide NP",
+      "Glyceryl Oleate",
+      "Tocopherol",
+      "Lecithin",
+      "Lauryl Glucoside",
+      "Polyglyceryl-6 Laurate",
+      "Myristyl Glucoside",
+      "Hydrolyzed Hyaluronic Acid(10 ppm)",
+      "Camellia Sinensis Leaf Extract(8 ppm)",
+      "Sodium Hyaluronate Crosspolymer(4 ppm)",
+      "Xanthan Gum",
+      "Sodium Acetylated Hyaluronate(0.2 ppm)",
+      "Acetyl Tetrapeptide-2"
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "Joudeness Sunscreen",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Kopari",
     "filters": [
       {
         "name": "Zinc Oxide",
         "category": "broad-spectrum"
       }
     ],
-    "barrier_support": "5",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 4
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
+    "id": "kopari-pure-protect-stick",
+    "ingredients": [
+      "Zinc Oxide 23.8%",
+      "Sunflower Seed Wax",
+      "Caprylic/Capric Triglyceride",
+      "Dicaprylyl Carbonate",
+      "C12-15 Alkyl Benzoate",
+      "Ethyl Macadamiate",
+      "Shea Butter",
+      "Tocopheryl Acetate",
+      "Jojoba Esters",
+      "Polyhydroxystearic Acid",
+      "Iron Oxides",
+      "Titanium Dioxide"
+    ],
+    "niacinamide": "No",
+    "notes": "Tint stick mineral sunscreen with high visible light protection.",
+    "pa": "PA++++",
+    "product": "Pure Protect Stick SPF 50+",
+    "spf": 50,
+    "type": "mineral",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Kopari",
+    "filters": [
+      {
+        "name": "Zinc Oxide",
+        "category": "mineral"
       }
-    },
+    ],
+    "id": "kopari-pure-protect-mineral-stick-spf-50",
+    "ingredients": [
+      "Zinc Oxide 23.8%",
+      "Helianthus Annuus (Sunflower) Seed Cera/Wax/Cire",
+      "Caprylic/Capric Triglyceride",
+      "Dicaprylyl Carbonate",
+      "Coco-Caprylate",
+      "C12-15 Alkyl Benzoate",
+      "Ethyl Macadamate",
+      "Dipentaerythrityl Hexahydroxystearate/Hexastearate/Hexarosinate",
+      "Octyldodecanol",
+      "Argania Spinosa Kernel Oil",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Tocopheryl Acetate",
+      "Copernicia Cerifera (Carnauba) Wax",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Candelilla Wax",
+      "Canola Oil",
+      "Bisabolol",
+      "Malic Acid",
+      "Citric Acid",
+      "Jojoba Esters",
+      "Behenyl Behennate",
+      "Polyhydroxystearic Acid",
+      "C18-38 Alkyl Hydroxystearoyl Stearate",
+      "Sorbitan Sesquioleate",
+      "Isostearic Acid",
+      "Lecithin",
+      "Polyglyceryl-3 Polyricinoleate",
+      "Iron Oxides (CI 77491/77492)."
+    ],
+    "niacinamide": "No",
+    "notes": "",
+    "pa": null,
+    "product": "Kopari Pure Protect Mineral Stick SPF 50+",
+    "spf": null,
+    "type": "mineral",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Lightsaver",
+    "filters": [
+      {
+        "name": "Zinc Oxide",
+        "category": "broad-spectrum"
+      }
+    ],
+    "id": "lightsaver-shade0",
     "ingredients": [
       "Zinc Oxide 14.2%",
       "Water",
@@ -680,763 +1650,77 @@
       "Titanium Dioxide",
       "Iron Oxides"
     ],
+    "niacinamide": "Yes",
     "notes": "Mineral sunscreen with photolyase; gentle, hydrating, suitable for sensitive skin.",
-    "hazard_score": 4
-  },
-  {
-    "id": "scinic-super-mild-sun-essence",
-    "brand": "Scinic",
-    "product": "Enjoy Super Mild Sun Essence",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": 50,
     "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "natural",
-    "white_cast": 0,
-    "country": "Korea",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Uvinul A Plus",
-        "category": "UVA"
-      },
-      {
-        "name": "Tinosorb S",
-        "category": "broad-spectrum"
-      },
-      {
-        "name": "Polysilicone-15",
-        "category": "UVB"
-      },
-      {
-        "name": "Tinosorb M",
-        "category": "broad-spectrum"
-      },
-      {
-        "name": "Uvinul T150",
-        "category": "UVB"
-      },
-      {
-        "name": "IsNina",
-        "category": "UVB"
-      }
-    ],
-    "barrier_support": "3",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 1,
-        "flushing": 1,
-        "barrier": 3
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Propanediol",
-      "Uvinul A Plus",
-      "Tinosorb S",
-      "Polysilicone-15",
-      "Tinosorb M",
-      "Uvinul T150",
-      "Niacinamide",
-      "IsNina",
-      "Glycerin",
-      "Butylene Glycol",
-      "Green Tea Extract",
-      "Vanilla Extract",
-      "Centella Asiatica Extract",
-      "Bambusa Vulgaris Water",
-      "Adenosine",
-      "Panthenol",
-      "Silica",
-      "Behenyl Alcohol"
-    ],
-    "notes": "Very gentle chemical sunscreen with modern filters and soothing plant extracts.",
-    "hazard_score": null
-  },
-  {
-    "id": "roundlab-1025-dokdo",
-    "brand": "Round Lab",
-    "product": "1025 Dokdo Sunscreen",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "natural-dewy",
-    "white_cast": 0,
-    "country": "Korea",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Uvinul T150",
-        "category": "UVB"
-      },
-      {
-        "name": "Mexoryl SX",
-        "category": "UVA"
-      },
-      {
-        "name": "Uvinul A Plus",
-        "category": "UVA"
-      },
-      {
-        "name": "Polysilicone-15",
-        "category": "UVB"
-      },
-      {
-        "name": "Tinosorb S",
-        "category": "broad-spectrum"
-      }
-    ],
-    "barrier_support": "4",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 1,
-        "flushing": 1,
-        "barrier": 4
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Propanediol",
-      "Ethylhexyl Triazone",
-      "Terephthalylidene Dicamphor Sulfonic Acid",
-      "Niacinamide",
-      "Tromethamine",
-      "Polyglyceryl-3 Distearate",
-      "1,2-Hexanediol",
-      "Pentylene Glycol",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Cetearyl Alcohol",
-      "Caprylyl Methicone",
-      "Polysilicone-15",
-      "Sea Water",
-      "Sodium Hyaluronate",
-      "Hydrolyzed Hyaluronic Acid",
-      "Centella Asiatica Leaf Extract",
-      "Green Tea Extract",
-      "Pine Leaf Extract",
-      "Coffee Seed Extract",
-      "Panthenol",
-      "Allantoin",
-      "Adenosine",
-      "Tinosorb S"
-    ],
-    "notes": "Hydrating, gentle chemical sunscreen with multiple soothing extracts.",
-    "hazard_score": 1
-  },
-  {
-    "id": "kopari-pure-protect-stick",
-    "brand": "Kopari",
-    "product": "Pure Protect Stick SPF 50+",
-    "niacinamide": "No",
+    "product": "Shade 0 Activated Non-Tinted Mineral Face Sunscreen",
+    "spf": 33,
     "type": "mineral",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "high",
-    "water_resistant": "none",
-    "texture_finish": "dewy",
-    "white_cast": 0,
-    "country": "USA",
-    "fragrance": "none",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Lightsaver",
     "filters": [
       {
         "name": "Zinc Oxide",
-        "category": "broad-spectrum"
-      }
-    ],
-    "barrier_support": "5",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 4
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Zinc Oxide 23.8%",
-      "Sunflower Seed Wax",
-      "Caprylic/Capric Triglyceride",
-      "Dicaprylyl Carbonate",
-      "C12-15 Alkyl Benzoate",
-      "Ethyl Macadamiate",
-      "Shea Butter",
-      "Tocopheryl Acetate",
-      "Jojoba Esters",
-      "Polyhydroxystearic Acid",
-      "Iron Oxides",
-      "Titanium Dioxide"
-    ],
-    "notes": "Tint stick mineral sunscreen with high visible light protection.",
-    "hazard_score": 2
-  },
-  {
-    "id": "celimax-heart-pink-toneup",
-    "brand": "Celimax",
-    "product": "Heart Pink Tone-Up Sun Cream",
-    "niacinamide": "Yes",
-    "type": "hybrid",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "high",
-    "water_resistant": "none",
-    "texture_finish": "velvety-matte",
-    "white_cast": 1,
-    "country": "Korea",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Titanium Dioxide",
-        "category": "broad-spectrum"
-      },
-      {
-        "name": "Uvinul A Plus",
-        "category": "UVA"
-      },
-      {
-        "name": "Uvinul T150",
-        "category": "UVB"
-      },
-      {
-        "name": "IsNina",
-        "category": "UVB"
-      }
-    ],
-    "barrier_support": "4",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 1,
-        "flushing": 1,
-        "barrier": 3
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Titanium Dioxide",
-      "Dibutyl Adipate",
-      "Propanediol",
-      "Caprylic/Capric Triglyceride",
-      "Uvinul A Plus",
-      "Uvinul T150",
-      "Niacinamide",
-      "IsNina",
-      "Houttuynia Cordata Extract",
-      "Panthenol",
-      "Dimethicone",
-      "Stearic Acid",
-      "Alumina",
-      "Several Hyaluronic Acids"
-    ],
-    "notes": "Hybrid pink tone-up with strong VL protection and a matte finish.",
-    "hazard_score": 2
-  },
-  {
-    "id": "hera-multi-defense-fresh",
-    "brand": "Hera",
-    "product": "UV Protector Multi-Defense Fresh",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "natural-matte",
-    "white_cast": 0,
-    "country": "Korea",
-    "fragrance": "yes",
-    "filters": [
-      {
-        "name": "Uvinul T150",
-        "category": "UVB"
-      },
-      {
-        "name": "Mexoryl SX",
-        "category": "UVA"
-      },
-      {
-        "name": "Uvinul A Plus",
-        "category": "UVA"
-      },
-      {
-        "name": "Polysilicone-15",
-        "category": "UVB"
-      },
-      {
-        "name": "Tinosorb S",
-        "category": "broad-spectrum"
-      }
-    ],
-    "barrier_support": "3",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 2,
-        "flushing": 3,
-        "barrier": 2
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "yes",
-        "essential_oils": "yes",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Propanediol",
-      "Ethylhexyl Triazone",
-      "Terephthalylidene Dicamphor Sulfonic Acid",
-      "Niacinamide",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Polysilicone-15",
-      "Tinosorb S",
-      "Fragrance",
-      "Various Plant Extracts"
-    ],
-    "notes": "Luxurious fragranced sunscreen; elegant texture but not rosacea-safe.",
-    "hazard_score": 6
-  },
-  {
-    "id": "merit-uniform-mineral",
-    "brand": "Merit",
-    "product": "The Uniform Tinted Mineral SPF45",
-    "niacinamide": "No",
-    "type": "mineral",
-    "spf": 45,
-    "pa": "PA++++",
-    "visible_light_protection": "high",
-    "water_resistant": "none",
-    "texture_finish": "velvety-soft-matte",
-    "white_cast": 0,
-    "country": "USA",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Zinc Oxide",
-        "category": "broad-spectrum"
-      }
-    ],
-    "barrier_support": "4",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 4
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Zinc Oxide 15.065%",
-      "Water",
-      "Propanediol",
-      "C13-15 Alkane",
-      "Butyloctyl Salicylate",
-      "Corn Starch",
-      "Coco-Caprylate",
-      "Polyhydroxystearic Acid",
-      "Magnesium Sulfate",
-      "Tocopherol",
-      "Titanium Dioxide",
-      "Iron Oxides"
-    ],
-    "notes": "Tinted mineral sunscreen with excellent VL protection and blurring finish.",
-    "hazard_score": 2
-  },
-  {
-    "id": "ciele-tint-protect",
-    "brand": "Ciele",
-    "product": "Tint & Protect SPF50+",
-    "niacinamide": "Yes",
-    "type": "mineral",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "high",
-    "water_resistant": "none",
-    "texture_finish": "natural",
-    "white_cast": 0,
-    "country": "USA",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Zinc Oxide",
-        "category": "broad-spectrum"
-      }
-    ],
-    "barrier_support": "4",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 4
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Zinc Oxide 12%",
-      "Water",
-      "C12-15 Alkyl Benzoate",
-      "Titanium Dioxide",
-      "Niacinamide",
-      "Bisabolol",
-      "Allantoin",
-      "Dimethicone",
-      "Iron Oxides",
-      "Mica"
-    ],
-    "notes": "Tinted mineral sunscreen with strong VL protection; very rosacea-friendly.",
-    "hazard_score": 2
-  },
-  {
-    "id": "haruharu-black-rice-pure-mineral",
-    "brand": "Haruharu Wonder",
-    "product": "Black Rice Pure Mineral Relief Daily",
-    "niacinamide": "Yes",
-    "type": "mineral",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "natural-dewy",
-    "white_cast": 2,
-    "country": "Korea",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Zinc Oxide",
-        "category": "broad-spectrum"
-      }
-    ],
-    "barrier_support": "5",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 1,
-        "flushing": 2,
-        "barrier": 4
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "no",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Zinc Oxide",
-      "Cyclohexasiloxane",
-      "Butyloctyl Salicylate",
-      "Niacinamide",
-      "Rice Extract",
-      "Rice Bran Oil",
-      "Ceramide NP",
-      "Phytosphingosine",
-      "Houttuynia Cordata Extract",
-      "Sunflower Flower Extract"
-    ],
-    "notes": "Mineral sunscreen with ceramides and rice extracts; high barrier support.",
-    "hazard_score": 1
-  },
-  {
-    "id": "hours-of-hur-weightless",
-    "brand": "Hours of Hur",
-    "product": "Weightless Sun Fluid",
-    "niacinamide": "No",
-    "type": "chemical",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "natural",
-    "white_cast": 0,
-    "country": "Korea",
-    "fragrance": "yes",
-    "filters": [
-      {
-        "name": "Uvinul T150",
-        "category": "UVB"
-      },
-      {
-        "name": "Mexoryl SX",
-        "category": "UVA"
-      },
-      {
-        "name": "Uvinul A Plus",
-        "category": "UVA"
-      },
-      {
-        "name": "Polysilicone-15",
-        "category": "UVB"
-      },
-      {
-        "name": "Tinosorb S",
-        "category": "broad-spectrum"
-      }
-    ],
-    "barrier_support": "2",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 2,
-        "flushing": 3,
-        "barrier": 2
-      },
-      "acne": {
-        "comedogenicity": 1,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "yes",
-        "essential_oils": "yes",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Citrus Junos Fruit Extract",
-      "Honey Extract",
-      "Ethylhexyl Triazone",
-      "Terephthalylidene Dicamphor Sulfonic Acid",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Polysilicone-15",
-      "Tinosorb S"
-    ],
-    "notes": "Lightweight chemical sunscreen; citrus extract makes it less rosacea-friendly.",
-    "hazard_score": 1
-  },
-  {
-    "id": "haruharu-black-rice-moisture-airyfit",
-    "brand": "Haruharu Wonder",
-    "product": "Black Rice Moisture Airyfit Sunscreen",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": 50,
-    "pa": "PA++++",
-    "visible_light_protection": "low",
-    "water_resistant": "none",
-    "texture_finish": "natural-dewy",
-    "white_cast": 0,
-    "country": "Korea",
-    "fragrance": "maybe",
-    "filters": [
-      {
-        "name": "Uvinul T150",
-        "category": "UVB"
-      },
-      {
-        "name": "Mexoryl SX",
-        "category": "UVA"
-      },
-      {
-        "name": "Uvinul A Plus",
-        "category": "UVA"
-      },
-      {
-        "name": "Polysilicone-15",
-        "category": "UVB"
-      },
-      {
-        "name": "Tinosorb S",
-        "category": "broad-spectrum"
-      }
-    ],
-    "barrier_support": "5",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 1,
-        "flushing": 2,
-        "barrier": 4
-      },
-      "acne": {
-        "comedogenicity": 2,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "maybe",
-        "essential_oils": "no",
-        "surfactant_strength": "low"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Propanediol",
-      "Uvinul T150",
-      "Mexoryl SX",
-      "Niacinamide",
-      "Rice Extract",
-      "Rice Bran Oil",
-      "Ceramide NP",
-      "Phytosphingosine",
-      "Plant Extracts"
-    ],
-    "notes": "Hydrating chemical sunscreen with ceramides and botanicals.",
-    "hazard_score": null
-  },
-  {
-    "id": "uiq-biome-remedy-watery-sun-cream-spf-50+-pa++++",
-    "brand": "UIQ",
-    "product": "UIQ Biome Remedy Watery Sun Cream SPF 50+ PA++++",
-    "niacinamide": "Yes",
-    "type": "hybrid",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "unknown",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-        "category": "chemical"
+        "category": "mineral"
       },
       {
         "name": "Titanium Dioxide",
         "category": "mineral"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "unknown",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
+    "id": "lightsaver-tinted-activated-mineral-face-sunscreen-spf-33",
     "ingredients": [
+      "Zinc Oxide 14.2%",
       "Water",
-      "Dibutyl Adipate",
-      "Butyloctyl Salicylate",
-      "Ethylhexyl Triazone",
-      "Propanediol",
-      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
-      "Methylpropanediol",
+      "Caprylic/Capric Triglyceride",
       "Niacinamide",
-      "Titanium Dioxide (CI 77891)",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "1",
-      "2-Hexanediol",
-      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine"
+      "Butyloctyl Salicylate",
+      "Cetearyl Alcohol",
+      "Glycerin",
+      "Helianthus Annuus (Sunflower) Seed Oil",
+      "Glycol Stearate",
+      "Lecithin",
+      "Isostearic Acid",
+      "Polyglyceryl-3 Polyricinoleate",
+      "Polyhydroxystearic Acid",
+      "Vaccinium Vitis-Idaea Fruit Extract",
+      "Isododecane",
+      "Xanthan Gum",
+      "Polysorbate 80",
+      "Sorbitan Oleate",
+      "Phenoxyethanol",
+      "Jojoba Esters",
+      "Citric Acid",
+      "Gluconolactone",
+      "Plankton Extract",
+      "Alumina",
+      "Sodium Benzoate",
+      "Potassium Sorbate",
+      "Silica",
+      "Calcium Gluconate. May contain +/-: Titanium Dioxide (CI 77891)",
+      "Iron Oxides (CI 77491",
+      "CI 77492",
+      "CI 77499)."
     ],
+    "niacinamide": "Yes",
     "notes": "",
-    "hazard_score": 1
+    "pa": null,
+    "product": "Lightsaver Tinted Activated Mineral Face Sunscreen SPF 33",
+    "spf": null,
+    "type": "mineral",
+    "water_resistant": "none"
   },
   {
-    "id": "ma:nyo-galactomy-niacin-sunscreen",
     "brand": "ma:nyo",
-    "product": "ma:nyo Galactomy Niacin Sunscreen",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "unknown",
     "filters": [
       {
         "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
         "category": "chemical"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "unknown",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
+    "id": "ma:nyo-galactomy-niacin-sunscreen",
     "ingredients": [
       "Water",
       "Galactomyces Ferment Filtrate (10%)",
@@ -1449,128 +1733,16 @@
       "Niacinamide",
       "Polymethyl Methacrylate"
     ],
-    "notes": "",
-    "hazard_score": 1
-  },
-  {
-    "id": "uiq-biome-remedy-watery-sun-cream-spf-50-pa",
-    "brand": "UIQ",
-    "product": "UIQ Biome Remedy Watery Sun Cream SPF 50+ PA++++",
     "niacinamide": "Yes",
-    "type": "hybrid",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-        "category": "chemical"
-      },
-      {
-        "name": "Titanium Dioxide",
-        "category": "mineral"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Butyloctyl Salicylate",
-      "Ethylhexyl Triazone",
-      "Propanediol",
-      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
-      "Methylpropanediol",
-      "Niacinamide",
-      "Titanium Dioxide (CI 77891)",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "1",
-      "2-Hexanediol",
-      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-      "Polyglyceryl-3 Methylglucose Distearate",
-      "Polyglyceryl-3 Distearate",
-      "Coco-Caprylate/Caprate",
-      "Decyl Glucoside",
-      "Polyacrylate Crosspolymer-6",
-      "Cetearyl Alcohol",
-      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
-      "VP/Eicosene Copolymer",
-      "Sodium Polyacryloyldimethyl Taurate",
-      "Chromium Oxide Greens (CI 77288)",
-      "Glycerin",
-      "Ethylhexylglycerin",
-      "Glyceryl Stearate Citrate",
-      "Polyglyceryl-6 Polyhydroxystearate",
-      "Aluminum Hydroxide",
-      "Polyglyceryl-6 Polyricinoleate",
-      "Adenosine",
-      "Triethoxycaprylylsilane",
-      "Iron Oxide Yellow (CI 77492)",
-      "Dipropylene Glycol",
-      "Sodium Stearoyl Glutamate",
-      "Xanthan Gum",
-      "Polyglycerin-6",
-      "Polyglyceryl-10 Oleate",
-      "Cutibacterium Granulosum Ferment Extract Filtrate (0.01%)",
-      "Centella Asiatica Root Extract",
-      "Centella Asiatica Leaf Extract",
-      "Centella Asiatica Extract",
-      "Pentylene Glycol",
-      "Madecassoside",
-      "Butylene Glycol",
-      "Succinic Acid",
-      "Panthenol",
-      "Asiatic Acid",
-      "Madecassic Acid",
-      "Asiaticoside",
-      "Tocopherol",
-      "Ascorbyl Palmitate"
-    ],
     "notes": "",
-    "hazard_score": 1
-  },
-  {
-    "id": "ma-nyo-galactomy-niacin-sunscreen",
-    "brand": "ma:nyo",
+    "pa": null,
     "product": "ma:nyo Galactomy Niacin Sunscreen",
-    "niacinamide": "Yes",
-    "type": "chemical",
     "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "ma:nyo",
     "filters": [
       {
         "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
@@ -1581,23 +1753,7 @@
         "category": "chemical"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
+    "id": "ma-nyo-galactomy-niacin-sunscreen",
     "ingredients": [
       "Water",
       "Galactomyces Ferment Filtrate (10%)",
@@ -1635,46 +1791,23 @@
       "Ascorbyl Tetraisopalmitate",
       "Hydrogenated Lecithin"
     ],
+    "niacinamide": "Yes",
     "notes": "",
-    "hazard_score": 1
+    "pa": null,
+    "product": "ma:nyo Galactomy Niacin Sunscreen",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
   },
   {
-    "id": "ma-nyo-calming-sunscreen",
     "brand": "ma:nyo",
-    "product": "ma:nyo Calming Sunscreen",
-    "niacinamide": "Yes",
-    "type": "mineral",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
     "filters": [
       {
         "name": "Zinc Oxide",
         "category": "mineral"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
+    "id": "ma-nyo-calming-sunscreen",
     "ingredients": [
       "Water",
       "Zinc Oxide",
@@ -1712,23 +1845,16 @@
       "Ethylhexylglycerin",
       "Adenosine"
     ],
+    "niacinamide": "Yes",
     "notes": "",
-    "hazard_score": 1
+    "pa": null,
+    "product": "ma:nyo Calming Sunscreen",
+    "spf": null,
+    "type": "mineral",
+    "water_resistant": "none"
   },
   {
-    "id": "skin1004-probio-cica-glow-sun-ampoule",
-    "brand": "Skin1004",
-    "product": "Skin1004 Probio-Cica Glow Sun Ampoule",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
+    "brand": "ma:nyo",
     "filters": [
       {
         "name": "Ethylhexyl Triazone",
@@ -1743,33 +1869,17 @@
         "category": "chemical"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
+    "id": "ma-nyo-hyaluronic-acid-sunscreen",
     "ingredients": [
       "Water",
       "Dibutyl Adipate",
       "Propanediol",
       "Ethylhexyl Triazone",
+      "Polymethylsilsesquioxane",
       "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
       "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
-      "Drometrizole Trisiloxane",
-      "Niacinamide",
-      "Coco-caprylate/Caprate",
+      "Drometrizole Trisiloxane Niacinamide",
+      "Coco-Caprylate/Caprate",
       "Caprylyl Methicone",
       "Glycerin",
       "1",
@@ -1778,18 +1888,14 @@
       "Pentylene Glycol",
       "Behenyl Alcohol",
       "Poly C10-30 Alkyl Acrylate",
-      "VP/Hexadecene Copolymer",
+      "VP/Eicosene Copolymer",
       "Polyglyceryl-3 Methylglucose Distearate",
       "Decyl Glucoside",
       "Tromethamine",
       "Carbomer",
       "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
       "Sodium Stearoyl Glutamate",
-      "Polysilicone-15",
-      "Centella Asiatica Extract",
-      "Betaine",
-      "Hydroxypropyl Methylcellulose Stearoxy Ether",
-      "Ammonium Polyacryloyldimethyl Taurate",
+      "Polyacrylate Crosspolymer-6",
       "Ethylhexylglycerin",
       "Adenosine",
       "Dioscorea Japonica Root Extract",
@@ -1798,40 +1904,117 @@
       "Laminaria Japonica Extract",
       "Viola Mandshurica Flower Extract",
       "Xanthan Gum",
-      "Hydrolyzed Hyaluronic Acid",
+      "Hydrolyzed Hyaluronic Acid (100 ppm)",
       "Tocopherol",
       "Panthenol",
-      "Squalene",
+      "Squalane",
       "Hydrogenated Lecithin",
+      "Centella Asiatica Extract",
+      "Ficus Carica (Fig) Fruit Extract",
+      "Camellia Sinensis Leaf Extract",
+      "Ginkgo Biloba Leaf Extract",
+      "Triticum Vulgare (Wheat) Sprout Extract",
+      "Camellia Japonica Leaf Extract",
+      "Brassica Oleracea Italica (Broccoli) Sprout Extract",
+      "Medicago Sativa (Alfalfa) Extract",
+      "Eruca Sativa Leaf Extract",
       "Ceramide NP",
-      "Lactobacillus Ferment",
-      "Madecassoside",
-      "Asiaticoside",
-      "Polyglyceryl-10 Myristate",
-      "Phytosphingosine",
-      "Asiatic Acid",
-      "Sucrose Distearate",
-      "Lauric Acid",
-      "Phytosterols"
+      "Hydrangea Macrophylla Leaf Extract",
+      "Bambusa Vulgaris Shoot Extract",
+      "Bambusa Vulgaris Leaf/Stem Extract",
+      "Bambusa Vulgaris Water",
+      "Dimethylsilanol Hyaluronate",
+      "Hydrolyzed Sodium Hyaluronate",
+      "Potassium Hyaluronate",
+      "Hyaluronic Acid",
+      "Sodium Hyaluronate",
+      "Sodium Hyaluronate Crosspolymer",
+      "Hydroxypropyltrimonium Hyaluronate",
+      "Sodium Hyaluronate Dimethylsilanol",
+      "Sodium Acetylated Hyaluronate",
+      "Fragrance"
     ],
+    "niacinamide": "Yes",
     "notes": "",
-    "hazard_score": 1
+    "pa": null,
+    "product": "ma:nyo Hyaluronic Acid Sunscreen",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
   },
   {
-    "id": "the-history-of-whoo-sunscreen",
-    "brand": "The",
-    "product": "The History of Whoo Sunscreen",
-    "niacinamide": "No",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "yes",
+    "brand": "Mary",
     "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      }
+    ],
+    "id": "mary-may-cica-soothing-sun-cream",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Propanediol",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Polymethylsilsesquioxane",
+      "Ethylhexyl Triazone",
+      "Niacinamide",
+      "Methylene Bis-benzotriazolyl",
+      "etramethylbutylphenol",
+      "Coco-caprylate/caprate",
+      "Butylene Glycol",
+      "Caprylyl Methicone",
+      "Diethylhexyl Butamido Triazine",
+      "Glycerin",
+      "1",
+      "2-hexanediol",
+      "Pentelyne Glycol",
+      "Behenyl Alcohol",
+      "Poly C10-30 Alkyl Acrylate",
+      "Polyglyceryl-3 Methylglucose Distearate",
+      "Decyl Glucoside",
+      "Tromethamine",
+      "Fragrance",
+      "Carbomer",
+      "Acrylates/c10-30 Alkyl Acrylate Crosspolymer",
+      "Sodium Stearoyl Glutamate",
+      "Polyacrylate Crosspolymer-6",
+      "Ethylhexylglycerin",
+      "Adenosine",
+      "Xanthan Gum",
+      "Centella Asiatica Root Extract",
+      "Centella Asiatica Leaf Extract",
+      "Centella Asiatica Extract",
+      "Saccharomyces Ferment",
+      "T-butyl Alcohol",
+      "Tocopherol",
+      "Asiaticoside",
+      "Madecassoside",
+      "Betaine",
+      "Inositol",
+      "Madecassic Acid",
+      "Sodium Hyaluronate",
+      "Asiatic Acid."
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "Mary & May Cica Soothing Sun Cream",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Meisani",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
       {
         "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
         "category": "chemical"
@@ -1841,115 +2024,309 @@
         "category": "chemical"
       },
       {
-        "name": "Ethylhexyl Salicylate",
+        "name": "Butyl Methoxydibenzoylmethane",
         "category": "chemical"
+      },
+      {
+        "name": "Titanium Dioxide",
+        "category": "mineral"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "yes",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
+    "id": "meisani-luminosi-tea-niacinamide-capsule-sunscreen",
     "ingredients": [
       "Water",
-      "Alcohol Denat.",
-      "Ethylhexyl Methoxycinnamate",
-      "Ethylhexyl Salicylate",
-      "Dipropylene Glycol",
-      "Methyl Methacrylate Crosspolymer",
+      "Dibutyl Adipate",
+      "Propylene Glycol",
+      "Dimethicone",
+      "Octyl Salicylate",
+      "Butyl Methoxydibenzoylmethane",
+      "Ethylhexyl triazone",
       "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-      "Hydrogenated Lecithin",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Isoamyl p-Methoxycinnamate",
-      "Phenylbenzimidazole Sulfonic Acid",
-      "Glycerin",
-      "Polysorbate 20",
-      "Silica",
-      "Angelica Tenuissima Root Extract",
-      "Bupleurum Falcatum Root Extract",
-      "Panax Ginseng Root Extract",
-      "Cnidium Officinale Root Extract",
-      "Platycodon Grandiflorus Root Extract",
-      "Schizonepeta Tenuifolia Extract",
-      "Cornus Officinalis Fruit Extract",
-      "Velvet Extract",
-      "Angelica Acutiloba Root Extract",
-      "Thymus Vulgaris (Thyme) Extract",
-      "Polygonum Multiflorum Root Extract",
-      "Asparagus Cochinchinensis Root Extract",
-      "Polygonatum Officinale Rhizome/Root Extract",
-      "Nelumbo Nucifera Germ Extract",
-      "Panax Ginseng Root Extract",
-      "Tocopherol",
-      "Ophiopogon Japonicus Root Extract",
-      "Rehmannia Chinensis Root Extract",
-      "Nelumbo Nucifera Extract",
-      "Nelumbo Nucifera Root Extract",
-      "Poria Cocos Sclerotium Extract",
-      "Achyranthes Bidentata Root Extract",
-      "Allium Tuberousum Seed Extract",
-      "Angelica Gigas Root Extract",
-      "Epimedium Koreanum Extract",
-      "Eucommia Ulmoides Bark Extract",
-      "Lycium Chinense Fruit Extract",
-      "Polygala Tenuifolia Root Extract",
-      "Tribulus Terrestris Fruit Extract",
-      "Tromethamine",
-      "PEG-10 Rapeseed Sterol",
-      "Polyacrylate Crosspolymer-6",
-      "Butylene Glycol",
-      "Polyisobutene",
-      "Phytosteryl/Octyldodecyl Lauroyl Glutamate",
-      "Stearic Acid",
-      "Behenic Acid",
-      "Myristic Acid",
-      "Sorbitol",
-      "Lecithin",
-      "Polysorbate 80",
-      "t-Butyl Alcohol",
-      "1",
-      "2-Hexanediol",
-      "Caprylic/Capric Triglyceride",
+      "Isododecane",
+      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+      "Cyclopentasiloxane",
+      "Potassium Cetyl Phosphate",
+      "Titanium Dioxide",
+      "Steareth-2",
+      "Steareth-21",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "Alpha-Glucan Oligosaccharide",
+      "PEG-10 Dimethicone",
+      "Decyl Glucoside",
+      "Methylpropanediol",
+      "Glyceryl Stearate SE",
+      "PEG-100 Stearate",
       "Xanthan Gum",
-      "Fragrance",
-      "Alpha-Isomethyl Ionone",
-      "Benzyl Benzoate",
-      "Citral",
-      "Citronellol",
-      "Geraniol",
-      "Hydroxycitronellal",
-      "Limonene",
-      "Linalool"
+      "Xylitylglucoside",
+      "Alumina",
+      "Caprylyl Glycol",
+      "Anhydroxylitol",
+      "Polyquaternium-80",
+      "Xylitol",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Disodium EDTA",
+      "Methicone",
+      "Didecyldimonium Chloride",
+      "Glucose",
+      "Melanin",
+      "Tocopheryl Acetate",
+      "Dipropylene Glycol",
+      "Pentylene Glycol",
+      "Polysorbate 80",
+      "Asiaticoside",
+      "Madecassic acid",
+      "Asiatic acid",
+      "Ethylhexylglycerin",
+      "Sodium Benzoate",
+      "Cholesterol"
     ],
+    "niacinamide": "No",
     "notes": "",
-    "hazard_score": 6
+    "pa": null,
+    "product": "Meisani Luminosi-tea Niacinamide Capsule Sunscreen",
+    "spf": null,
+    "type": "hybrid",
+    "water_resistant": "none"
   },
   {
-    "id": "perfect-one-sunscreen",
-    "brand": "Perfect",
-    "product": "Perfect One Sunscreen",
+    "brand": "Merit",
+    "filters": [
+      {
+        "name": "Zinc Oxide",
+        "category": "broad-spectrum"
+      }
+    ],
+    "id": "merit-uniform-mineral",
+    "ingredients": [
+      "Zinc Oxide 15.065%",
+      "Water",
+      "Propanediol",
+      "C13-15 Alkane",
+      "Butyloctyl Salicylate",
+      "Corn Starch",
+      "Coco-Caprylate",
+      "Polyhydroxystearic Acid",
+      "Magnesium Sulfate",
+      "Tocopherol",
+      "Titanium Dioxide",
+      "Iron Oxides"
+    ],
     "niacinamide": "No",
-    "type": "hybrid",
-    "spf": null,
+    "notes": "Tinted mineral sunscreen with excellent VL protection and blurring finish.",
+    "pa": "PA++++",
+    "product": "The Uniform Tinted Mineral SPF45",
+    "spf": 45,
+    "type": "mineral",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Merit",
+    "filters": [],
+    "id": "merit-the-uniform-tinted-mineral-spf-45",
+    "ingredients": [
+      "Water",
+      "Propanediol",
+      "C13-15 Alkane",
+      "Isoamyl Laurate",
+      "Butyloctyl Salicylate",
+      "Zea Mays (Corn) Starch",
+      "Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate",
+      "C15-19 Alkane",
+      "Coco-Caprylate",
+      "Polyhydroxystearic Acid",
+      "Magnesium Sulfate",
+      "Diglycerin",
+      "Caprylic/Capric Triglyceride",
+      "Quaternium-90 Bentonite",
+      "Hydroxyacetophenone",
+      "Disteardimonium Hectorite",
+      "Lauryl Lysine",
+      "Triethyl Citrate",
+      "Caprylyl Glycol",
+      "Tocopheryl Acetate",
+      "Sorbitan Isostearate",
+      "Cellulose",
+      "Ethylhexylglycerin",
+      "Polyacrylate Crosspolymer-6",
+      "Sodium Acrylates Crosspolymer-2",
+      "Iron Oxides."
+    ],
+    "niacinamide": "No",
+    "notes": "",
     "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
+    "product": "Merit The Uniform (Tinted Mineral SPF 45)",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Milky",
+    "filters": [
+      {
+        "name": "Butyl Methoxydibenzoylmethane",
+        "category": "chemical"
+      },
+      {
+        "name": "Ethylhexyl Salicylate",
+        "category": "chemical"
+      },
+      {
+        "name": "Titanium Dioxide",
+        "category": "mineral"
+      }
+    ],
+    "id": "milky-piggy-sun-cream",
+    "ingredients": [
+      "Water",
+      "ethylhexyl methoxycinnamate",
+      "ethylhexyl salicylate",
+      "cyclopentasiloxane",
+      "titanium dioxide",
+      "butylene glycol",
+      "butyloctyl salicylate",
+      "cyclohexasiloxane",
+      "niacinamide",
+      "methyl methacrylate crosspolymer",
+      "ethylhexyl methoxycrylene",
+      "butyl methoxydibenzoylmethane",
+      "cetyl peg/ppg-10/1 dimethicone",
+      "triethylhexanoin",
+      "magnesium sulfate",
+      "betaine",
+      "ceresin",
+      "sorbitan sesquioleate",
+      "triethanolamine",
+      "silica",
+      "sorbitan olivate",
+      "disteardimonium hectorite",
+      "caprylyl glycol",
+      "dimethicone/vinyl dimethicone crosspolymer",
+      "allantoin",
+      "panthenol",
+      "phenoxyethanol",
+      "dimethicone",
+      "glycerin",
+      "peg/ppg-19/19 dimethicone",
+      "talc",
+      "fragrance",
+      "caprylhydroxamic acid",
+      "adenosine",
+      "disodium edta",
+      "1",
+      "2-hexanediol",
+      "propylene carbonate",
+      "psidium guajava leaf extract",
+      "lavandula angustifolia (lavender) extract",
+      "rosmarinus officinalis (rosemary) leaf extract",
+      "chamomilla recutita (matricaria) flower extract",
+      "monarda didyma leaf extract",
+      "sodium hyaluronate",
+      "mentha piperita (peppermint) leaf extract",
+      "freesia refracta extract",
+      "ci 77491",
+      "artemisia princeps extract",
+      "morus alba leaf extract",
+      "vitis vinifera (grape) seed extract",
+      "mica",
+      "hydrolyzed collagen",
+      "aloe barbadensis leaf extract",
+      "althaea rosea root extract",
+      "methicone",
+      "ethylhexylglycerin"
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "Piggy Sun Cream",
+    "spf": null,
+    "type": "hybrid",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Numbuzin",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      },
+      {
+        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+        "category": "chemical"
+      },
+      {
+        "name": "Titanium Dioxide",
+        "category": "mineral"
+      }
+    ],
+    "id": "numbuzin-no-1-pure-glass-clean-tone-up",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Titanium Dioxide",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Phenyl trimethicone",
+      "Octyldodecanol",
+      "Hydrogenated Polyisobutene",
+      "Butylene Glycol",
+      "Propanediol",
+      "Glycerin",
+      "Lauryl PEG-10 Tris(Trimethylsiloxy)silylethyl Dimethicone",
+      "Niacinamide",
+      "Ethylhexyl Triazone",
+      "Sodium Chloride",
+      "Isododecane",
+      "Aluminum Hydroxide",
+      "Stearic Acid",
+      "1",
+      "2-Hexanediol",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "Trimethylsiloxysilicate",
+      "Rosa Damascena Flower Water",
+      "Hydrolyzed Sodium Hyaluronate",
+      "Sodium Hyaluronate",
+      "Prunus Serrulata Flower Extract",
+      "Rosa hybrid Flower Extract",
+      "Saussurea involucrata Extract",
+      "Nymphaea Alba Flower Extract",
+      "Nelumbium Speciosum Flower Extract",
+      "Chamomilla Recutita (Matricaria) Flower Extract",
+      "Calendula Officinalis Flower Extract",
+      "Camellia Japonica Flower Extract",
+      "Hydrolyzed Hyaluronic acid",
+      "Potassium Hyaluronate",
+      "Sodium Hyaluronate Crosspolymer",
+      "Sodium Acetylated Hyaluronate",
+      "Caprylyl Methicone",
+      "Polyglyceryl-2 Isostearate",
+      "Disteardimonium Hectorite",
+      "Coco-Caprylate/ Caprate",
+      "Isostearyl Isononanoate",
+      "Polyglyceryl-6 Polyricinoleate",
+      "Sorbitan Isostearate",
+      "Iron Oxides (CI 77492)",
+      "Propylene Carbonate",
+      "Ethylhexylglycerin",
+      "Triethoxycaprylylsilane",
+      "Iron Oxides (CI 77491)",
+      "Polyglyceryl-6 Polyhydroxystearate",
+      "Polyglycerin-6",
+      "PEG-12 Dimethicone/PPG-20 Crosspolymer",
+      "PEG-10."
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "Numbuzin No.1 Pure Glass Clean Tone Up",
+    "spf": null,
+    "type": "hybrid",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Perfect",
     "filters": [
       {
         "name": "Ethylhexyl Triazone",
@@ -1972,23 +2349,7 @@
         "category": "mineral"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
+    "id": "perfect-one-sunscreen",
     "ingredients": [
       "Water",
       "ethylhexyl methoxycinnamate",
@@ -2082,829 +2443,16 @@
       "Sodium Benzoate",
       "Phenoxyethanol"
     ],
-    "notes": "",
-    "hazard_score": 4
-  },
-  {
-    "id": "dr-melaxim-sunscreen",
-    "brand": "Dr",
-    "product": "Dr Melaxim Sunscreen",
     "niacinamide": "No",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-        "category": "chemical"
-      },
-      {
-        "name": "Ethylhexyl Salicylate",
-        "category": "chemical"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Ethylhexyl Methoxycinnamate",
-      "Propanediol",
-      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-      "Ethylhexyl Salicylate",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
-      "Aqua",
-      "Disiloxane",
-      "Dicaprylyl Carbonate",
-      "Propanediol",
-      "Isohexadecane",
-      "Dimethicone",
-      "Cetyl PEG/PPG-10/1 Dimethicone",
-      "Sodium Chloride",
-      "Decyl Glucoside",
-      "Propylene Glycol",
-      "Xanthan Gum",
-      "Hydroxyacetophenone",
-      "Dipropylene Glycol",
-      "Caprylyl Glycol",
-      "Dipotassium Glycyrrhizate",
-      "1",
-      "2-Hexanediol",
-      "Caprylhydroxamic Acid",
-      "Tocopheryl Acetate",
-      "Disodium EDTA",
-      "Menthol",
-      "Menthyl Lactate",
-      "Caprylic/Capric Triglyceride",
-      "Laminaria Ochroleuca Extract",
-      "Calendula Officinalis Flower Extract",
-      "Aloe Barbadensis Leaf Juice",
-      "Citric Acid",
-      "Potassium Sorbate",
-      "Sodium Benzoate."
-    ],
     "notes": "",
-    "hazard_score": 1
-  },
-  {
-    "id": "joudeness-sunscreen",
-    "brand": "Joudeness",
-    "product": "Joudeness Sunscreen",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": null,
     "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Terephthalylidene Dicamphor Sulfonic Acid",
-        "category": "chemical"
-      },
-      {
-        "name": "Drometrizole Trisiloxane",
-        "category": "chemical"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Diethylhexyl Succinate",
-      "Propanediol",
-      "Drometrizole Trisiloxane",
-      "Ethylhexyl Triazone",
-      "Niacinamide",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Terephthalylidene Dicamphor Sulfonic Acid",
-      "1",
-      "2-Hexanediol",
-      "Behenyl Alcohol",
-      "Tromethamine",
-      "Sodium Polyacryloyldimethyl Taurate",
-      "Phenyl Trimethicone",
-      "Caprylyl Methicone",
-      "Polyacrylate Crosspolymer-6",
-      "Arachidyl Alcohol",
-      "Hyaluronic Acid (2",
-      "202 ppm)",
-      "Potassium Cetyl Phosphate",
-      "Butylene Glycol",
-      "Lactobacillus Ferment Lysate",
-      "Ethylhexylglycerin",
-      "Caprylyl Glycol",
-      "Panthenol",
-      "Adenosine",
-      "Glycerin",
-      "Sodium Hyaluronate(260 ppm)",
-      "Allantoin",
-      "Sodium Metaphosphate",
-      "Madecassoside",
-      "Ceramide NP",
-      "Glyceryl Oleate",
-      "Tocopherol",
-      "Lecithin",
-      "Lauryl Glucoside",
-      "Polyglyceryl-6 Laurate",
-      "Myristyl Glucoside",
-      "Hydrolyzed Hyaluronic Acid(10 ppm)",
-      "Camellia Sinensis Leaf Extract(8 ppm)",
-      "Sodium Hyaluronate Crosspolymer(4 ppm)",
-      "Xanthan Gum",
-      "Sodium Acetylated Hyaluronate(0.2 ppm)",
-      "Acetyl Tetrapeptide-2"
-    ],
-    "notes": "",
-    "hazard_score": 1
-  },
-  {
-    "id": "innisfree-green-tea-hyaluronic-sunscreen",
-    "brand": "Innisfree",
-    "product": "Innisfree Green Tea Hyaluronic Sunscreen",
-    "niacinamide": "Yes",
-    "type": "chemical",
+    "product": "Perfect One Sunscreen",
     "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-        "category": "chemical"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Diisopropyl Sebacate",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-      "Propanediol",
-      "Alcohol",
-      "C12-15 Alkyl Benzoate",
-      "Phenethyl Benzoate",
-      "Ethylhexyl Triazone",
-      "Niacinamide",
-      "Methylpropanediol",
-      "Silica",
-      "Lauryl Lactate",
-      "Isoamyl p-Methoxycinnamate",
-      "Polysilicone-15",
-      "Camellia Sinensis Leaf Extract",
-      "Artemisia Princeps Leaf Extract",
-      "Prunus Mume Fruit Extract",
-      "Aloe Barbadensis Leaf Extract",
-      "Sphingomonas Ferment Extract",
-      "Cyananchum Atratum Extract",
-      "Althaea Rosea Flower Extract",
-      "Nelumbo Nucifera Flower Extract",
-      "Tocopherol",
-      "Glycerin",
-      "Pentylene Glycol",
-      "Butylene Glycol",
-      "Lactic Acid",
-      "Citric Acid",
-      "Cellulose Gum",
-      "Xanthan Gum",
-      "Microcrystalline Cellulose",
-      "Ethylhexylglycerin",
-      "Dibutyl Ethylhexanoyl Glutamide",
-      "Dibutyl Lauroyl Glutamide",
-      "Dimethyl Capramide",
-      "Carbomer",
-      "1",
-      "2-Hexanediol",
-      "Tromethamine",
-      "Hydroxyacetophenone",
-      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
-      "Sodium Polyacryloyldimethyl Taurate",
-      "Polyacrylate Crosspolymer-6",
-      "Sodium Acrylates Crosspolymer-2",
-      "C30-45 Alkyl Dimethylsilyl Polypropylene/silsesquioxane"
-    ],
-    "notes": "",
-    "hazard_score": 1
-  },
-  {
-    "id": "meisani-luminosi-tea-niacinamide-capsule-sunscreen",
-    "brand": "Meisani",
-    "product": "Meisani Luminosi-tea Niacinamide Capsule Sunscreen",
-    "niacinamide": "No",
     "type": "hybrid",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-        "category": "chemical"
-      },
-      {
-        "name": "Butyl Methoxydibenzoylmethane",
-        "category": "chemical"
-      },
-      {
-        "name": "Titanium Dioxide",
-        "category": "mineral"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Propylene Glycol",
-      "Dimethicone",
-      "Octyl Salicylate",
-      "Butyl Methoxydibenzoylmethane",
-      "Ethylhexyl triazone",
-      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-      "Isododecane",
-      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
-      "Cyclopentasiloxane",
-      "Potassium Cetyl Phosphate",
-      "Titanium Dioxide",
-      "Steareth-2",
-      "Steareth-21",
-      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
-      "Alpha-Glucan Oligosaccharide",
-      "PEG-10 Dimethicone",
-      "Decyl Glucoside",
-      "Methylpropanediol",
-      "Glyceryl Stearate SE",
-      "PEG-100 Stearate",
-      "Xanthan Gum",
-      "Xylitylglucoside",
-      "Alumina",
-      "Caprylyl Glycol",
-      "Anhydroxylitol",
-      "Polyquaternium-80",
-      "Xylitol",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Disodium EDTA",
-      "Methicone",
-      "Didecyldimonium Chloride",
-      "Glucose",
-      "Melanin",
-      "Tocopheryl Acetate",
-      "Dipropylene Glycol",
-      "Pentylene Glycol",
-      "Polysorbate 80",
-      "Asiaticoside",
-      "Madecassic acid",
-      "Asiatic acid",
-      "Ethylhexylglycerin",
-      "Sodium Benzoate",
-      "Cholesterol"
-    ],
-    "notes": "",
-    "hazard_score": 2
+    "water_resistant": "none"
   },
   {
-    "id": "ingu-super-light-soothing-sunscreen",
-    "brand": "Ingu",
-    "product": "Ingu Super Light Soothing Sunscreen",
-    "niacinamide": "No",
-    "type": "hybrid",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-        "category": "chemical"
-      },
-      {
-        "name": "Butyl Methoxydibenzoylmethane",
-        "category": "chemical"
-      },
-      {
-        "name": "Titanium Dioxide",
-        "category": "mineral"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Deionized Water",
-      "Dibutyl Adipate",
-      "Propylene Glycol",
-      "Dimethicone",
-      "Octyl Salicylate",
-      "Butyl Methoxydibenzoylmethane",
-      "Ethylhexyl triazone",
-      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-      "Isododecane",
-      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
-      "Cyclopentasiloxane",
-      "Potassium Cetyl Phosphate",
-      "Titanium Dioxide",
-      "Steareth-2",
-      "Steareth-21",
-      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
-      "Alpha-Glucan Oligosaccharide",
-      "PEG-10 Dimethicone",
-      "Decyl Glucoside",
-      "Methylpropanediol",
-      "Glyceryl Stearate SE",
-      "PEG-100 Stearate",
-      "Xanthan Gum",
-      "Xylitylglucoside",
-      "Alumina",
-      "Caprylyl Glycol",
-      "Anhydroxylitol",
-      "Polyquaternium-80",
-      "Xylitol",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Disodium EDTA",
-      "Methicone",
-      "Didecyldimonium Chloride",
-      "Glucose",
-      "Melanin",
-      "Tocopheryl Acetate",
-      "Dipropylene Glycol",
-      "Pentylene Glycol",
-      "Polysorbate 80",
-      "Asiaticoside",
-      "Madecassic acid",
-      "Asiatic acid",
-      "Ethylhexylglycerin",
-      "Sodium Benzoate",
-      "Cholesterol"
-    ],
-    "notes": "",
-    "hazard_score": 2
-  },
-  {
-    "id": "haruharu-airyfit-sunscreen",
-    "brand": "Haruharu",
-    "product": "Haruharu Airyfit Sunscreen",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-        "category": "chemical"
-      },
-      {
-        "name": "Terephthalylidene Dicamphor Sulfonic Acid",
-        "category": "chemical"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Propanediol",
-      "Butyloctyl Salicylate",
-      "Ethylhexyl Triazone",
-      "Terephthalylidene Dicamphor Sulfonic Acid",
-      "Glycerin",
-      "Niacinamide",
-      "Tromethamine",
-      "Polyglyceryl-3 Distearate",
-      "1",
-      "2-Hexanediol",
-      "Pentelyne Glycol",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Cetearyl Alcohol",
-      "Caprylyl Methicone",
-      "Polysilicone-15",
-      "Stellaria Media (Chickweed) Extract",
-      "Helianthus Annuus (Sunflower) Flower Extract",
-      "Vaccinium Vitis-Idaea Fruit Extract",
-      "Oryza Sativa (Rice) Extract",
-      "Bellis Perennis (Daisy) Flower Extract",
-      "Houttuynia Cordata Extract",
-      "Oryza Sativa (Rice) Bran Oil",
-      "Hydrogenated Lecithin",
-      "Polymethylsilsesquioxane",
-      "Palmitic Acid",
-      "Butylene Glycol",
-      "Stearic Acid",
-      "Glyceryl Stearate",
-      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-      "Potassium Cetyl Phosphate",
-      "Poly C10-30 Alkyl Acrylate",
-      "Methylpropanediol",
-      "Carbomer",
-      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
-      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
-      "Glyceryl Stearate Citrate",
-      "Ethylhexylglycerin",
-      "Adenosine",
-      "Polyether-1",
-      "Myristic Acid",
-      "Biosaccharide Gum-1",
-      "Tocopherol",
-      "Moringa Oleifera Seed Oil",
-      "Ceramide NP",
-      "Phytosphingosine",
-      "Phenethyl Alcohol",
-      "Sodium Chloride",
-      "Disodium Phosphate",
-      "Potassium Chloride",
-      "Potassium Phosphate"
-    ],
-    "notes": "",
-    "hazard_score": 1
-  },
-  {
-    "id": "ma-nyo-hyaluronic-acid-sunscreen",
-    "brand": "ma:nyo",
-    "product": "ma:nyo Hyaluronic Acid Sunscreen",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "yes",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Drometrizole Trisiloxane",
-        "category": "chemical"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "yes",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Propanediol",
-      "Ethylhexyl Triazone",
-      "Polymethylsilsesquioxane",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
-      "Drometrizole Trisiloxane Niacinamide",
-      "Coco-Caprylate/Caprate",
-      "Caprylyl Methicone",
-      "Glycerin",
-      "1",
-      "2-Hexanediol",
-      "Butylene Glycol",
-      "Pentylene Glycol",
-      "Behenyl Alcohol",
-      "Poly C10-30 Alkyl Acrylate",
-      "VP/Eicosene Copolymer",
-      "Polyglyceryl-3 Methylglucose Distearate",
-      "Decyl Glucoside",
-      "Tromethamine",
-      "Carbomer",
-      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
-      "Sodium Stearoyl Glutamate",
-      "Polyacrylate Crosspolymer-6",
-      "Ethylhexylglycerin",
-      "Adenosine",
-      "Dioscorea Japonica Root Extract",
-      "Ulmus Davidiana Root Extract",
-      "Aloe Barbadensis Leaf Extract",
-      "Laminaria Japonica Extract",
-      "Viola Mandshurica Flower Extract",
-      "Xanthan Gum",
-      "Hydrolyzed Hyaluronic Acid (100 ppm)",
-      "Tocopherol",
-      "Panthenol",
-      "Squalane",
-      "Hydrogenated Lecithin",
-      "Centella Asiatica Extract",
-      "Ficus Carica (Fig) Fruit Extract",
-      "Camellia Sinensis Leaf Extract",
-      "Ginkgo Biloba Leaf Extract",
-      "Triticum Vulgare (Wheat) Sprout Extract",
-      "Camellia Japonica Leaf Extract",
-      "Brassica Oleracea Italica (Broccoli) Sprout Extract",
-      "Medicago Sativa (Alfalfa) Extract",
-      "Eruca Sativa Leaf Extract",
-      "Ceramide NP",
-      "Hydrangea Macrophylla Leaf Extract",
-      "Bambusa Vulgaris Shoot Extract",
-      "Bambusa Vulgaris Leaf/Stem Extract",
-      "Bambusa Vulgaris Water",
-      "Dimethylsilanol Hyaluronate",
-      "Hydrolyzed Sodium Hyaluronate",
-      "Potassium Hyaluronate",
-      "Hyaluronic Acid",
-      "Sodium Hyaluronate",
-      "Sodium Hyaluronate Crosspolymer",
-      "Hydroxypropyltrimonium Hyaluronate",
-      "Sodium Hyaluronate Dimethylsilanol",
-      "Sodium Acetylated Hyaluronate",
-      "Fragrance"
-    ],
-    "notes": "",
-    "hazard_score": 6
-  },
-  {
-    "id": "uiq-biome-remedy-tone-up-sun-cream-green",
-    "brand": "UIQ",
-    "product": "UIQ Biome Remedy Tone Up Sun Cream (Green)",
-    "niacinamide": "Yes",
-    "type": "hybrid",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-        "category": "chemical"
-      },
-      {
-        "name": "Titanium Dioxide",
-        "category": "mineral"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Butyloctyl Salicylate",
-      "Ethylhexyl Triazone",
-      "Propanediol",
-      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
-      "Methylpropanediol",
-      "Niacinamide",
-      "Titanium Dioxide (CI 77891)",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "1",
-      "2-Hexanediol",
-      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-      "Polyglyceryl-3 Methylglucose Distearate",
-      "Polyglyceryl-3 Distearate",
-      "Coco-Caprylate/Caprate",
-      "Decyl Glucoside",
-      "Polyacrylate Crosspolymer-6",
-      "Cetearyl Alcohol",
-      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
-      "VP/Eicosene Copolymer",
-      "Sodium Polyacryloyldimethyl Taurate",
-      "Chromium Oxide Greens (CI 77288)",
-      "Glycerin",
-      "Ethylhexylglycerin",
-      "Glyceryl Stearate Citrate",
-      "Polyglyceryl-6 Polyhydroxystearate",
-      "Aluminum Hydroxide",
-      "Polyglyceryl-6 Polyricinoleate",
-      "Adenosine",
-      "Triethoxycaprylylsilane",
-      "Iron Oxide Yellow (CI 77492)",
-      "Dipropylene Glycol",
-      "Sodium Stearoyl Glutamate",
-      "Xanthan Gum",
-      "Polyglycerin-6",
-      "Polyglyceryl-10 Oleate",
-      "Cutibacterium Granulosum Extract",
-      "Centella Asiatica Extract",
-      "Centella Asiatica Leaf Extract",
-      "Pentylene Glycol",
-      "Madecassoside",
-      "Succinic Acid",
-      "Panthenol",
-      "Asiatic Acid",
-      "Asiaticoside",
-      "Tocopherol",
-      "Ascorbyl Palmitate"
-    ],
-    "notes": "",
-    "hazard_score": 1
-  },
-  {
-    "id": "real-barrier-sun-essence-moisture",
     "brand": "Real",
-    "product": "Real Barrier Sun Essence Moisture",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
     "filters": [
       {
         "name": "Ethylhexyl Triazone",
@@ -2919,23 +2467,7 @@
         "category": "chemical"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
+    "id": "real-barrier-sun-essence-moisture",
     "ingredients": [
       "Water",
       "Diisopropyl Sebacate",
@@ -2990,972 +2522,16 @@
       "Dihydroxyisopropyl Palmitoyle Palmitamide (1",
       "000 ppb)"
     ],
-    "notes": "",
-    "hazard_score": 1
-  },
-  {
-    "id": "milky-piggy-sun-cream",
-    "brand": "Milky",
-    "product": "Piggy Sun Cream",
     "niacinamide": "Yes",
-    "type": "hybrid",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "yes",
-    "filters": [
-      {
-        "name": "Butyl Methoxydibenzoylmethane",
-        "category": "chemical"
-      },
-      {
-        "name": "Ethylhexyl Salicylate",
-        "category": "chemical"
-      },
-      {
-        "name": "Titanium Dioxide",
-        "category": "mineral"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "yes",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "ethylhexyl methoxycinnamate",
-      "ethylhexyl salicylate",
-      "cyclopentasiloxane",
-      "titanium dioxide",
-      "butylene glycol",
-      "butyloctyl salicylate",
-      "cyclohexasiloxane",
-      "niacinamide",
-      "methyl methacrylate crosspolymer",
-      "ethylhexyl methoxycrylene",
-      "butyl methoxydibenzoylmethane",
-      "cetyl peg/ppg-10/1 dimethicone",
-      "triethylhexanoin",
-      "magnesium sulfate",
-      "betaine",
-      "ceresin",
-      "sorbitan sesquioleate",
-      "triethanolamine",
-      "silica",
-      "sorbitan olivate",
-      "disteardimonium hectorite",
-      "caprylyl glycol",
-      "dimethicone/vinyl dimethicone crosspolymer",
-      "allantoin",
-      "panthenol",
-      "phenoxyethanol",
-      "dimethicone",
-      "glycerin",
-      "peg/ppg-19/19 dimethicone",
-      "talc",
-      "fragrance",
-      "caprylhydroxamic acid",
-      "adenosine",
-      "disodium edta",
-      "1",
-      "2-hexanediol",
-      "propylene carbonate",
-      "psidium guajava leaf extract",
-      "lavandula angustifolia (lavender) extract",
-      "rosmarinus officinalis (rosemary) leaf extract",
-      "chamomilla recutita (matricaria) flower extract",
-      "monarda didyma leaf extract",
-      "sodium hyaluronate",
-      "mentha piperita (peppermint) leaf extract",
-      "freesia refracta extract",
-      "ci 77491",
-      "artemisia princeps extract",
-      "morus alba leaf extract",
-      "vitis vinifera (grape) seed extract",
-      "mica",
-      "hydrolyzed collagen",
-      "aloe barbadensis leaf extract",
-      "althaea rosea root extract",
-      "methicone",
-      "ethylhexylglycerin"
-    ],
     "notes": "",
-    "hazard_score": null
-  },
-  {
-    "id": "lightsaver-tinted-activated-mineral-face-sunscreen-spf-33",
-    "brand": "Lightsaver",
-    "product": "Lightsaver Tinted Activated Mineral Face Sunscreen SPF 33",
-    "niacinamide": "Yes",
-    "type": "mineral",
-    "spf": null,
     "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Zinc Oxide",
-        "category": "mineral"
-      },
-      {
-        "name": "Titanium Dioxide",
-        "category": "mineral"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Zinc Oxide 14.2%",
-      "Water",
-      "Caprylic/Capric Triglyceride",
-      "Niacinamide",
-      "Butyloctyl Salicylate",
-      "Cetearyl Alcohol",
-      "Glycerin",
-      "Helianthus Annuus (Sunflower) Seed Oil",
-      "Glycol Stearate",
-      "Lecithin",
-      "Isostearic Acid",
-      "Polyglyceryl-3 Polyricinoleate",
-      "Polyhydroxystearic Acid",
-      "Vaccinium Vitis-Idaea Fruit Extract",
-      "Isododecane",
-      "Xanthan Gum",
-      "Polysorbate 80",
-      "Sorbitan Oleate",
-      "Phenoxyethanol",
-      "Jojoba Esters",
-      "Citric Acid",
-      "Gluconolactone",
-      "Plankton Extract",
-      "Alumina",
-      "Sodium Benzoate",
-      "Potassium Sorbate",
-      "Silica",
-      "Calcium Gluconate. May contain +/-: Titanium Dioxide (CI 77891)",
-      "Iron Oxides (CI 77491",
-      "CI 77492",
-      "CI 77499)."
-    ],
-    "notes": "",
-    "hazard_score": 4
-  },
-  {
-    "id": "innbeauty-project-mineral-sun-flow-spf-43",
-    "brand": "Innbeauty",
-    "product": "Innbeauty Project Mineral Sun Flow SPF 43",
-    "niacinamide": "Yes",
-    "type": "mineral",
+    "product": "Real Barrier Sun Essence Moisture",
     "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Zinc Oxide",
-        "category": "mineral"
-      },
-      {
-        "name": "Titanium Dioxide",
-        "category": "mineral"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Zinc Oxide 14.2%",
-      "Water",
-      "Caprylic/Capric Triglyceride",
-      "Propanediol",
-      "Coco-Caprylate/Caprate",
-      "Pentaerythrityl Tetraisostearate",
-      "Dimethicone",
-      "Butyloctyl Salicylate",
-      "Cetearyl Olivate",
-      "Cetyl Alcohol",
-      "Glycerin/Sebacic Acid Copolymer",
-      "Palmitoyl Tripeptide-5",
-      "Palmitoyl Tripeptide-1",
-      "Palmitoyl Tetrapeptide-7",
-      "Tetrahexyldecyl Ascorbate",
-      "Oryza Sativa (Rice) Extract",
-      "Oryza Sativa (Rice) Germ Extract",
-      "Niacinamide",
-      "Superoxide Dismutase",
-      "Resveratrol",
-      "Bisabolol",
-      "Allantoin",
-      "Rhodomyrtus Tomentosa Fruit Extract",
-      "Pongamia Pinnata Seed Extract",
-      "Leuconostoc/Radish Root Ferment Filtrate",
-      "Polygonum Aviculare Extract",
-      "Glycerin",
-      "Butylene Glycol",
-      "Sorbitol",
-      "Sodium Lactate",
-      "Serine",
-      "Urea",
-      "1",
-      "2-Hexanediol",
-      "VP/Eicosene Copolymer",
-      "Polyglyceryl-3 Polyricinoleate",
-      "Lecithin",
-      "Polyhydroxystearic Acid",
-      "Isostearic Acid",
-      "C12-15 Alkyl Benzoate",
-      "Polyacrylate Crosspolymer-6",
-      "Xanthan Gum",
-      "Ethylene/Propylene/Styrene Copolymer",
-      "Polyglyceryl-3 Diisostearate",
-      "Pentylene Glycol",
-      "Polysilicone-11",
-      "Caprylhydroxamic Acid",
-      "Sodium Phytate",
-      "Polyglyceryl-3 Lauate/Laurate",
-      "Lactic Acid",
-      "Palmitic Acid",
-      "Butylene/Ethylene/Styrene Copolymer",
-      "Sodium Chloride",
-      "Hydroxyacetophenone",
-      "Tetra-di-t-butyl Hydroxyhydrocinnamate",
-      "Sorbitan Laurate",
-      "C18-36 Acid Triglyceride. May contain +/-: Mica CI 77019",
-      "Titanium Dioxide CI 77891",
-      "Iron Oxides CI 77498",
-      "Iron Oxides CI 77491",
-      "Iron Oxides CI 77499."
-    ],
-    "notes": "",
-    "hazard_score": null
-  },
-  {
-    "id": "colorescience-sunforgettable-face-shield-flex-spf-50",
-    "brand": "Colorescience",
-    "product": "Colorescience Sunforgettable Face Shield Flex SPF 50",
-    "niacinamide": "Yes",
-    "type": "mineral",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Zinc Oxide",
-        "category": "mineral"
-      },
-      {
-        "name": "Titanium Dioxide",
-        "category": "mineral"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Zinc Oxide 12%",
-      "Water",
-      "C12-15 Alkyl Benzoate",
-      "Butyloctyl Salicylate",
-      "Lauryl PEG-8 Dimethicone",
-      "Isododecane",
-      "Propanediol",
-      "Caprylyl Methicone",
-      "Dimethicone",
-      "Niacinamide",
-      "Tridecyl Salicylate",
-      "Dimethicone/Vinyl Dimethicone Crosspolymer",
-      "Trilaureth-4 Phosphate",
-      "Dimethiconol/Propylsilsesquioxane/Silicate Crosspolymer",
-      "Lauryl PEG-10 Tris(trimethylsiloxy)silylethyl Dimethicone",
-      "Mica",
-      "Polyester-1",
-      "Maltodextrin",
-      "Sodium Chloride",
-      "Bisabolol (Levomenol)",
-      "Disodium Lauriminodipropionate Tocopheryl Phosphates",
-      "Ethylhexylglycerin",
-      "Tremella Fuciformis Sporocarp Extract",
-      "Allantoin",
-      "Silica Dimethyl Silylate",
-      "Caprylyl Glycol",
-      "Isoechett-10",
-      "Zein",
-      "Hexylene Glycol",
-      "Dimethylmethoxy Chromanol",
-      "Synthetic Fluorphlogopite",
-      "Zea Mays (Corn) Starch",
-      "Silica",
-      "Caesalpinia Spinosa (Tara) Fruit Pod Extract",
-      "Hydrogenated Lecithin",
-      "Tetrasodium Glutamate Diacetate",
-      "Caprylic/Capric Triglyceride",
-      "Helianthus Annuus Sprout Extract",
-      "Phenoxyethanol",
-      "Sodium Benzoate",
-      "Benzoic Acid",
-      "Dehydroacetic Acid",
-      "Sodium Hydroxide",
-      "Sodium Myristoyl Glutamate",
-      "Aluminum Hydroxide",
-      "Titanium Dioxide (CI 77891)",
-      "Iron Oxides (CI 77491",
-      "CI 77492",
-      "CI 77499)."
-    ],
-    "notes": "",
-    "hazard_score": 4
-  },
-  {
-    "id": "ciele-tint-protect-medium-coverage-serum-foundation-spf-50",
-    "brand": "Ciele",
-    "product": "Ciele Tint & Protect Medium Coverage Serum Foundation SPF 50+",
-    "niacinamide": "Yes",
-    "type": "mineral",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Zinc Oxide",
-        "category": "mineral"
-      },
-      {
-        "name": "Titanium Dioxide",
-        "category": "mineral"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Zinc Oxide 12%",
-      "Water",
-      "C12-15 Alkyl Benzoate",
-      "Titanium Dioxide CI 77891",
-      "Butyloctyl Salicylate",
-      "Lauryl PEG-8 Dimethicone",
-      "Isododecane",
-      "Propanediol",
-      "Dimethicone",
-      "Niacinamide",
-      "Polymethylsilsesquioxane",
-      "Isoehexadecane",
-      "Trilaureth-4 Phosphate",
-      "Dimethiconol/Propylsilsesquioxane/Silicate Crosspolymer",
-      "Caprylyl Methicone",
-      "Mica",
-      "Octyldodecyl Neopentanoate",
-      "Lauryl PEG-10 Tris(trimethylsiloxy)silylethyl Dimethicone",
-      "Sodium Chloride",
-      "Phenoxyethanol",
-      "Bisabolol",
-      "Iron Oxides CI 77492",
-      "Disteardimonium Hectorite",
-      "Caprylyl Glycol",
-      "Aluminum Hydroxide",
-      "Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate",
-      "Ethylhexylglycerin",
-      "Hexylene Glycol",
-      "Propylene Carbonate",
-      "Hydrogenated Lecithin",
-      "Iron Oxides CI 77491",
-      "Iron Oxides CI 77499",
-      "PEG-10",
-      "Tetrasodium Glutamate Diacetate",
-      "Sodium Hydroxide."
-    ],
-    "notes": "",
-    "hazard_score": 4
-  },
-  {
-    "id": "kopari-pure-protect-mineral-stick-spf-50",
-    "brand": "Kopari",
-    "product": "Kopari Pure Protect Mineral Stick SPF 50+",
-    "niacinamide": "No",
-    "type": "mineral",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Zinc Oxide",
-        "category": "mineral"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Zinc Oxide 23.8%",
-      "Helianthus Annuus (Sunflower) Seed Cera/Wax/Cire",
-      "Caprylic/Capric Triglyceride",
-      "Dicaprylyl Carbonate",
-      "Coco-Caprylate",
-      "C12-15 Alkyl Benzoate",
-      "Ethyl Macadamate",
-      "Dipentaerythrityl Hexahydroxystearate/Hexastearate/Hexarosinate",
-      "Octyldodecanol",
-      "Argania Spinosa Kernel Oil",
-      "Butyrospermum Parkii (Shea) Butter",
-      "Tocopheryl Acetate",
-      "Copernicia Cerifera (Carnauba) Wax",
-      "Helianthus Annuus (Sunflower) Seed Oil",
-      "Candelilla Wax",
-      "Canola Oil",
-      "Bisabolol",
-      "Malic Acid",
-      "Citric Acid",
-      "Jojoba Esters",
-      "Behenyl Behennate",
-      "Polyhydroxystearic Acid",
-      "C18-38 Alkyl Hydroxystearoyl Stearate",
-      "Sorbitan Sesquioleate",
-      "Isostearic Acid",
-      "Lecithin",
-      "Polyglyceryl-3 Polyricinoleate",
-      "Iron Oxides (CI 77491/77492)."
-    ],
-    "notes": "",
-    "hazard_score": null
-  },
-  {
-    "id": "merit-the-uniform-tinted-mineral-spf-45",
-    "brand": "Merit",
-    "product": "Merit The Uniform (Tinted Mineral SPF 45)",
-    "niacinamide": "No",
     "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Propanediol",
-      "C13-15 Alkane",
-      "Isoamyl Laurate",
-      "Butyloctyl Salicylate",
-      "Zea Mays (Corn) Starch",
-      "Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate",
-      "C15-19 Alkane",
-      "Coco-Caprylate",
-      "Polyhydroxystearic Acid",
-      "Magnesium Sulfate",
-      "Diglycerin",
-      "Caprylic/Capric Triglyceride",
-      "Quaternium-90 Bentonite",
-      "Hydroxyacetophenone",
-      "Disteardimonium Hectorite",
-      "Lauryl Lysine",
-      "Triethyl Citrate",
-      "Caprylyl Glycol",
-      "Tocopheryl Acetate",
-      "Sorbitan Isostearate",
-      "Cellulose",
-      "Ethylhexylglycerin",
-      "Polyacrylate Crosspolymer-6",
-      "Sodium Acrylates Crosspolymer-2",
-      "Iron Oxides."
-    ],
-    "notes": "",
-    "hazard_score": null
+    "water_resistant": "none"
   },
   {
-    "id": "eltamd-uv-skin-recovery-red-correcting-green-tint",
-    "brand": "EltaMD",
-    "product": "EltaMD UV Skin Recovery Red Correcting Green Tint",
-    "niacinamide": "No",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dimethicone",
-      "Butyloctyl Salicylate",
-      "Caprylic/Capric Triglyceride",
-      "Ethylhexyl Methoxycrylene",
-      "Octyldodecyl Neopentanoate",
-      "Taurine",
-      "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer",
-      "Butylene Glycol",
-      "Phenoxyethanol",
-      "Cetearyl Alcohol",
-      "Arginine",
-      "Triethoxycaprylylsilane",
-      "Oleth-3 Phosphate",
-      "Oleth-20",
-      "Coco-Glucoside",
-      "Polyisobutene",
-      "Polyhydroxystearic Acid",
-      "PEG-7 Trimethylolpropane Coconut Ether",
-      "Salicyloyl Phytosphingosine",
-      "Tocopheryl Acetate",
-      "Glycerin",
-      "Tocopherol",
-      "Ethylhexylglycerin",
-      "Pongamia Pinnata Seed Extract",
-      "Glycine",
-      "Lactic Acid",
-      "Polyglyceryl-10 Stearate",
-      "Centella Asiatica Leaf Extract",
-      "Triethyl Citrate",
-      "Polyglyceryl-6 Behenate",
-      "Behenic Acid",
-      "Ceramide NP",
-      "Cholesterol",
-      "Glyceryl Stearate",
-      "Ceramide NS",
-      "Ceramide EOP",
-      "Ceramide AP",
-      "Sodium Cetearyl Sulfate",
-      "Yellow 5",
-      "Blue 1."
-    ],
-    "notes": "",
-    "hazard_score": 4
-  },
-  {
-    "id": "ahc-masters-aqua-rich-sun-cream",
-    "brand": "AHC",
-    "product": "AHC Masters Aqua Rich Sun Cream",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Propanediol",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Polymethylsilsesquioxane",
-      "Ethylhexyl Triazone",
-      "Niacinamide",
-      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
-      "Coco-caprylate/Caprate",
-      "Butylene Glycol",
-      "Caprylyl Methicone",
-      "Diethylhexyl Butamido Triazine",
-      "Glyerin",
-      "1",
-      "2-Hexanediol",
-      "Pentylene Glycol",
-      "Arachidyl Alcohol",
-      "Sodium Stearoyl Glutamate",
-      "Polyglyceryl-3 Methylglucose Distearate",
-      "Sorbitan Sesquioleate",
-      "Behenyl Alcohol",
-      "Decyl Glucoside",
-      "Caprylyl Glycol",
-      "Arachidyl Glucoside",
-      "Hydroxyacetophenone",
-      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
-      "Carbomer",
-      "Polyacrylate Crosspolymer-6",
-      "Ethylhexylglycerin",
-      "Adenosine",
-      "Dipotassium Glycyrrhizate",
-      "Glucose",
-      "t-Butyl Alcohol",
-      "Xanthan Gum",
-      "Tromethamine",
-      "Disodium EDTA."
-    ],
-    "notes": "",
-    "hazard_score": 1
-  },
-  {
-    "id": "hera-uv-protector-multi-defense-fresh",
-    "brand": "Hera",
-    "product": "Hera UV Protector Multi-Defense Fresh",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "yes",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-        "category": "chemical"
-      },
-      {
-        "name": "Terephthalylidene Dicamphor Sulfonic Acid",
-        "category": "chemical"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "yes",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Propanediol",
-      "Ethylhexyl Triazone",
-      "Terephthalylidene Dicamphor Sulfonic Acid",
-      "Arginine",
-      "Niacinamide",
-      "Polyglyceryl-3 Distearate",
-      "1",
-      "2-Hexanediol",
-      "Pentelyne Glycol",
-      "Cetearyl Alcohol",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Polysilicone-15",
-      "Glycerin",
-      "Caprylyl Methicone",
-      "Polymethylsilsesquioxane",
-      "Glyceryl Stearate",
-      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-      "Potassium Cetyl Phosphate",
-      "Methylpropanediol",
-      "Sodium Acrylates Crosspolymer-2",
-      "Inulin Lauryl Carbamate",
-      "Carbomer",
-      "Fragrance",
-      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
-      "Glyceryl Stearate Citrate",
-      "Sphingomonas Ferment Extract",
-      "Ethylhexylglycerin",
-      "Adenosine",
-      "Polyether-1",
-      "Butylene Glycol",
-      "Tocopheryl Acetate",
-      "Ethylhexyl Palmitate",
-      "Paeonia Suffruticosa Extract",
-      "Paeonia Lactiflora Root Extract",
-      "Biosaccharide Gum-1",
-      "Disodium EDTA",
-      "Saccharomyces Ferment Filtrate."
-    ],
-    "notes": "",
-    "hazard_score": 6
-  },
-  {
-    "id": "skin1004-madagascar-centella-tone-brightening-tone-up",
-    "brand": "Skin1004",
-    "product": "Skin1004 Madagascar Centella Tone Brightening Tone-Up",
-    "niacinamide": "Yes",
-    "type": "hybrid",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Titanium Dioxide",
-        "category": "mineral"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "Titanium Dioxide",
-      "Propanediol",
-      "Caprylic/Capric Triglyceride",
-      "Centella Asiatica Extract(29",
-      "400PPM)",
-      "C12-15 Alkyl Benzoate",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Ethylhexyl Triazone",
-      "Niacinamide",
-      "Caprylyl Methicone",
-      "Diethylhexyl Butamido Triazine",
-      "1",
-      "2-Hexanediol",
-      "Pentelyne Glycol",
-      "Corchorus Olitorius Leaf Extract",
-      "Hordeum Vulgare Sprout Extract",
-      "Nymphaea Alba Flower Extract",
-      "Sodium Hyaluronate",
-      "Coco-Caprylate/Caprate",
-      "Glycerine",
-      "Polyhydroxystearic Acid",
-      "Dimethicone/Vinyl Dimethicone Crosspolymer",
-      "VP/Eicosene Copolymer",
-      "Dimethiconol",
-      "Trisiloxane",
-      "Stearic Acid",
-      "Alumina",
-      "Sodium Polyacryloyldimethyl Taurate",
-      "Polyacrylate Crosspolymer-6",
-      "Hydroxypropyl Methylcellulose Stearoxy Ether",
-      "Dicaprylyl Carbonate",
-      "Ethylhexylglycerin",
-      "Xanthan Gum",
-      "Triethoxycaprylylsilane Adenosine",
-      "Sodium Polyacrylate",
-      "Madecassoside",
-      "PVM/MA Copolymer",
-      "Polyether-1",
-      "t-Butyl Alcohol",
-      "Tranexamic Acid",
-      "Dipropylene Glycol",
-      "Sodium Palmitoyl Proline",
-      "Butylene Glycol",
-      "Iron Oxide Yellow",
-      "Iron Oxide Red."
-    ],
-    "notes": "",
-    "hazard_score": 2
-  },
-  {
-    "id": "round-lab-birch-juice-moisturizing-sun-cushion",
     "brand": "Round",
-    "product": "Round Lab Birch Juice Moisturizing Sun Cushion",
-    "niacinamide": "No",
-    "type": "mineral",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
     "filters": [
       {
         "name": "Zinc Oxide",
@@ -3966,23 +2542,7 @@
         "category": "mineral"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
+    "id": "round-lab-birch-juice-moisturizing-sun-cushion",
     "ingredients": [
       "Water",
       "Zinc Oxide",
@@ -4026,203 +2586,16 @@
       "Caprylyl Glycol",
       "Tocopherol."
     ],
-    "notes": "",
-    "hazard_score": 2
-  },
-  {
-    "id": "iunik-centella-calming-daily-sunscreen",
-    "brand": "iUNIK",
-    "product": "iUNIK Centella Calming Daily Sunscreen",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Centella Asiatica Extract(49%)",
-      "Water",
-      "Dibutyl Adipate",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Ethylhexyl Triazone",
-      "Glycerin",
-      "Niacinamide",
-      "Polymethyl Methacrylate",
-      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
-      "Polysilicone-15",
-      "1",
-      "2-Hexanediol",
-      "Beta-Glucan",
-      "Allantoin",
-      "Butylene Glycol",
-      "Pentelyne Glycol",
-      "Arachidyl Alcohol",
-      "Sodium Stearoyl Glutamate",
-      "Polyglyceryl-3 Methylglucose Distearate",
-      "Sorbitan Sesquioleate",
-      "Behenyl Alcohol",
-      "Decyl Glucoside",
-      "Caprylyl Glycol",
-      "Arachidyl Glucoside",
-      "Hydroxyacetophenone",
-      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
-      "Carbomer",
-      "Polyacrylate Crosspolymer-6",
-      "Adenosine",
-      "Dipotassium Glycyrrhizate",
-      "Glucose",
-      "t-Butyl Alcohol",
-      "Xanthan Gum",
-      "Tromethamine",
-      "Disodium EDTA."
-    ],
-    "notes": "",
-    "hazard_score": 1
-  },
-  {
-    "id": "iunik-beta-glucan-barrier-sunscreen",
-    "brand": "iUNIK",
-    "product": "iUNIK Beta-Glucan Barrier Sunscreen",
     "niacinamide": "No",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
-    "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
-      {
-        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-        "category": "chemical"
-      },
-      {
-        "name": "Terephthalylidene Dicamphor Sulfonic Acid",
-        "category": "chemical"
-      },
-      {
-        "name": "Drometrizole Trisiloxane",
-        "category": "chemical"
-      }
-    ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
-    "ingredients": [
-      "Water",
-      "Dibutyl Adipate",
-      "2",
-      "3-Butanediol",
-      "Ethylhexyl Triazone",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Drometrizole Trisiloxane",
-      "Terephthalylidene Dicamphor Sulfonic Acid",
-      "1",
-      "2-Hexanediol",
-      "Butyloctyl Salicylate",
-      "Behenyl Alcohol",
-      "Tromethamine",
-      "Diethylhexyl Butamido Triazine",
-      "Diisopropyl Sebacate",
-      "Vinyl Dimethicone",
-      "Arachidyl Alcohol",
-      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
-      "Methyl Methacrylate Crosspolymer",
-      "Caprylyl Methicone",
-      "Batyl Alcohol",
-      "Stearic Acid",
-      "Sodium Polyacryloyldimethyl Taurate",
-      "Arachidyl Glucoside",
-      "Polyacrylate Crosspolymer-6",
-      "Stearyl Alcohol",
-      "Allantoin",
-      "Ethylhexylglycerin",
-      "Panthenol",
-      "Lecithin",
-      "Caprylic/Capric Triglyceride",
-      "Microcrystalline Cellulose",
-      "Cellulose Gum",
-      "Glucose",
-      "Butylene Glycol",
-      "Propanediol",
-      "Beta-Glucan (1",
-      "000 ppb)",
-      "Maltodextrin",
-      "Chlorella Ferment",
-      "Lactobacillus Ferment",
-      "Panax Ginseng Extract",
-      "Sodium Benzoate",
-      "Glyceryl Caprylate",
-      "Acetyl Hexapeptide-8."
-    ],
     "notes": "",
-    "hazard_score": 1
+    "pa": null,
+    "product": "Round Lab Birch Juice Moisturizing Sun Cushion",
+    "spf": null,
+    "type": "mineral",
+    "water_resistant": "none"
   },
   {
-    "id": "round-lab-1025-dokdo-sunscreen",
     "brand": "Round",
-    "product": "Round Lab 1025 Dokdo Sunscreen",
-    "niacinamide": "Yes",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
     "filters": [
       {
         "name": "Ethylhexyl Triazone",
@@ -4237,23 +2610,7 @@
         "category": "chemical"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
+    "id": "round-lab-1025-dokdo-sunscreen",
     "ingredients": [
       "Water",
       "Dibutyl Adipate",
@@ -4303,23 +2660,165 @@
       "Decyl Glucoside",
       "Tocopherol."
     ],
+    "niacinamide": "Yes",
     "notes": "",
-    "hazard_score": 1
+    "pa": null,
+    "product": "Round Lab 1025 Dokdo Sunscreen",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
   },
   {
-    "id": "mary-may-cica-soothing-sun-cream",
-    "brand": "Mary",
-    "product": "Mary & May Cica Soothing Sun Cream",
+    "brand": "Round Lab",
+    "filters": [
+      {
+        "name": "Uvinul A Plus",
+        "category": "UVA"
+      },
+      {
+        "name": "Uvinul T 150",
+        "category": "UVB"
+      }
+    ],
+    "id": "roundlab-birch-juice",
+    "ingredients": [
+      "Water",
+      "Birch Juice",
+      "1,2-Hexanediol",
+      "Glycerin",
+      "Niacinamide",
+      "Uvinul A Plus",
+      "Uvinul T 150"
+    ],
     "niacinamide": "Yes",
+    "notes": "Hydrating; good for dry and dehydrated skin.",
+    "pa": "PA++++",
+    "product": "Birch Juice Moisturizing Sunscreen",
+    "spf": 50,
     "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "yes",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Round Lab",
+    "filters": [
+      {
+        "name": "Uvinul T150",
+        "category": "UVB"
+      },
+      {
+        "name": "Mexoryl SX",
+        "category": "UVA"
+      },
+      {
+        "name": "Uvinul A Plus",
+        "category": "UVA"
+      },
+      {
+        "name": "Polysilicone-15",
+        "category": "UVB"
+      },
+      {
+        "name": "Tinosorb S",
+        "category": "broad-spectrum"
+      }
+    ],
+    "id": "roundlab-1025-dokdo",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Propanediol",
+      "Ethylhexyl Triazone",
+      "Terephthalylidene Dicamphor Sulfonic Acid",
+      "Niacinamide",
+      "Tromethamine",
+      "Polyglyceryl-3 Distearate",
+      "1,2-Hexanediol",
+      "Pentylene Glycol",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Cetearyl Alcohol",
+      "Caprylyl Methicone",
+      "Polysilicone-15",
+      "Sea Water",
+      "Sodium Hyaluronate",
+      "Hydrolyzed Hyaluronic Acid",
+      "Centella Asiatica Leaf Extract",
+      "Green Tea Extract",
+      "Pine Leaf Extract",
+      "Coffee Seed Extract",
+      "Panthenol",
+      "Allantoin",
+      "Adenosine",
+      "Tinosorb S"
+    ],
+    "niacinamide": "Yes",
+    "notes": "Hydrating, gentle chemical sunscreen with multiple soothing extracts.",
+    "pa": "PA++++",
+    "product": "1025 Dokdo Sunscreen",
+    "spf": 50,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Scinic",
+    "filters": [
+      {
+        "name": "Uvinul A Plus",
+        "category": "UVA"
+      },
+      {
+        "name": "Tinosorb S",
+        "category": "broad-spectrum"
+      },
+      {
+        "name": "Polysilicone-15",
+        "category": "UVB"
+      },
+      {
+        "name": "Tinosorb M",
+        "category": "broad-spectrum"
+      },
+      {
+        "name": "Uvinul T150",
+        "category": "UVB"
+      },
+      {
+        "name": "IsNina",
+        "category": "UVB"
+      }
+    ],
+    "id": "scinic-super-mild-sun-essence",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Propanediol",
+      "Uvinul A Plus",
+      "Tinosorb S",
+      "Polysilicone-15",
+      "Tinosorb M",
+      "Uvinul T150",
+      "Niacinamide",
+      "IsNina",
+      "Glycerin",
+      "Butylene Glycol",
+      "Green Tea Extract",
+      "Vanilla Extract",
+      "Centella Asiatica Extract",
+      "Bambusa Vulgaris Water",
+      "Adenosine",
+      "Panthenol",
+      "Silica",
+      "Behenyl Alcohol"
+    ],
+    "niacinamide": "Yes",
+    "notes": "Very gentle chemical sunscreen with modern filters and soothing plant extracts.",
+    "pa": "PA++++",
+    "product": "Enjoy Super Mild Sun Essence",
+    "spf": 50,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Skin1004",
     "filters": [
       {
         "name": "Ethylhexyl Triazone",
@@ -4328,25 +2827,170 @@
       {
         "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
         "category": "chemical"
+      },
+      {
+        "name": "Drometrizole Trisiloxane",
+        "category": "chemical"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
+    "id": "skin1004-probio-cica-glow-sun-ampoule",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Propanediol",
+      "Ethylhexyl Triazone",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+      "Drometrizole Trisiloxane",
+      "Niacinamide",
+      "Coco-caprylate/Caprate",
+      "Caprylyl Methicone",
+      "Glycerin",
+      "1",
+      "2-Hexanediol",
+      "Butylene Glycol",
+      "Pentylene Glycol",
+      "Behenyl Alcohol",
+      "Poly C10-30 Alkyl Acrylate",
+      "VP/Hexadecene Copolymer",
+      "Polyglyceryl-3 Methylglucose Distearate",
+      "Decyl Glucoside",
+      "Tromethamine",
+      "Carbomer",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "Sodium Stearoyl Glutamate",
+      "Polysilicone-15",
+      "Centella Asiatica Extract",
+      "Betaine",
+      "Hydroxypropyl Methylcellulose Stearoxy Ether",
+      "Ammonium Polyacryloyldimethyl Taurate",
+      "Ethylhexylglycerin",
+      "Adenosine",
+      "Dioscorea Japonica Root Extract",
+      "Ulmus Davidiana Root Extract",
+      "Aloe Barbadensis Leaf Extract",
+      "Laminaria Japonica Extract",
+      "Viola Mandshurica Flower Extract",
+      "Xanthan Gum",
+      "Hydrolyzed Hyaluronic Acid",
+      "Tocopherol",
+      "Panthenol",
+      "Squalene",
+      "Hydrogenated Lecithin",
+      "Ceramide NP",
+      "Lactobacillus Ferment",
+      "Madecassoside",
+      "Asiaticoside",
+      "Polyglyceryl-10 Myristate",
+      "Phytosphingosine",
+      "Asiatic Acid",
+      "Sucrose Distearate",
+      "Lauric Acid",
+      "Phytosterols"
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "Skin1004 Probio-Cica Glow Sun Ampoule",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Skin1004",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
       },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
       },
-      "sensitive": {
-        "fragrance": "yes",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
+      {
+        "name": "Titanium Dioxide",
+        "category": "mineral"
       }
-    },
+    ],
+    "id": "skin1004-madagascar-centella-tone-brightening-tone-up",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Titanium Dioxide",
+      "Propanediol",
+      "Caprylic/Capric Triglyceride",
+      "Centella Asiatica Extract(29",
+      "400PPM)",
+      "C12-15 Alkyl Benzoate",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Ethylhexyl Triazone",
+      "Niacinamide",
+      "Caprylyl Methicone",
+      "Diethylhexyl Butamido Triazine",
+      "1",
+      "2-Hexanediol",
+      "Pentelyne Glycol",
+      "Corchorus Olitorius Leaf Extract",
+      "Hordeum Vulgare Sprout Extract",
+      "Nymphaea Alba Flower Extract",
+      "Sodium Hyaluronate",
+      "Coco-Caprylate/Caprate",
+      "Glycerine",
+      "Polyhydroxystearic Acid",
+      "Dimethicone/Vinyl Dimethicone Crosspolymer",
+      "VP/Eicosene Copolymer",
+      "Dimethiconol",
+      "Trisiloxane",
+      "Stearic Acid",
+      "Alumina",
+      "Sodium Polyacryloyldimethyl Taurate",
+      "Polyacrylate Crosspolymer-6",
+      "Hydroxypropyl Methylcellulose Stearoxy Ether",
+      "Dicaprylyl Carbonate",
+      "Ethylhexylglycerin",
+      "Xanthan Gum",
+      "Triethoxycaprylylsilane Adenosine",
+      "Sodium Polyacrylate",
+      "Madecassoside",
+      "PVM/MA Copolymer",
+      "Polyether-1",
+      "t-Butyl Alcohol",
+      "Tranexamic Acid",
+      "Dipropylene Glycol",
+      "Sodium Palmitoyl Proline",
+      "Butylene Glycol",
+      "Iron Oxide Yellow",
+      "Iron Oxide Red."
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "Skin1004 Madagascar Centella Tone Brightening Tone-Up",
+    "spf": null,
+    "type": "hybrid",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "Thank You Farmer",
+    "filters": [
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "UVA"
+      },
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "UVB"
+      },
+      {
+        "name": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+        "category": "broad-spectrum"
+      },
+      {
+        "name": "Diethylhexyl Butamido Triazone",
+        "category": "UVB"
+      }
+    ],
+    "id": "thankyoufarmer-skin-relief-sun-cream",
     "ingredients": [
       "Water",
       "Dibutyl Adipate",
@@ -4355,65 +2999,51 @@
       "Polymethylsilsesquioxane",
       "Ethylhexyl Triazone",
       "Niacinamide",
-      "Methylene Bis-benzotriazolyl",
-      "etramethylbutylphenol",
-      "Coco-caprylate/caprate",
-      "Butylene Glycol",
+      "Methylene Bis-benzotriazolyl Tetramethylbutylphenol",
+      "Coco-Caprylate/Caprate",
       "Caprylyl Methicone",
-      "Diethylhexyl Butamido Triazine",
+      "Diethylhexyl Butamido Triazone",
       "Glycerin",
-      "1",
-      "2-hexanediol",
-      "Pentelyne Glycol",
+      "Butylene Glycol",
+      "1,2-Hexanediol",
+      "Pentylene Glycol",
+      "Centella Asiatica Extract",
+      "Salvia Hispanica Seed Extract",
+      "Anastatica Hierochuntica Extract",
+      "Solanum Melongena (Eggplant) Fruit Extract",
+      "Lonicera Japonica Flower Extract",
+      "Forsythia Suspensa Fruit Extract",
+      "Angelica Gigas Root Extract",
+      "Cnidium Officinale Root Extract",
+      "Gardenia Jasminoides Fruit Extract",
+      "Coptis Japonica Root Extract",
+      "Glycyrrhiza Uralensis Root Extract",
       "Behenyl Alcohol",
       "Poly C10-30 Alkyl Acrylate",
       "Polyglyceryl-3 Methylglucose Distearate",
       "Decyl Glucoside",
       "Tromethamine",
-      "Fragrance",
       "Carbomer",
-      "Acrylates/c10-30 Alkyl Acrylate Crosspolymer",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
       "Sodium Stearoyl Glutamate",
       "Polyacrylate Crosspolymer-6",
       "Ethylhexylglycerin",
       "Adenosine",
       "Xanthan Gum",
-      "Centella Asiatica Root Extract",
-      "Centella Asiatica Leaf Extract",
-      "Centella Asiatica Extract",
-      "Saccharomyces Ferment",
-      "T-butyl Alcohol",
-      "Tocopherol",
-      "Asiaticoside",
-      "Madecassoside",
-      "Betaine",
-      "Inositol",
-      "Madecassic Acid",
-      "Sodium Hyaluronate",
-      "Asiatic Acid."
+      "t-Butyl Alcohol",
+      "Tocopherol"
     ],
-    "notes": "",
-    "hazard_score": 6
+    "niacinamide": "Yes",
+    "notes": "Botanical-heavy chemical sunscreen with centella, niacinamide, licorice, and soothing extracts. Great formula but may be too botanical for hypersensitive rosacea.",
+    "pa": "PA++++",
+    "product": "Skin Relief Sun Cream",
+    "spf": 50,
+    "type": "chemical",
+    "water_resistant": "none"
   },
   {
-    "id": "house-of-hur-weightless-sun-fluid",
-    "brand": "House",
-    "product": "House of Hur Weightless Sun Fluid",
-    "niacinamide": "No",
-    "type": "chemical",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 0,
-    "country": "unknown",
-    "fragrance": "none",
+    "brand": "The",
     "filters": [
-      {
-        "name": "Ethylhexyl Triazone",
-        "category": "chemical"
-      },
       {
         "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
         "category": "chemical"
@@ -4423,73 +3053,92 @@
         "category": "chemical"
       },
       {
-        "name": "Terephthalylidene Dicamphor Sulfonic Acid",
+        "name": "Ethylhexyl Salicylate",
         "category": "chemical"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
+    "id": "the-history-of-whoo-sunscreen",
     "ingredients": [
-      "Citrus Junos Fruit Extract",
       "Water",
-      "Honey Extract",
-      "Dibutyl Adipate",
-      "Ethylhexyl Triazone",
-      "Terephthalylidene Dicamphor Sulfonic Acid",
+      "Alcohol Denat.",
+      "Ethylhexyl Methoxycinnamate",
+      "Ethylhexyl Salicylate",
+      "Dipropylene Glycol",
+      "Methyl Methacrylate Crosspolymer",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "Hydrogenated Lecithin",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Isoamyl p-Methoxycinnamate",
+      "Phenylbenzimidazole Sulfonic Acid",
+      "Glycerin",
+      "Polysorbate 20",
       "Silica",
-      "Butylene Glycol",
-      "Methylpropanediol",
+      "Angelica Tenuissima Root Extract",
+      "Bupleurum Falcatum Root Extract",
+      "Panax Ginseng Root Extract",
+      "Cnidium Officinale Root Extract",
+      "Platycodon Grandiflorus Root Extract",
+      "Schizonepeta Tenuifolia Extract",
+      "Cornus Officinalis Fruit Extract",
+      "Velvet Extract",
+      "Angelica Acutiloba Root Extract",
+      "Thymus Vulgaris (Thyme) Extract",
+      "Polygonum Multiflorum Root Extract",
+      "Asparagus Cochinchinensis Root Extract",
+      "Polygonatum Officinale Rhizome/Root Extract",
+      "Nelumbo Nucifera Germ Extract",
+      "Panax Ginseng Root Extract",
+      "Tocopherol",
+      "Ophiopogon Japonicus Root Extract",
+      "Rehmannia Chinensis Root Extract",
+      "Nelumbo Nucifera Extract",
+      "Nelumbo Nucifera Root Extract",
+      "Poria Cocos Sclerotium Extract",
+      "Achyranthes Bidentata Root Extract",
+      "Allium Tuberousum Seed Extract",
+      "Angelica Gigas Root Extract",
+      "Epimedium Koreanum Extract",
+      "Eucommia Ulmoides Bark Extract",
+      "Lycium Chinense Fruit Extract",
+      "Polygala Tenuifolia Root Extract",
+      "Tribulus Terrestris Fruit Extract",
       "Tromethamine",
-      "Polyglyceryl-3 Distearate",
+      "PEG-10 Rapeseed Sterol",
+      "Polyacrylate Crosspolymer-6",
+      "Butylene Glycol",
+      "Polyisobutene",
+      "Phytosteryl/Octyldodecyl Lauroyl Glutamate",
+      "Stearic Acid",
+      "Behenic Acid",
+      "Myristic Acid",
+      "Sorbitol",
+      "Lecithin",
+      "Polysorbate 80",
+      "t-Butyl Alcohol",
       "1",
       "2-Hexanediol",
-      "Caprylyl Methicone",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Polysilicone-15",
-      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
-      "Potassium Cetyl Phosphate",
-      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-      "Glyceryl Stearate",
-      "Pentelyne Glycol",
-      "Polyacrylate Crosspolymer-6",
-      "Hydroxyacetophenone",
-      "Polyether-1",
-      "Glyceryl Stearate Citrate",
-      "Ethylhexylglycerin",
-      "Disodium EDTA."
+      "Caprylic/Capric Triglyceride",
+      "Xanthan Gum",
+      "Fragrance",
+      "Alpha-Isomethyl Ionone",
+      "Benzyl Benzoate",
+      "Citral",
+      "Citronellol",
+      "Geraniol",
+      "Hydroxycitronellal",
+      "Limonene",
+      "Linalool"
     ],
+    "niacinamide": "No",
     "notes": "",
-    "hazard_score": 1
+    "pa": null,
+    "product": "The History of Whoo Sunscreen",
+    "spf": null,
+    "type": "chemical",
+    "water_resistant": "none"
   },
   {
-    "id": "numbuzin-no-1-pure-glass-clean-tone-up",
-    "brand": "Numbuzin",
-    "product": "Numbuzin No.1 Pure Glass Clean Tone Up",
-    "niacinamide": "Yes",
-    "type": "hybrid",
-    "spf": null,
-    "pa": null,
-    "visible_light_protection": "unknown",
-    "water_resistant": "none",
-    "texture_finish": "unknown",
-    "white_cast": 1,
-    "country": "unknown",
-    "fragrance": "none",
+    "brand": "UIQ",
     "filters": [
       {
         "name": "Ethylhexyl Triazone",
@@ -4508,78 +3157,189 @@
         "category": "mineral"
       }
     ],
-    "barrier_support": "0",
-    "safety_scores": {
-      "rosacea": {
-        "stinging": 0,
-        "flushing": 0,
-        "barrier": 0
-      },
-      "acne": {
-        "comedogenicity": 0,
-        "fungal_acne": 0
-      },
-      "sensitive": {
-        "fragrance": "none",
-        "essential_oils": "unknown",
-        "surfactant_strength": "unknown"
-      }
-    },
+    "id": "uiq-biome-remedy-watery-sun-cream-spf-50+-pa++++",
     "ingredients": [
       "Water",
       "Dibutyl Adipate",
-      "Titanium Dioxide",
-      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
-      "Phenyl trimethicone",
-      "Octyldodecanol",
-      "Hydrogenated Polyisobutene",
-      "Butylene Glycol",
-      "Propanediol",
-      "Glycerin",
-      "Lauryl PEG-10 Tris(Trimethylsiloxy)silylethyl Dimethicone",
-      "Niacinamide",
+      "Butyloctyl Salicylate",
       "Ethylhexyl Triazone",
-      "Sodium Chloride",
-      "Isododecane",
-      "Aluminum Hydroxide",
-      "Stearic Acid",
+      "Propanediol",
+      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+      "Methylpropanediol",
+      "Niacinamide",
+      "Titanium Dioxide (CI 77891)",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "1",
+      "2-Hexanediol",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine"
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "UIQ Biome Remedy Watery Sun Cream SPF 50+ PA++++",
+    "spf": null,
+    "type": "hybrid",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "UIQ",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      },
+      {
+        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+        "category": "chemical"
+      },
+      {
+        "name": "Titanium Dioxide",
+        "category": "mineral"
+      }
+    ],
+    "id": "uiq-biome-remedy-watery-sun-cream-spf-50-pa",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Butyloctyl Salicylate",
+      "Ethylhexyl Triazone",
+      "Propanediol",
+      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+      "Methylpropanediol",
+      "Niacinamide",
+      "Titanium Dioxide (CI 77891)",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
       "1",
       "2-Hexanediol",
       "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
-      "Trimethylsiloxysilicate",
-      "Rosa Damascena Flower Water",
-      "Hydrolyzed Sodium Hyaluronate",
-      "Sodium Hyaluronate",
-      "Prunus Serrulata Flower Extract",
-      "Rosa hybrid Flower Extract",
-      "Saussurea involucrata Extract",
-      "Nymphaea Alba Flower Extract",
-      "Nelumbium Speciosum Flower Extract",
-      "Chamomilla Recutita (Matricaria) Flower Extract",
-      "Calendula Officinalis Flower Extract",
-      "Camellia Japonica Flower Extract",
-      "Hydrolyzed Hyaluronic acid",
-      "Potassium Hyaluronate",
-      "Sodium Hyaluronate Crosspolymer",
-      "Sodium Acetylated Hyaluronate",
-      "Caprylyl Methicone",
-      "Polyglyceryl-2 Isostearate",
-      "Disteardimonium Hectorite",
-      "Coco-Caprylate/ Caprate",
-      "Isostearyl Isononanoate",
-      "Polyglyceryl-6 Polyricinoleate",
-      "Sorbitan Isostearate",
-      "Iron Oxides (CI 77492)",
-      "Propylene Carbonate",
+      "Polyglyceryl-3 Methylglucose Distearate",
+      "Polyglyceryl-3 Distearate",
+      "Coco-Caprylate/Caprate",
+      "Decyl Glucoside",
+      "Polyacrylate Crosspolymer-6",
+      "Cetearyl Alcohol",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "VP/Eicosene Copolymer",
+      "Sodium Polyacryloyldimethyl Taurate",
+      "Chromium Oxide Greens (CI 77288)",
+      "Glycerin",
       "Ethylhexylglycerin",
-      "Triethoxycaprylylsilane",
-      "Iron Oxides (CI 77491)",
+      "Glyceryl Stearate Citrate",
       "Polyglyceryl-6 Polyhydroxystearate",
+      "Aluminum Hydroxide",
+      "Polyglyceryl-6 Polyricinoleate",
+      "Adenosine",
+      "Triethoxycaprylylsilane",
+      "Iron Oxide Yellow (CI 77492)",
+      "Dipropylene Glycol",
+      "Sodium Stearoyl Glutamate",
+      "Xanthan Gum",
       "Polyglycerin-6",
-      "PEG-12 Dimethicone/PPG-20 Crosspolymer",
-      "PEG-10."
+      "Polyglyceryl-10 Oleate",
+      "Cutibacterium Granulosum Ferment Extract Filtrate (0.01%)",
+      "Centella Asiatica Root Extract",
+      "Centella Asiatica Leaf Extract",
+      "Centella Asiatica Extract",
+      "Pentylene Glycol",
+      "Madecassoside",
+      "Butylene Glycol",
+      "Succinic Acid",
+      "Panthenol",
+      "Asiatic Acid",
+      "Madecassic Acid",
+      "Asiaticoside",
+      "Tocopherol",
+      "Ascorbyl Palmitate"
     ],
+    "niacinamide": "Yes",
     "notes": "",
-    "hazard_score": 2
+    "pa": null,
+    "product": "UIQ Biome Remedy Watery Sun Cream SPF 50+ PA++++",
+    "spf": null,
+    "type": "hybrid",
+    "water_resistant": "none"
+  },
+  {
+    "brand": "UIQ",
+    "filters": [
+      {
+        "name": "Ethylhexyl Triazone",
+        "category": "chemical"
+      },
+      {
+        "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+        "category": "chemical"
+      },
+      {
+        "name": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+        "category": "chemical"
+      },
+      {
+        "name": "Titanium Dioxide",
+        "category": "mineral"
+      }
+    ],
+    "id": "uiq-biome-remedy-tone-up-sun-cream-green",
+    "ingredients": [
+      "Water",
+      "Dibutyl Adipate",
+      "Butyloctyl Salicylate",
+      "Ethylhexyl Triazone",
+      "Propanediol",
+      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+      "Methylpropanediol",
+      "Niacinamide",
+      "Titanium Dioxide (CI 77891)",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "1",
+      "2-Hexanediol",
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "Polyglyceryl-3 Methylglucose Distearate",
+      "Polyglyceryl-3 Distearate",
+      "Coco-Caprylate/Caprate",
+      "Decyl Glucoside",
+      "Polyacrylate Crosspolymer-6",
+      "Cetearyl Alcohol",
+      "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+      "VP/Eicosene Copolymer",
+      "Sodium Polyacryloyldimethyl Taurate",
+      "Chromium Oxide Greens (CI 77288)",
+      "Glycerin",
+      "Ethylhexylglycerin",
+      "Glyceryl Stearate Citrate",
+      "Polyglyceryl-6 Polyhydroxystearate",
+      "Aluminum Hydroxide",
+      "Polyglyceryl-6 Polyricinoleate",
+      "Adenosine",
+      "Triethoxycaprylylsilane",
+      "Iron Oxide Yellow (CI 77492)",
+      "Dipropylene Glycol",
+      "Sodium Stearoyl Glutamate",
+      "Xanthan Gum",
+      "Polyglycerin-6",
+      "Polyglyceryl-10 Oleate",
+      "Cutibacterium Granulosum Extract",
+      "Centella Asiatica Extract",
+      "Centella Asiatica Leaf Extract",
+      "Pentylene Glycol",
+      "Madecassoside",
+      "Succinic Acid",
+      "Panthenol",
+      "Asiatic Acid",
+      "Asiaticoside",
+      "Tocopherol",
+      "Ascorbyl Palmitate"
+    ],
+    "niacinamide": "Yes",
+    "notes": "",
+    "pa": null,
+    "product": "UIQ Biome Remedy Tone Up Sun Cream (Green)",
+    "spf": null,
+    "type": "hybrid",
+    "water_resistant": "none"
   }
 ]

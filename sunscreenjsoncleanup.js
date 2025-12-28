@@ -1,8 +1,8 @@
 const fs = require("fs");
 
 // === CONFIG ===
-const INPUT_FILE = "sunscreens.json";
-const OUTPUT_FILE = "sunscreens.cleaned.json";
+const INPUT_FILE = "../data/sunscreens.json";
+const OUTPUT_FILE = "../data/sunscreens.cleaned.json";
 
 // fields you want REMOVED
 const FIELDS_TO_REMOVE = [
@@ -43,3 +43,11 @@ const cleaned = data
 
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(cleaned, null, 2));
 console.log("✅ JSON cleaned and alphabetized");
+console.log(`📦 Original sunscreen count: ${data.length}`);
+console.log(`🧼 Cleaned sunscreen count:  ${cleaned.length}`);
+
+if (data.length === cleaned.length) {
+  console.log("✅ Entry counts match");
+} else {
+  console.error("❌ Entry counts DO NOT match");
+}
