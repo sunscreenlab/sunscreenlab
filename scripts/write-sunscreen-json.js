@@ -33,7 +33,7 @@ try {
 // FILE PATH
 // ----------------------------
 
-const DATA_FILE = path.resolve("sunscreens.json");
+const DATA_FILE = path.resolve("data/sunscreens.json");
 
 // ----------------------------
 // READ EXISTING DATA
