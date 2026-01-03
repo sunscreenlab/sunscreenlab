@@ -27,6 +27,14 @@ jobs:
           echo "Issue #${{ github.event.issue.number }} labeled '${{ github.event.label.name }}'"
           echo "Title: ${{ github.event.issue.title }}"
 
+      - name: Log processing mode
+        run: |
+          if [[ "${{ contains(github.event.issue.labels.*.name, 'dry-run') }}" == "true" ]]; then
+            echo "🧪 Running in DRY RUN mode (no data will be written)"
+          else
+            echo "✅ Running in LIVE mode"
+          fi
+
       - name: Parse sunscreen
         working-directory: .github/scripts
         env:
@@ -36,9 +44,12 @@ jobs:
           node parse-sunscreen.js
 
       - name: Write sunscreen to JSON
+        env:
+          SUNSCREEN_DRY_RUN: ${{ contains(github.event.issue.labels.*.name, 'dry-run') }}
         run: node scripts/write-sunscreen-json.js
 
       - name: Commit sunscreens.json
+        if: ${{ !contains(github.event.issue.labels.*.name, 'dry-run') }}
         run: |
           git config user.name "sunscreen-bot"
           git config user.email "sunscreen-bot@users.noreply.github.com"
@@ -63,11 +74,16 @@ jobs:
       - name: Post acknowledgement comment
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IS_DRY_RUN: ${{ contains(github.event.issue.labels.*.name, 'dry-run') }}
         run: |
+          if [[ "$IS_DRY_RUN" == "true" ]]; then
+            BODY="🧪 **Dry run completed**\n\nThis submission passed validation, but no data was written because the \`dry-run\` label is present.\n\nRemove the \`dry-run\` label and re-apply **approved** to publish it."
+          else
+            BODY="✅ **Submission approved and added**\n\nThis sunscreen has been approved and added to the SunscreenDNA dataset.\n\nThank you for your contribution!"
+          fi
+
           curl -X POST \
             -H "Authorization: Bearer $GITHUB_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments \
-            -d '{
-              "body": "Submission approved.\n\nThis sunscreen has been marked as approved.\nAutomation has detected the approval and will process it shortly.\n\n(Draft processing only — no data has been published yet.)"
-            }'
+            -d "$(jq -nc --arg body "$BODY" '{ body: $body }')"
