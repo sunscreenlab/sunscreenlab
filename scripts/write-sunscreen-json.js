@@ -20,9 +20,12 @@ if (!SUNSCREEN_ID || !SUNSCREEN_CANONICAL_JSON) {
 
 let canonical;
 try {
-  canonical = JSON.parse(SUNSCREEN_CANONICAL_JSON);
+  // 🔐 Decode Base64, then parse JSON
+  canonical = JSON.parse(
+    Buffer.from(SUNSCREEN_CANONICAL_JSON, "base64").toString("utf8")
+  );
 } catch (err) {
-  console.error("❌ Failed to parse SUNSCREEN_CANONICAL_JSON.");
+  console.error("❌ Failed to decode or parse SUNSCREEN_CANONICAL_JSON.");
   process.exit(1);
 }
 

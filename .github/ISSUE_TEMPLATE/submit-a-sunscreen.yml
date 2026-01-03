@@ -1,0 +1,71 @@
+name: Submit a sunscreen
+description: Submit a sunscreen for review by the Sunscreen DNA project
+title: "Brand – Product name"
+labels: ["new"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing!  
+        Please fill out what you can. Submissions are reviewed manually before publication.
+
+  - type: input
+    id: brand
+    attributes:
+      label: Brand name
+      placeholder: e.g. Abib
+    validations:
+      required: true
+
+  - type: input
+    id: product_name
+    attributes:
+      label: Product name
+      placeholder: e.g. Airy Sunstick SPF 50+
+    validations:
+      required: true
+
+  - type: input
+    id: spf
+    attributes:
+      label: SPF (if known)
+      placeholder: e.g. 50+
+
+  - type: input
+    id: pa_rating
+    attributes:
+      label: PA / UVA rating (if known)
+      placeholder: e.g. PA++++ or UVA-PF 46
+
+  - type: textarea
+    id: ingredients_inci
+    attributes:
+      label: Ingredients (INCI)
+      description: Paste the full ingredient list exactly as shown on the product or official website.
+      render: shell
+    validations:
+      required: true
+
+  - type: dropdown
+    id: korean
+    attributes:
+      label: Is this a Korean product?
+      description: If you’re unsure, select “Unsure”.
+      options:
+        - "Unsure"
+        - "Yes"
+        - "No"
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      description: Official product page or trusted retailer
+      placeholder: https://
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: Reformulations, tint, mineral/chemical/hybrid claims, etc.

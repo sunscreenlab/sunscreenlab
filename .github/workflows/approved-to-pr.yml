@@ -5,6 +5,7 @@ on:
     types: [labeled]
 
 permissions:
+  contents: write
   issues: write
 
 jobs:
@@ -34,17 +35,18 @@ jobs:
           npm install
           node parse-sunscreen.js
 
-      - name: Generate sunscreen ID (log only)
-        run: node scripts/generateSunscreenEntry.js
-        env:
-          SUNSCREEN_BRAND: ${{ env.SUNSCREEN_BRAND }}
-          SUNSCREEN_PRODUCT: ${{ env.SUNSCREEN_PRODUCT }}
-
-      # ✅ NEW: write to sunscreens.json (can fail on duplicate)
       - name: Write sunscreen to JSON
         run: node scripts/write-sunscreen-json.js
 
-      # 🚨 NEW: notify only if something failed
+      - name: Commit sunscreens.json
+        run: |
+          git config user.name "sunscreen-bot"
+          git config user.email "sunscreen-bot@users.noreply.github.com"
+          git status
+          git add sunscreens.json
+          git commit -m "Add sunscreen: $SUNSCREEN_ID"
+          git push
+
       - name: Notify on duplicate rejection
         if: failure()
         env:
