@@ -10,9 +10,7 @@ permissions:
 
 jobs:
   process-approved-sunscreen:
-    if: >
-      github.event.action == 'labeled' &&
-      contains(toLower(github.event.label.name), 'approved')
+    if: github.event.action == 'labeled' && github.event.label.name == 'approved'
     runs-on: ubuntu-latest
 
     steps:
