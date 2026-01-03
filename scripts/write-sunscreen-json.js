@@ -30,10 +30,16 @@ try {
 }
 
 // ----------------------------
-// FILE PATH
+// FILE PATH (FIXED)
 // ----------------------------
+// scripts/write-sunscreen-json.js → ../data/sunscreens.json
 
-const DATA_FILE = path.resolve("data/sunscreens.json");
+const DATA_FILE = path.resolve(
+  __dirname,
+  "..",
+  "data",
+  "sunscreens.json"
+);
 
 // ----------------------------
 // READ EXISTING DATA
