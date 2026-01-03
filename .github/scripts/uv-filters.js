@@ -16,7 +16,7 @@ export const UV_FILTERS = [
     type: "chemical"
   },
   {
-    inci: "ethylhexyl triazine",
+    inci: "ethylhexyl triazone",
     aka: ["uvinul t 150"],
     type: "chemical"
   },
